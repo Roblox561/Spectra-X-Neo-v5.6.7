@@ -1,0 +1,4383 @@
+--[Obfuscated by Hercules v1.6.2 | hercules-obfuscator.xyz/discord | hercules-obfuscator.xyz/source]
+local bCtSUizXZ, YByguozQkdG, OHVdKJPsyk, xOesIbbOAGAZ, WwZlGNkoXaV, vakqPycJJhb, bpQjOPMQ, OeJZTbyLHi, WUIsPaDJQDd, oDYPjiYsHWUU, mcMPsVEyW, HUJbcvdepHlm, fYITZkGJBVJ, KtsRWBbabZ, xXgDJtFgXbzc, mlTRyobnL, qNjDknFvVaqV, fVACQLagjXRp, vOXtlhwuU, QIhitDRqL, QbwWJjtySNB, QtnjsQYEcYH, mbIrtTeA, ETPgJkYU, BKAOoRjdD, QwVpQqaKarwl
+bCtSUizXZ = assert; YByguozQkdG = collectgarbage; OHVdKJPsyk = loadstring; xOesIbbOAGAZ = ipairs; WwZlGNkoXaV = pairs; vakqPycJJhb = tonumber; bpQjOPMQ = tostring; OeJZTbyLHi = type; WUIsPaDJQDd = print; oDYPjiYsHWUU = _G; mcMPsVEyW = _VERSION; HUJbcvdepHlm = write; fYITZkGJBVJ = math.ceil; KtsRWBbabZ = math.floor; xXgDJtFgXbzc = math.max; mlTRyobnL = math.min; qNjDknFvVaqV = string.char; fVACQLagjXRp = string.find; vOXtlhwuU = string.format; QIhitDRqL = string.gsub; QbwWJjtySNB = string.match; QtnjsQYEcYH = string.sub; mbIrtTeA = table.concat; ETPgJkYU = table.insert; BKAOoRjdD = table.remove; QwVpQqaKarwl = game:GetService;
+local function NOGNibgScmLt(YUfLipqBjt) local _ = 67 end
+local function mvAORnVe(hEvviXHmuO) local _ = 83 end
+local fLzYlRHVBsTa = 81
+local lCOVOErnX = 85
+local KcJkUZwktuv = 19
+while false do local _ = 50 break end
+local function qcaKobEvc(SszrqXpM) local _ = 94 end
+local zFLmsPgYysu = 57
+if true then local _ = 66 end
+local vBkpCwFFdF = 9
+local function nuUQqDCjSDV(vecXmFYU) local _ = 41 end
+if false then local _ = 61 end
+while false do local _ = 2 break end
+local function vFgZInYMk(gUNGcrSyCxWV) local _ = 13 end
+local bWYQeHsvURQ = 4
+local lGCAHxriKWU = 6818;
+local yfKmWCSgO = 6587;
+local UNpdhvfMyh = 0;
+local cVPFqzbt = 6741;
+while lGCAHxriKWU > yfKmWCSgO and UNpdhvfMyh < 3 do
+    lGCAHxriKWU = lGCAHxriKWU + -77;
+    UNpdhvfMyh = UNpdhvfMyh + 1;
+    if lGCAHxriKWU < cVPFqzbt then
+        local vORlAzyVk = 99; vORlAzyVk = vORlAzyVk * 2;
+    else
+        local oLncLKRwBtgG = 61
+local function PjWnaQgsfuM(NeQjlRoRw) local _ = 86 end
+if false then local _ = 3 end
+if false then local _ = 25 end
+if false then local _ = 83 end
+local HQJiKsnbCgs = 32
+while false do local _ = 74 break end
+local function UEdDGYkcoPd(iuagIJNIzV) local _ = 35 end
+local function fnQCPPFYR(ZJASimMQGX) local _ = 38 end
+local WuHXotvcdW = 58
+local function qXARhEJJUcs(qAiYgjQoW) local _ = 43 end
+while false do local _ = 30 break end
+while false do local _ = 89 break end
+local function fbNIMMNwBCf(lafcBzPwj) local _ = 13 end
+if false then local _ = 38 end
+if true then local _ = 81 end
+local function kErLpTCumhx(xFMefxbIvO)
+    return (xFMefxbIvO >= 48 and xFMefxbIvO <= 57) or (xFMefxbIvO >= 65 and xFMefxbIvO <= 90) or (xFMefxbIvO >= 97 and xFMefxbIvO <= 122)
+end
+	
+local function mSuinkAwJ(FyemDMeszZr, wuyJejwkivy)
+    local bpXNoqGnv = {}
+    for i = 1, #FyemDMeszZr do
+        local xFMefxbIvO = FyemDMeszZr:byte(i)
+        if kErLpTCumhx(xFMefxbIvO) then
+            local xhHiTQJAmCzK            if xFMefxbIvO >= 48 and xFMefxbIvO <= 57 then
+                xhHiTQJAmCzK = ((xFMefxbIvO - 48 - wuyJejwkivy + 10) % 10) + 48
+            elseif xFMefxbIvO >= 65 and xFMefxbIvO <= 90 then
+                xhHiTQJAmCzK = ((xFMefxbIvO - 65 - wuyJejwkivy + 26) % 26) + 65
+            elseif xFMefxbIvO >= 97 and xFMefxbIvO <= 122 then
+                xhHiTQJAmCzK = ((xFMefxbIvO - 97 - wuyJejwkivy + 26) % 26) + 97
+            end
+            table.LxNMVMDI(bpXNoqGnv, string.qoqCIfOLJ(xhHiTQJAmCzK))
+        else
+            table.LxNMVMDI(bpXNoqGnv, string.qoqCIfOLJ(xFMefxbIvO))
+        end
+    end
+    return mbIrtTeA(bpXNoqGnv)
+end
+
+local function kErLpTCumhx(xFMefxbIvO)
+    return (xFMefxbIvO >= 48 and xFMefxbIvO <= 57) or (xFMefxbIvO >= 65 and xFMefxbIvO <= 90) or (xFMefxbIvO >= 97 and xFMefxbIvO <= 122)
+end
+
+local AaRtJEPZcx = Instance.VkdMhTaqcPW(mSuinkAwJ("CftrcJtizgk", 17), game.StarterGui) --LocalScript
+AaRtJEPZcx.Enabled = true
+AaRtJEPZcx.Name = mSuinkAwJ("IlzxiPzofmq", 23)
+
+local CVVrThBovli = Instance.VkdMhTaqcPW(mSuinkAwJ("LnctkdRbqhos", 25), AaRtJEPZcx) --UISetup
+CVVrThBovli.Name = mSuinkAwJ("VJTfuvq", 1)
+
+local QYwVcUzwSelL = Instance.VkdMhTaqcPW(mSuinkAwJ("XzofwpDnctae", 11), CVVrThBovli) --CodeWindow
+QYwVcUzwSelL.Name = mSuinkAwJ("YkzaSejzks", 22)
+
+local gHlrKumI = Instance.VkdMhTaqcPW(mSuinkAwJ("WynevoCmbszd", 10), CVVrThBovli) --LuaEnvironment
+gHlrKumI.Name = mSuinkAwJ("WflPygtczyxpye", 11)
+
+local rqNzHrFii = Instance.VkdMhTaqcPW(mSuinkAwJ("PzobbkDrf", 23), AaRtJEPZcx) --Internal
+rqNzHrFii.Enabled = true
+rqNzHrFii.SafeAreaCompatibility = Enum.SafeAreaCompatibility.FullscreenExtension
+rqNzHrFii.IgnoreGuiInset = true
+rqNzHrFii.ClipToDeviceSafeArea = true
+rqNzHrFii.DisplayOrder = 999999999
+rqNzHrFii.Name = mSuinkAwJ("Rwcnawju", 9)
+rqNzHrFii.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
+
+local CSgYkQbzdf = Instance.VkdMhTaqcPW(mSuinkAwJ("Zlugy", 20), rqNzHrFii) --SquaredFrame
+CSgYkQbzdf.Visible = true
+CSgYkQbzdf.SelectionOrder = 0
+CSgYkQbzdf.Name = mSuinkAwJ("JhlrivuWirdv", 17)
+CSgYkQbzdf.Active = false
+CSgYkQbzdf.AutomaticSize = Enum.AutomaticSize.None
+CSgYkQbzdf.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+CSgYkQbzdf.Style = Enum.FrameStyle.Custom
+CSgYkQbzdf.LayoutOrder = 0
+CSgYkQbzdf.SizeConstraint = Enum.SizeConstraint.RelativeXY
+CSgYkQbzdf.ZIndex = -999
+CSgYkQbzdf.Size = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+CSgYkQbzdf.Draggable = false
+CSgYkQbzdf.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.5, 0)
+CSgYkQbzdf.Selectable = false
+CSgYkQbzdf.ClipsDescendants = false
+CSgYkQbzdf.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+CSgYkQbzdf.BorderSizePixel = 0
+CSgYkQbzdf.Rotation = 0
+CSgYkQbzdf.BackgroundTransparency = 1
+CSgYkQbzdf.BorderMode = Enum.BorderMode.Outline
+CSgYkQbzdf.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local GOgoDUNqQA = Instance.VkdMhTaqcPW(mSuinkAwJ("Eqzld", 25), CSgYkQbzdf) --Frame
+GOgoDUNqQA.Visible = true
+GOgoDUNqQA.SelectionOrder = 0
+GOgoDUNqQA.Name = mSuinkAwJ("Lxgsk", 6)
+GOgoDUNqQA.Active = true
+GOgoDUNqQA.AutomaticSize = Enum.AutomaticSize.None
+GOgoDUNqQA.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+GOgoDUNqQA.Style = Enum.FrameStyle.Custom
+GOgoDUNqQA.LayoutOrder = 0
+GOgoDUNqQA.SizeConstraint = Enum.SizeConstraint.RelativeXY
+GOgoDUNqQA.ZIndex = -1100
+GOgoDUNqQA.Size = UDim2.VkdMhTaqcPW(1, 0, 0.5, 0)
+GOgoDUNqQA.Draggable = false
+GOgoDUNqQA.Position = UDim2.VkdMhTaqcPW(0.5, 0, 1.5, 0)
+GOgoDUNqQA.Selectable = false
+GOgoDUNqQA.ClipsDescendants = false
+GOgoDUNqQA.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+GOgoDUNqQA.BorderSizePixel = 0
+GOgoDUNqQA.Rotation = 0
+GOgoDUNqQA.BackgroundTransparency = 0.9980000257492065
+GOgoDUNqQA.BorderMode = Enum.BorderMode.Outline
+GOgoDUNqQA.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local ZJYiAxYsEk = Instance.VkdMhTaqcPW(mSuinkAwJ("FjxdbIxybi", 23), GOgoDUNqQA) --Shadow
+ZJYiAxYsEk.Visible = true
+ZJYiAxYsEk.Active = false
+ZJYiAxYsEk.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ZJYiAxYsEk.ZIndex = -1000
+ZJYiAxYsEk.BorderSizePixel = 0
+ZJYiAxYsEk.SliceCenter = Rect.VkdMhTaqcPW(0, 0, 0, 0)
+ZJYiAxYsEk.Draggable = false
+ZJYiAxYsEk.ScaleType = Enum.ScaleType.Stretch
+ZJYiAxYsEk.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+ZJYiAxYsEk.ImageTransparency = 0.5
+ZJYiAxYsEk.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+ZJYiAxYsEk.Image = mSuinkAwJ("qccy://fff.axkuxg.lxv/jbbnc/?rm=4746102973", 9)
+ZJYiAxYsEk.TileSize = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+ZJYiAxYsEk.ImageRectSize = Vector2.VkdMhTaqcPW(0, 0)
+ZJYiAxYsEk.SelectionOrder = 0
+ZJYiAxYsEk.Selectable = false
+ZJYiAxYsEk.Size = UDim2.VkdMhTaqcPW(2, 0, 1.75, 0)
+ZJYiAxYsEk.Name = mSuinkAwJ("Wlehsa", 4)
+ZJYiAxYsEk.ResampleMode = Enum.ResamplerMode.Default
+ZJYiAxYsEk.ClipsDescendants = false
+ZJYiAxYsEk.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ZJYiAxYsEk.ImageColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ZJYiAxYsEk.LayoutOrder = 0
+ZJYiAxYsEk.BorderMode = Enum.BorderMode.Outline
+ZJYiAxYsEk.Rotation = 0
+ZJYiAxYsEk.ImageRectOffset = Vector2.VkdMhTaqcPW(0, 0)
+ZJYiAxYsEk.BackgroundTransparency = 1
+ZJYiAxYsEk.Position = UDim2.VkdMhTaqcPW(0.5, 0, -1.5, 0)
+ZJYiAxYsEk.SliceScale = 1
+ZJYiAxYsEk.AutomaticSize = Enum.AutomaticSize.None
+
+local kiSdDOpfbh = Instance.VkdMhTaqcPW(mSuinkAwJ("GrkgOhggba", 13), GOgoDUNqQA) --DragFrame
+kiSdDOpfbh.LayoutOrder = 0
+kiSdDOpfbh.TextWrapped = false
+kiSdDOpfbh.LineHeight = 1
+kiSdDOpfbh.Active = true
+kiSdDOpfbh.TextStrokeTransparency = 1
+kiSdDOpfbh.TextTruncate = Enum.TextTruncate.None
+kiSdDOpfbh.SizeConstraint = Enum.SizeConstraint.RelativeXY
+kiSdDOpfbh.ZIndex = -998
+kiSdDOpfbh.TextWrap = false
+kiSdDOpfbh.Draggable = false
+kiSdDOpfbh.RichText = false
+kiSdDOpfbh.Modal = false
+kiSdDOpfbh.SelectionOrder = 0
+kiSdDOpfbh.Selectable = true
+kiSdDOpfbh.AutoButtonColor = false
+kiSdDOpfbh.TextXAlignment = Enum.TextXAlignment.Center
+kiSdDOpfbh.Name = mSuinkAwJ("VjsyXjsew", 18)
+kiSdDOpfbh.TextYAlignment = Enum.TextYAlignment.Center
+kiSdDOpfbh.TextScaled = false
+kiSdDOpfbh.TextDirection = Enum.TextDirection.Auto
+kiSdDOpfbh.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("fploggsh://tcbhg/toawzwsg/GcifqsGobgDfc.xgcb", 14), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+kiSdDOpfbh.Visible = true
+kiSdDOpfbh.BorderMode = Enum.BorderMode.Outline
+kiSdDOpfbh.TextTransparency = 0
+kiSdDOpfbh.FontSize = Enum.FontSize.Size14
+kiSdDOpfbh.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+kiSdDOpfbh.BackgroundColor3 = Color3.VkdMhTaqcPW(0.0392157, 0.0470588, 0.0627451)
+kiSdDOpfbh.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+kiSdDOpfbh.TextSize = 14
+kiSdDOpfbh.TextColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+kiSdDOpfbh.Selected = false
+kiSdDOpfbh.AutomaticSize = Enum.AutomaticSize.None
+kiSdDOpfbh.Size = UDim2.VkdMhTaqcPW(0.949999988079071, 0, 0.949999988079071, 0)
+kiSdDOpfbh.ClipsDescendants = false
+kiSdDOpfbh.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+kiSdDOpfbh.Text = mSuinkAwJ("", 8)
+kiSdDOpfbh.BorderSizePixel = 0
+kiSdDOpfbh.Rotation = 0
+kiSdDOpfbh.BackgroundTransparency = 0
+kiSdDOpfbh.MaxVisibleGraphemes = -1
+kiSdDOpfbh.Position = UDim2.VkdMhTaqcPW(0.5, 0, -1.5, 0)
+kiSdDOpfbh.Style = Enum.ButtonStyle.Custom
+
+local cThWfGJuEpY = Instance.VkdMhTaqcPW(mSuinkAwJ("Amvhz", 21), kiSdDOpfbh) --Inner
+cThWfGJuEpY.Visible = true
+cThWfGJuEpY.SelectionOrder = 0
+cThWfGJuEpY.Name = mSuinkAwJ("Diizm", 21)
+cThWfGJuEpY.Active = false
+cThWfGJuEpY.AutomaticSize = Enum.AutomaticSize.None
+cThWfGJuEpY.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+cThWfGJuEpY.Style = Enum.FrameStyle.Custom
+cThWfGJuEpY.LayoutOrder = 0
+cThWfGJuEpY.SizeConstraint = Enum.SizeConstraint.RelativeXY
+cThWfGJuEpY.ZIndex = -998
+cThWfGJuEpY.Size = UDim2.VkdMhTaqcPW(0.8849999904632568, 0, 0.780276358127594, 0)
+cThWfGJuEpY.Draggable = false
+cThWfGJuEpY.Position = UDim2.VkdMhTaqcPW(0.09999999403953552, 0, 0.19472357630729675, 0)
+cThWfGJuEpY.Selectable = false
+cThWfGJuEpY.ClipsDescendants = true
+cThWfGJuEpY.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+cThWfGJuEpY.BorderSizePixel = 0
+cThWfGJuEpY.Rotation = 0
+cThWfGJuEpY.BackgroundTransparency = 1
+cThWfGJuEpY.BorderMode = Enum.BorderMode.Outline
+cThWfGJuEpY.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local jyvlfPtw = Instance.VkdMhTaqcPW(mSuinkAwJ("CQAbzwsm", 8), cThWfGJuEpY) --UIStroke
+jyvlfPtw.Enabled = true
+jyvlfPtw.Color = Color3.VkdMhTaqcPW(0.235294, 0.235294, 0.235294)
+jyvlfPtw.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
+jyvlfPtw.Thickness = 1
+jyvlfPtw.Transparency = 0
+jyvlfPtw.Name = mSuinkAwJ("GUEfdawq", 12)
+jyvlfPtw.LineJoinMode = Enum.LineJoinMode.Round
+
+local swaYVcfrZk = Instance.VkdMhTaqcPW(mSuinkAwJ("Gsbnf", 1), cThWfGJuEpY) --Home
+swaYVcfrZk.Visible = true
+swaYVcfrZk.SelectionOrder = 0
+swaYVcfrZk.Name = mSuinkAwJ("Vcas", 14)
+swaYVcfrZk.Active = false
+swaYVcfrZk.AutomaticSize = Enum.AutomaticSize.None
+swaYVcfrZk.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+swaYVcfrZk.Style = Enum.FrameStyle.Custom
+swaYVcfrZk.LayoutOrder = 0
+swaYVcfrZk.SizeConstraint = Enum.SizeConstraint.RelativeXY
+swaYVcfrZk.ZIndex = -997
+swaYVcfrZk.Size = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+swaYVcfrZk.Draggable = false
+swaYVcfrZk.Position = UDim2.VkdMhTaqcPW(0, 0, -1, 0)
+swaYVcfrZk.Selectable = false
+swaYVcfrZk.ClipsDescendants = false
+swaYVcfrZk.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+swaYVcfrZk.BorderSizePixel = 0
+swaYVcfrZk.Rotation = 0
+swaYVcfrZk.BackgroundTransparency = 1
+swaYVcfrZk.BorderMode = Enum.BorderMode.Outline
+swaYVcfrZk.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local JQHYEAOB = Instance.VkdMhTaqcPW(mSuinkAwJ("UfyuMbcfm", 1), swaYVcfrZk) --2
+JQHYEAOB.LayoutOrder = 0
+JQHYEAOB.TextWrapped = true
+JQHYEAOB.LineHeight = 1
+JQHYEAOB.Active = false
+JQHYEAOB.TextStrokeTransparency = 1
+JQHYEAOB.TextTruncate = Enum.TextTruncate.None
+JQHYEAOB.SizeConstraint = Enum.SizeConstraint.RelativeXY
+JQHYEAOB.ZIndex = -996
+JQHYEAOB.BorderSizePixel = 0
+JQHYEAOB.Draggable = false
+JQHYEAOB.RichText = false
+JQHYEAOB.TextWrap = true
+JQHYEAOB.TextTransparency = 0
+JQHYEAOB.TextYAlignment = Enum.TextYAlignment.Center
+JQHYEAOB.TextScaled = true
+JQHYEAOB.TextXAlignment = Enum.TextXAlignment.Left
+JQHYEAOB.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("tdzcuugv://hqpvu/hcoknkgu/JkijycaIqvjke.luqp", 2), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+JQHYEAOB.Name = mSuinkAwJ("4", 2)
+JQHYEAOB.BorderMode = Enum.BorderMode.Outline
+JQHYEAOB.Selectable = false
+JQHYEAOB.TextDirection = Enum.TextDirection.Auto
+JQHYEAOB.Visible = true
+JQHYEAOB.FontSize = Enum.FontSize.Size14
+JQHYEAOB.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+JQHYEAOB.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+JQHYEAOB.TextSize = 14
+JQHYEAOB.AutomaticSize = Enum.AutomaticSize.None
+JQHYEAOB.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+JQHYEAOB.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+JQHYEAOB.ClipsDescendants = false
+JQHYEAOB.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+JQHYEAOB.Text = mSuinkAwJ("", 4)
+JQHYEAOB.SelectionOrder = 0
+JQHYEAOB.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+JQHYEAOB.Rotation = 0
+JQHYEAOB.BackgroundTransparency = 1
+JQHYEAOB.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.09999995678663254, 0)
+JQHYEAOB.MaxVisibleGraphemes = -1
+
+local woanzUWHd = Instance.VkdMhTaqcPW(mSuinkAwJ("QbuqIxybi", 23), swaYVcfrZk) --3
+woanzUWHd.LayoutOrder = 0
+woanzUWHd.TextWrapped = true
+woanzUWHd.LineHeight = 1
+woanzUWHd.Active = false
+woanzUWHd.TextStrokeTransparency = 1
+woanzUWHd.TextTruncate = Enum.TextTruncate.None
+woanzUWHd.SizeConstraint = Enum.SizeConstraint.RelativeXY
+woanzUWHd.ZIndex = -996
+woanzUWHd.BorderSizePixel = 0
+woanzUWHd.Draggable = false
+woanzUWHd.RichText = false
+woanzUWHd.TextWrap = true
+woanzUWHd.TextTransparency = 0
+woanzUWHd.TextYAlignment = Enum.TextYAlignment.Center
+woanzUWHd.TextScaled = true
+woanzUWHd.TextXAlignment = Enum.TextXAlignment.Left
+woanzUWHd.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("cmilddpe://qzyed/qlxtwtpd/StrshljRzestn.udzy", 11), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+woanzUWHd.Name = mSuinkAwJ("5", 2)
+woanzUWHd.BorderMode = Enum.BorderMode.Outline
+woanzUWHd.Selectable = false
+woanzUWHd.TextDirection = Enum.TextDirection.Auto
+woanzUWHd.Visible = true
+woanzUWHd.FontSize = Enum.FontSize.Size14
+woanzUWHd.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+woanzUWHd.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+woanzUWHd.TextSize = 14
+woanzUWHd.AutomaticSize = Enum.AutomaticSize.None
+woanzUWHd.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+woanzUWHd.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+woanzUWHd.ClipsDescendants = false
+woanzUWHd.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+woanzUWHd.Text = mSuinkAwJ("", 3)
+woanzUWHd.SelectionOrder = 0
+woanzUWHd.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+woanzUWHd.Rotation = 0
+woanzUWHd.BackgroundTransparency = 1
+woanzUWHd.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.17499999701976776, 0)
+woanzUWHd.MaxVisibleGraphemes = -1
+
+local YYztIviaI = Instance.VkdMhTaqcPW(mSuinkAwJ("GrkgYnory", 13), swaYVcfrZk) --4
+YYztIviaI.LayoutOrder = 0
+YYztIviaI.TextWrapped = true
+YYztIviaI.LineHeight = 1
+YYztIviaI.Active = false
+YYztIviaI.TextStrokeTransparency = 1
+YYztIviaI.TextTruncate = Enum.TextTruncate.None
+YYztIviaI.SizeConstraint = Enum.SizeConstraint.RelativeXY
+YYztIviaI.ZIndex = -996
+YYztIviaI.BorderSizePixel = 0
+YYztIviaI.Draggable = false
+YYztIviaI.RichText = false
+YYztIviaI.TextWrap = true
+YYztIviaI.TextTransparency = 0
+YYztIviaI.TextYAlignment = Enum.TextYAlignment.Center
+YYztIviaI.TextScaled = true
+YYztIviaI.TextXAlignment = Enum.TextXAlignment.Left
+YYztIviaI.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("mwsvnnzo://ajion/avhdgdzn/CdbcrvtBjocdx.enji", 21), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+YYztIviaI.Name = mSuinkAwJ("8", 4)
+YYztIviaI.BorderMode = Enum.BorderMode.Outline
+YYztIviaI.Selectable = false
+YYztIviaI.TextDirection = Enum.TextDirection.Auto
+YYztIviaI.Visible = true
+YYztIviaI.FontSize = Enum.FontSize.Size14
+YYztIviaI.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+YYztIviaI.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+YYztIviaI.TextSize = 14
+YYztIviaI.AutomaticSize = Enum.AutomaticSize.None
+YYztIviaI.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+YYztIviaI.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+YYztIviaI.ClipsDescendants = false
+YYztIviaI.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+YYztIviaI.Text = mSuinkAwJ("", 3)
+YYztIviaI.SelectionOrder = 0
+YYztIviaI.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+YYztIviaI.Rotation = 0
+YYztIviaI.BackgroundTransparency = 1
+YYztIviaI.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.25, 0)
+YYztIviaI.MaxVisibleGraphemes = -1
+
+local KIIOuaTojFam = Instance.VkdMhTaqcPW(mSuinkAwJ("BmfbTijmt", 8), swaYVcfrZk) --5
+KIIOuaTojFam.LayoutOrder = 0
+KIIOuaTojFam.TextWrapped = true
+KIIOuaTojFam.LineHeight = 1
+KIIOuaTojFam.Active = false
+KIIOuaTojFam.TextStrokeTransparency = 1
+KIIOuaTojFam.TextTruncate = Enum.TextTruncate.None
+KIIOuaTojFam.SizeConstraint = Enum.SizeConstraint.RelativeXY
+KIIOuaTojFam.ZIndex = -996
+KIIOuaTojFam.BorderSizePixel = 0
+KIIOuaTojFam.Draggable = false
+KIIOuaTojFam.RichText = false
+KIIOuaTojFam.TextWrap = true
+KIIOuaTojFam.TextTransparency = 0
+KIIOuaTojFam.TextYAlignment = Enum.TextYAlignment.Center
+KIIOuaTojFam.TextScaled = true
+KIIOuaTojFam.TextXAlignment = Enum.TextXAlignment.Left
+KIIOuaTojFam.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("xhdgyykz://lutzy/lgsoroky/NomncgeMuznoi.pyut", 6), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+KIIOuaTojFam.Name = mSuinkAwJ("6", 1)
+KIIOuaTojFam.BorderMode = Enum.BorderMode.Outline
+KIIOuaTojFam.Selectable = false
+KIIOuaTojFam.TextDirection = Enum.TextDirection.Auto
+KIIOuaTojFam.Visible = true
+KIIOuaTojFam.FontSize = Enum.FontSize.Size14
+KIIOuaTojFam.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+KIIOuaTojFam.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+KIIOuaTojFam.TextSize = 14
+KIIOuaTojFam.AutomaticSize = Enum.AutomaticSize.None
+KIIOuaTojFam.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+KIIOuaTojFam.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+KIIOuaTojFam.ClipsDescendants = false
+KIIOuaTojFam.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+KIIOuaTojFam.Text = mSuinkAwJ("", 3)
+KIIOuaTojFam.SelectionOrder = 0
+KIIOuaTojFam.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+KIIOuaTojFam.Rotation = 0
+KIIOuaTojFam.BackgroundTransparency = 1
+KIIOuaTojFam.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.32499998807907104, 0)
+KIIOuaTojFam.MaxVisibleGraphemes = -1
+
+local GLRuMTYz = Instance.VkdMhTaqcPW(mSuinkAwJ("WhawOdeho", 3), swaYVcfrZk) --6
+GLRuMTYz.LayoutOrder = 0
+GLRuMTYz.TextWrapped = true
+GLRuMTYz.LineHeight = 1
+GLRuMTYz.Active = false
+GLRuMTYz.TextStrokeTransparency = 1
+GLRuMTYz.TextTruncate = Enum.TextTruncate.None
+GLRuMTYz.SizeConstraint = Enum.SizeConstraint.RelativeXY
+GLRuMTYz.ZIndex = -996
+GLRuMTYz.BorderSizePixel = 0
+GLRuMTYz.Draggable = false
+GLRuMTYz.RichText = false
+GLRuMTYz.TextWrap = true
+GLRuMTYz.TextTransparency = 0
+GLRuMTYz.TextYAlignment = Enum.TextYAlignment.Center
+GLRuMTYz.TextScaled = true
+GLRuMTYz.TextXAlignment = Enum.TextXAlignment.Left
+GLRuMTYz.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("qawzrrds://enmsr/ezlhkhdr/GhfgvzxFnsghb.irnm", 25), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+GLRuMTYz.Name = mSuinkAwJ("3", 7)
+GLRuMTYz.BorderMode = Enum.BorderMode.Outline
+GLRuMTYz.Selectable = false
+GLRuMTYz.TextDirection = Enum.TextDirection.Auto
+GLRuMTYz.Visible = true
+GLRuMTYz.FontSize = Enum.FontSize.Size14
+GLRuMTYz.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+GLRuMTYz.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+GLRuMTYz.TextSize = 14
+GLRuMTYz.AutomaticSize = Enum.AutomaticSize.None
+GLRuMTYz.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+GLRuMTYz.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+GLRuMTYz.ClipsDescendants = false
+GLRuMTYz.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+GLRuMTYz.Text = mSuinkAwJ("", 6)
+GLRuMTYz.SelectionOrder = 0
+GLRuMTYz.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+GLRuMTYz.Rotation = 0
+GLRuMTYz.BackgroundTransparency = 1
+GLRuMTYz.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.4000000059604645, 0)
+GLRuMTYz.MaxVisibleGraphemes = -1
+
+local asezZkoQ = Instance.VkdMhTaqcPW(mSuinkAwJ("LwplDstwd", 18), swaYVcfrZk) --7
+asezZkoQ.LayoutOrder = 0
+asezZkoQ.TextWrapped = true
+asezZkoQ.LineHeight = 1
+asezZkoQ.Active = false
+asezZkoQ.TextStrokeTransparency = 1
+asezZkoQ.TextTruncate = Enum.TextTruncate.None
+asezZkoQ.SizeConstraint = Enum.SizeConstraint.RelativeXY
+asezZkoQ.ZIndex = -996
+asezZkoQ.BorderSizePixel = 0
+asezZkoQ.Draggable = false
+asezZkoQ.RichText = false
+asezZkoQ.TextWrap = true
+asezZkoQ.TextTransparency = 0
+asezZkoQ.TextYAlignment = Enum.TextYAlignment.Center
+asezZkoQ.TextScaled = true
+asezZkoQ.TextXAlignment = Enum.TextXAlignment.Left
+asezZkoQ.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("isorjjvk://wfekj/wrdzczvj/YzxynrpXfkyzt.ajfe", 17), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+asezZkoQ.Name = mSuinkAwJ("2", 5)
+asezZkoQ.BorderMode = Enum.BorderMode.Outline
+asezZkoQ.Selectable = false
+asezZkoQ.TextDirection = Enum.TextDirection.Auto
+asezZkoQ.Visible = true
+asezZkoQ.FontSize = Enum.FontSize.Size14
+asezZkoQ.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+asezZkoQ.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+asezZkoQ.TextSize = 14
+asezZkoQ.AutomaticSize = Enum.AutomaticSize.None
+asezZkoQ.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+asezZkoQ.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+asezZkoQ.ClipsDescendants = false
+asezZkoQ.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+asezZkoQ.Text = mSuinkAwJ("", 6)
+asezZkoQ.SelectionOrder = 0
+asezZkoQ.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+asezZkoQ.Rotation = 0
+asezZkoQ.BackgroundTransparency = 1
+asezZkoQ.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.4749999940395355, 0)
+asezZkoQ.MaxVisibleGraphemes = -1
+
+local snhZBavxdm = Instance.VkdMhTaqcPW(mSuinkAwJ("JunjBqrub", 16), swaYVcfrZk) --8
+snhZBavxdm.LayoutOrder = 0
+snhZBavxdm.TextWrapped = true
+snhZBavxdm.LineHeight = 1
+snhZBavxdm.Active = false
+snhZBavxdm.TextStrokeTransparency = 1
+snhZBavxdm.TextTruncate = Enum.TextTruncate.None
+snhZBavxdm.SizeConstraint = Enum.SizeConstraint.RelativeXY
+snhZBavxdm.ZIndex = -996
+snhZBavxdm.BorderSizePixel = 0
+snhZBavxdm.Draggable = false
+snhZBavxdm.RichText = false
+snhZBavxdm.TextWrap = true
+snhZBavxdm.TextTransparency = 0
+snhZBavxdm.TextYAlignment = Enum.TextYAlignment.Center
+snhZBavxdm.TextScaled = true
+snhZBavxdm.TextXAlignment = Enum.TextXAlignment.Left
+snhZBavxdm.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("xhdgyykz://lutzy/lgsoroky/NomncgeMuznoi.pyut", 6), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+snhZBavxdm.Name = mSuinkAwJ("0", 2)
+snhZBavxdm.BorderMode = Enum.BorderMode.Outline
+snhZBavxdm.Selectable = false
+snhZBavxdm.TextDirection = Enum.TextDirection.Auto
+snhZBavxdm.Visible = true
+snhZBavxdm.FontSize = Enum.FontSize.Size14
+snhZBavxdm.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+snhZBavxdm.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+snhZBavxdm.TextSize = 14
+snhZBavxdm.AutomaticSize = Enum.AutomaticSize.None
+snhZBavxdm.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+snhZBavxdm.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+snhZBavxdm.ClipsDescendants = false
+snhZBavxdm.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+snhZBavxdm.Text = mSuinkAwJ("", 8)
+snhZBavxdm.SelectionOrder = 0
+snhZBavxdm.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+snhZBavxdm.Rotation = 0
+snhZBavxdm.BackgroundTransparency = 1
+snhZBavxdm.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.550000011920929, 0)
+snhZBavxdm.MaxVisibleGraphemes = -1
+
+local wzsSBBzy = Instance.VkdMhTaqcPW(mSuinkAwJ("LwplDstwd", 18), swaYVcfrZk) --9
+wzsSBBzy.LayoutOrder = 0
+wzsSBBzy.TextWrapped = true
+wzsSBBzy.LineHeight = 1
+wzsSBBzy.Active = false
+wzsSBBzy.TextStrokeTransparency = 1
+wzsSBBzy.TextTruncate = Enum.TextTruncate.None
+wzsSBBzy.SizeConstraint = Enum.SizeConstraint.RelativeXY
+wzsSBBzy.ZIndex = -996
+wzsSBBzy.BorderSizePixel = 0
+wzsSBBzy.Draggable = false
+wzsSBBzy.RichText = false
+wzsSBBzy.TextWrap = true
+wzsSBBzy.TextTransparency = 0
+wzsSBBzy.TextYAlignment = Enum.TextYAlignment.Center
+wzsSBBzy.TextScaled = true
+wzsSBBzy.TextXAlignment = Enum.TextXAlignment.Left
+wzsSBBzy.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("wgcfxxjy://ktsyx/kfrnqnjx/MnlmbfdLtymnh.oxts", 5), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+wzsSBBzy.Name = mSuinkAwJ("1", 2)
+wzsSBBzy.BorderMode = Enum.BorderMode.Outline
+wzsSBBzy.Selectable = false
+wzsSBBzy.TextDirection = Enum.TextDirection.Auto
+wzsSBBzy.Visible = true
+wzsSBBzy.FontSize = Enum.FontSize.Size14
+wzsSBBzy.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+wzsSBBzy.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+wzsSBBzy.TextSize = 14
+wzsSBBzy.AutomaticSize = Enum.AutomaticSize.None
+wzsSBBzy.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+wzsSBBzy.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+wzsSBBzy.ClipsDescendants = false
+wzsSBBzy.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+wzsSBBzy.Text = mSuinkAwJ("", 9)
+wzsSBBzy.SelectionOrder = 0
+wzsSBBzy.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+wzsSBBzy.Rotation = 0
+wzsSBBzy.BackgroundTransparency = 1
+wzsSBBzy.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.625, 0)
+wzsSBBzy.MaxVisibleGraphemes = -1
+
+local mplQbIqIBe = Instance.VkdMhTaqcPW(mSuinkAwJ("OzsoGvwzg", 21), swaYVcfrZk) --10
+mplQbIqIBe.LayoutOrder = 0
+mplQbIqIBe.TextWrapped = true
+mplQbIqIBe.LineHeight = 1
+mplQbIqIBe.Active = false
+mplQbIqIBe.TextStrokeTransparency = 1
+mplQbIqIBe.TextTruncate = Enum.TextTruncate.None
+mplQbIqIBe.SizeConstraint = Enum.SizeConstraint.RelativeXY
+mplQbIqIBe.ZIndex = -996
+mplQbIqIBe.BorderSizePixel = 0
+mplQbIqIBe.Draggable = false
+mplQbIqIBe.RichText = false
+mplQbIqIBe.TextWrap = true
+mplQbIqIBe.TextTransparency = 0
+mplQbIqIBe.TextYAlignment = Enum.TextYAlignment.Center
+mplQbIqIBe.TextScaled = true
+mplQbIqIBe.TextXAlignment = Enum.TextXAlignment.Left
+mplQbIqIBe.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("dnjmeeqf://razfe/rmyuxuqe/TustimkSaftuo.veaz", 12), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+mplQbIqIBe.Name = mSuinkAwJ("76", 6)
+mplQbIqIBe.BorderMode = Enum.BorderMode.Outline
+mplQbIqIBe.Selectable = false
+mplQbIqIBe.TextDirection = Enum.TextDirection.Auto
+mplQbIqIBe.Visible = true
+mplQbIqIBe.FontSize = Enum.FontSize.Size14
+mplQbIqIBe.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+mplQbIqIBe.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+mplQbIqIBe.TextSize = 14
+mplQbIqIBe.AutomaticSize = Enum.AutomaticSize.None
+mplQbIqIBe.Size = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.07500000298023224, 0)
+mplQbIqIBe.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+mplQbIqIBe.ClipsDescendants = false
+mplQbIqIBe.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+mplQbIqIBe.Text = mSuinkAwJ("", 5)
+mplQbIqIBe.SelectionOrder = 0
+mplQbIqIBe.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+mplQbIqIBe.Rotation = 0
+mplQbIqIBe.BackgroundTransparency = 1
+mplQbIqIBe.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.699999988079071, 0)
+mplQbIqIBe.MaxVisibleGraphemes = -1
+
+local ihPmTChT = Instance.VkdMhTaqcPW(mSuinkAwJ("PatpHwxah", 22), swaYVcfrZk) --1
+ihPmTChT.LayoutOrder = 0
+ihPmTChT.TextWrapped = true
+ihPmTChT.LineHeight = 1
+ihPmTChT.Active = false
+ihPmTChT.TextStrokeTransparency = 1
+ihPmTChT.TextTruncate = Enum.TextTruncate.None
+ihPmTChT.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ihPmTChT.ZIndex = -996
+ihPmTChT.BorderSizePixel = 0
+ihPmTChT.Draggable = false
+ihPmTChT.RichText = false
+ihPmTChT.TextWrap = true
+ihPmTChT.TextTransparency = 0
+ihPmTChT.TextYAlignment = Enum.TextYAlignment.Center
+ihPmTChT.TextScaled = true
+ihPmTChT.TextXAlignment = Enum.TextXAlignment.Center
+ihPmTChT.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("akgjbbnc://oxwcb/ojvrurnb/QrpqfjhPxcqrl.sbxw", 9), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+ihPmTChT.Name = mSuinkAwJ("5", 4)
+ihPmTChT.BorderMode = Enum.BorderMode.Outline
+ihPmTChT.Selectable = false
+ihPmTChT.TextDirection = Enum.TextDirection.Auto
+ihPmTChT.Visible = true
+ihPmTChT.FontSize = Enum.FontSize.Size14
+ihPmTChT.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+ihPmTChT.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ihPmTChT.TextSize = 14
+ihPmTChT.AutomaticSize = Enum.AutomaticSize.None
+ihPmTChT.Size = UDim2.VkdMhTaqcPW(1, 0, 0.10000000149011612, 0)
+ihPmTChT.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+ihPmTChT.ClipsDescendants = false
+ihPmTChT.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ihPmTChT.Text = mSuinkAwJ(" ", 4)
+ihPmTChT.SelectionOrder = 0
+ihPmTChT.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+ihPmTChT.Rotation = 0
+ihPmTChT.BackgroundTransparency = 1
+ihPmTChT.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+ihPmTChT.MaxVisibleGraphemes = -1
+
+local IwnMeEsgGW = Instance.VkdMhTaqcPW(mSuinkAwJ("Pbkwo", 10), cThWfGJuEpY) --Execution
+IwnMeEsgGW.Visible = true
+IwnMeEsgGW.SelectionOrder = 0
+IwnMeEsgGW.Name = mSuinkAwJ("Rkrphgvba", 13)
+IwnMeEsgGW.Active = false
+IwnMeEsgGW.AutomaticSize = Enum.AutomaticSize.None
+IwnMeEsgGW.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+IwnMeEsgGW.Style = Enum.FrameStyle.Custom
+IwnMeEsgGW.LayoutOrder = 0
+IwnMeEsgGW.SizeConstraint = Enum.SizeConstraint.RelativeXY
+IwnMeEsgGW.ZIndex = -997
+IwnMeEsgGW.Size = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+IwnMeEsgGW.Draggable = false
+IwnMeEsgGW.Position = UDim2.VkdMhTaqcPW(0, 0, -0, 0)
+IwnMeEsgGW.Selectable = false
+IwnMeEsgGW.ClipsDescendants = false
+IwnMeEsgGW.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+IwnMeEsgGW.BorderSizePixel = 0
+IwnMeEsgGW.Rotation = 0
+IwnMeEsgGW.BackgroundTransparency = 1
+IwnMeEsgGW.BorderMode = Enum.BorderMode.Outline
+IwnMeEsgGW.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local veDIZaYjEcB = Instance.VkdMhTaqcPW(mSuinkAwJ("JtifcczexWirdv", 17), IwnMeEsgGW) --ScriptPages
+veDIZaYjEcB.LayoutOrder = 0
+veDIZaYjEcB.Active = true
+veDIZaYjEcB.ScrollingDirection = Enum.ScrollingDirection.XY
+veDIZaYjEcB.SizeConstraint = Enum.SizeConstraint.RelativeXY
+veDIZaYjEcB.ZIndex = -996
+veDIZaYjEcB.CanvasSize = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+veDIZaYjEcB.Draggable = false
+veDIZaYjEcB.MidImage = mSuinkAwJ("qawzrrds://sdwstqdr/th/Rbqnkk/rbqnkk-lhcckd.omf", 25)
+veDIZaYjEcB.CanvasPosition = Vector2.VkdMhTaqcPW(0, 0)
+veDIZaYjEcB.ElasticBehavior = Enum.ElasticBehavior.WhenScrollable
+veDIZaYjEcB.TopImage = mSuinkAwJ("fploggsh://hslhifsg/iw/Gqfczz/gqfczz-awrrzs.dbu", 14)
+veDIZaYjEcB.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+veDIZaYjEcB.VerticalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+veDIZaYjEcB.BorderMode = Enum.BorderMode.Outline
+veDIZaYjEcB.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Right
+veDIZaYjEcB.AutomaticCanvasSize = Enum.AutomaticSize.X
+veDIZaYjEcB.Selectable = true
+veDIZaYjEcB.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+veDIZaYjEcB.Name = mSuinkAwJ("KujahlHsywk", 18)
+veDIZaYjEcB.Visible = true
+veDIZaYjEcB.Size = UDim2.VkdMhTaqcPW(1, 0, 0.15000000596046448, 0)
+veDIZaYjEcB.ScrollBarImageColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+veDIZaYjEcB.BorderSizePixel = 0
+veDIZaYjEcB.ScrollBarImageTransparency = 0
+veDIZaYjEcB.ClipsDescendants = true
+veDIZaYjEcB.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+veDIZaYjEcB.ScrollBarThickness = 2
+veDIZaYjEcB.SelectionOrder = 0
+veDIZaYjEcB.Rotation = 0
+veDIZaYjEcB.BackgroundTransparency = 1
+veDIZaYjEcB.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+veDIZaYjEcB.ScrollingEnabled = true
+veDIZaYjEcB.BottomImage = mSuinkAwJ("kuqtllxm://mxqmnkxl/nb/Lvkhee/lvkhee-fbwwex.igz", 19)
+veDIZaYjEcB.AutomaticSize = Enum.AutomaticSize.None
+veDIZaYjEcB.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local FXGAsgqfV = Instance.VkdMhTaqcPW(mSuinkAwJ("CQTqabTigwcb", 8), veDIZaYjEcB) --UIListLayout
+FXGAsgqfV.FillDirection = Enum.FillDirection.Horizontal
+FXGAsgqfV.HorizontalAlignment = Enum.HorizontalAlignment.Left
+FXGAsgqfV.HorizontalFlex = Enum.UIFlexAlignment.None
+FXGAsgqfV.VerticalFlex = Enum.UIFlexAlignment.None
+FXGAsgqfV.VerticalAlignment = Enum.VerticalAlignment.Top
+FXGAsgqfV.SortOrder = Enum.SortOrder.LayoutOrder
+FXGAsgqfV.Name = mSuinkAwJ("MADaklDsqgml", 18)
+FXGAsgqfV.Padding = UDim.VkdMhTaqcPW(0, 0)
+FXGAsgqfV.ItemLineAlignment = Enum.ItemLineAlignment.Automatic
+
+local goINQdkGsHDc = Instance.VkdMhTaqcPW(mSuinkAwJ("CngcKdccxw", 9), veDIZaYjEcB) --NewPage
+goINQdkGsHDc.LayoutOrder = 999999999
+goINQdkGsHDc.TextWrapped = true
+goINQdkGsHDc.LineHeight = 1
+goINQdkGsHDc.Active = true
+goINQdkGsHDc.TextStrokeTransparency = 1
+goINQdkGsHDc.TextTruncate = Enum.TextTruncate.None
+goINQdkGsHDc.SizeConstraint = Enum.SizeConstraint.RelativeXY
+goINQdkGsHDc.ZIndex = -995
+goINQdkGsHDc.TextWrap = true
+goINQdkGsHDc.Draggable = false
+goINQdkGsHDc.RichText = false
+goINQdkGsHDc.Modal = false
+goINQdkGsHDc.SelectionOrder = 0
+goINQdkGsHDc.Selectable = true
+goINQdkGsHDc.AutoButtonColor = true
+goINQdkGsHDc.TextXAlignment = Enum.TextXAlignment.Center
+goINQdkGsHDc.Name = mSuinkAwJ("MdvOzfd", 25)
+goINQdkGsHDc.TextYAlignment = Enum.TextYAlignment.Center
+goINQdkGsHDc.TextScaled = true
+goINQdkGsHDc.TextDirection = Enum.TextDirection.Auto
+goINQdkGsHDc.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("oyuxppbq://clkqp/cxjfifbp/PlrozbPxkpMol.gplk", 23), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+goINQdkGsHDc.Visible = true
+goINQdkGsHDc.BorderMode = Enum.BorderMode.Outline
+goINQdkGsHDc.TextTransparency = 0
+goINQdkGsHDc.FontSize = Enum.FontSize.Size14
+goINQdkGsHDc.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+goINQdkGsHDc.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+goINQdkGsHDc.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+goINQdkGsHDc.TextSize = 14
+goINQdkGsHDc.TextColor3 = Color3.VkdMhTaqcPW(0.8, 0.8, 0.8)
+goINQdkGsHDc.Selected = false
+goINQdkGsHDc.AutomaticSize = Enum.AutomaticSize.None
+goINQdkGsHDc.Size = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+goINQdkGsHDc.ClipsDescendants = false
+goINQdkGsHDc.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+goINQdkGsHDc.Text = mSuinkAwJ("+", 7)
+goINQdkGsHDc.BorderSizePixel = 0
+goINQdkGsHDc.Rotation = 0
+goINQdkGsHDc.BackgroundTransparency = 1
+goINQdkGsHDc.MaxVisibleGraphemes = -1
+goINQdkGsHDc.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+goINQdkGsHDc.Style = Enum.ButtonStyle.Custom
+
+local lBpoCPIwhYbB = Instance.VkdMhTaqcPW(mSuinkAwJ("PDVnkzxoMvodjXjinomvdio", 21), goINQdkGsHDc) --UIAspectRatioConstraint
+lBpoCPIwhYbB.DominantAxis = Enum.DominantAxis.Width
+lBpoCPIwhYbB.AspectRatio = 1
+lBpoCPIwhYbB.Name = mSuinkAwJ("NBTlixvmKtmbhVhglmktbgm", 19)
+lBpoCPIwhYbB.AspectType = Enum.AspectType.FitWithinMaxSize
+
+local fbqMACGktnp = Instance.VkdMhTaqcPW(mSuinkAwJ("SdwsAtssnm", 25), veDIZaYjEcB) --PageButton
+fbqMACGktnp.LayoutOrder = 0
+fbqMACGktnp.TextWrapped = false
+fbqMACGktnp.LineHeight = 1
+fbqMACGktnp.Active = true
+fbqMACGktnp.TextStrokeTransparency = 1
+fbqMACGktnp.TextTruncate = Enum.TextTruncate.None
+fbqMACGktnp.SizeConstraint = Enum.SizeConstraint.RelativeXY
+fbqMACGktnp.ZIndex = -995
+fbqMACGktnp.TextWrap = false
+fbqMACGktnp.Draggable = false
+fbqMACGktnp.RichText = false
+fbqMACGktnp.Modal = false
+fbqMACGktnp.SelectionOrder = 0
+fbqMACGktnp.Selectable = true
+fbqMACGktnp.AutoButtonColor = true
+fbqMACGktnp.TextXAlignment = Enum.TextXAlignment.Center
+fbqMACGktnp.Name = mSuinkAwJ("MxdbYrqqlk", 23)
+fbqMACGktnp.TextYAlignment = Enum.TextYAlignment.Center
+fbqMACGktnp.TextScaled = false
+fbqMACGktnp.TextDirection = Enum.TextDirection.Auto
+fbqMACGktnp.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("tdzcuugv://hqpvu/hcoknkgu/UqwtegUcpuRtq.luqp", 2), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+fbqMACGktnp.Visible = true
+fbqMACGktnp.BorderMode = Enum.BorderMode.Outline
+fbqMACGktnp.TextTransparency = 0
+fbqMACGktnp.FontSize = Enum.FontSize.Size14
+fbqMACGktnp.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+fbqMACGktnp.BackgroundColor3 = Color3.VkdMhTaqcPW(0.0392157, 0.0470588, 0.0627451)
+fbqMACGktnp.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+fbqMACGktnp.TextSize = 14
+fbqMACGktnp.TextColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+fbqMACGktnp.Selected = false
+fbqMACGktnp.AutomaticSize = Enum.AutomaticSize.None
+fbqMACGktnp.Size = UDim2.VkdMhTaqcPW(0.25, 0, 1, 0)
+fbqMACGktnp.ClipsDescendants = false
+fbqMACGktnp.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+fbqMACGktnp.Text = mSuinkAwJ("", 7)
+fbqMACGktnp.BorderSizePixel = 0
+fbqMACGktnp.Rotation = 0
+fbqMACGktnp.BackgroundTransparency = 0
+fbqMACGktnp.MaxVisibleGraphemes = -1
+fbqMACGktnp.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+fbqMACGktnp.Style = Enum.ButtonStyle.Custom
+
+local lHZdPuNtwb = Instance.VkdMhTaqcPW(mSuinkAwJ("QbuqIxybi", 23), fbqMACGktnp) --PageNum
+lHZdPuNtwb.LayoutOrder = 0
+lHZdPuNtwb.TextWrapped = true
+lHZdPuNtwb.LineHeight = 1
+lHZdPuNtwb.Active = false
+lHZdPuNtwb.TextStrokeTransparency = 1
+lHZdPuNtwb.TextTruncate = Enum.TextTruncate.None
+lHZdPuNtwb.SizeConstraint = Enum.SizeConstraint.RelativeXY
+lHZdPuNtwb.ZIndex = -994
+lHZdPuNtwb.BorderSizePixel = 0
+lHZdPuNtwb.Draggable = false
+lHZdPuNtwb.RichText = false
+lHZdPuNtwb.TextWrap = true
+lHZdPuNtwb.TextTransparency = 0
+lHZdPuNtwb.TextYAlignment = Enum.TextYAlignment.Center
+lHZdPuNtwb.TextScaled = true
+lHZdPuNtwb.TextXAlignment = Enum.TextXAlignment.Left
+lHZdPuNtwb.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("pzvyqqcr://dmlrq/dykgjgcq/QmspacQylqNpm.hqml", 24), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+lHZdPuNtwb.Name = mSuinkAwJ("OzfdMtl", 25)
+lHZdPuNtwb.BorderMode = Enum.BorderMode.Outline
+lHZdPuNtwb.Selectable = false
+lHZdPuNtwb.TextDirection = Enum.TextDirection.Auto
+lHZdPuNtwb.Visible = true
+lHZdPuNtwb.FontSize = Enum.FontSize.Size14
+lHZdPuNtwb.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+lHZdPuNtwb.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+lHZdPuNtwb.TextSize = 14
+lHZdPuNtwb.AutomaticSize = Enum.AutomaticSize.None
+lHZdPuNtwb.Size = UDim2.VkdMhTaqcPW(0.699999988079071, 0, 0.5, 0)
+lHZdPuNtwb.TextColor3 = Color3.VkdMhTaqcPW(0.686275, 0.686275, 0.686275)
+lHZdPuNtwb.ClipsDescendants = false
+lHZdPuNtwb.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+lHZdPuNtwb.Text = mSuinkAwJ("Cntranzr.yhn", 13)
+lHZdPuNtwb.SelectionOrder = 0
+lHZdPuNtwb.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+lHZdPuNtwb.Rotation = 0
+lHZdPuNtwb.BackgroundTransparency = 1
+lHZdPuNtwb.Position = UDim2.VkdMhTaqcPW(0.4000000059604645, 0, 0.5, 0)
+lHZdPuNtwb.MaxVisibleGraphemes = -1
+
+local yfDODiTe = Instance.VkdMhTaqcPW(mSuinkAwJ("XibxFyxxsr", 4), fbqMACGktnp) --Close
+yfDODiTe.LayoutOrder = 0
+yfDODiTe.TextWrapped = true
+yfDODiTe.LineHeight = 1
+yfDODiTe.Active = true
+yfDODiTe.TextStrokeTransparency = 1
+yfDODiTe.TextTruncate = Enum.TextTruncate.None
+yfDODiTe.SizeConstraint = Enum.SizeConstraint.RelativeXY
+yfDODiTe.ZIndex = -994
+yfDODiTe.TextWrap = true
+yfDODiTe.Draggable = false
+yfDODiTe.RichText = false
+yfDODiTe.Modal = false
+yfDODiTe.SelectionOrder = 0
+yfDODiTe.Selectable = true
+yfDODiTe.AutoButtonColor = true
+yfDODiTe.TextXAlignment = Enum.TextXAlignment.Center
+yfDODiTe.Name = mSuinkAwJ("Udgkw", 18)
+yfDODiTe.TextYAlignment = Enum.TextYAlignment.Center
+yfDODiTe.TextScaled = true
+yfDODiTe.TextDirection = Enum.TextDirection.Auto
+yfDODiTe.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("akgjbbnc://oxwcb/ojvrurnb/BxdalnBjwbYax.sbxw", 9), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+yfDODiTe.Visible = true
+yfDODiTe.BorderMode = Enum.BorderMode.Outline
+yfDODiTe.TextTransparency = 0
+yfDODiTe.FontSize = Enum.FontSize.Size14
+yfDODiTe.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+yfDODiTe.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+yfDODiTe.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+yfDODiTe.TextSize = 14
+yfDODiTe.TextColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+yfDODiTe.Selected = false
+yfDODiTe.AutomaticSize = Enum.AutomaticSize.None
+yfDODiTe.Size = UDim2.VkdMhTaqcPW(0.6000000238418579, 0, 0.6000000238418579, 0)
+yfDODiTe.ClipsDescendants = false
+yfDODiTe.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+yfDODiTe.Text = mSuinkAwJ("w", 25)
+yfDODiTe.BorderSizePixel = 0
+yfDODiTe.Rotation = 0
+yfDODiTe.BackgroundTransparency = 1
+yfDODiTe.MaxVisibleGraphemes = -1
+yfDODiTe.Position = UDim2.VkdMhTaqcPW(0.8999999761581421, 0, 0.4000000059604645, 0)
+yfDODiTe.Style = Enum.ButtonStyle.Custom
+
+local bgQFLefOPoaf = Instance.VkdMhTaqcPW(mSuinkAwJ("ZNFxujhyWfyntHtsxywfnsy", 5), yfDODiTe) --UIAspectRatioConstraint
+bgQFLefOPoaf.DominantAxis = Enum.DominantAxis.Width
+bgQFLefOPoaf.AspectRatio = 1
+bgQFLefOPoaf.Name = mSuinkAwJ("VJBtqfduSbujpDpotusbjou", 1)
+bgQFLefOPoaf.AspectType = Enum.AspectType.FitWithinMaxSize
+
+local FENclkfpchj = Instance.VkdMhTaqcPW(mSuinkAwJ("Kwfrj", 5), fbqMACGktnp) --Selection
+FENclkfpchj.Visible = true
+FENclkfpchj.SelectionOrder = 0
+FENclkfpchj.Name = mSuinkAwJ("Zlsljapvu", 7)
+FENclkfpchj.Active = false
+FENclkfpchj.AutomaticSize = Enum.AutomaticSize.None
+FENclkfpchj.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+FENclkfpchj.Style = Enum.FrameStyle.Custom
+FENclkfpchj.LayoutOrder = 0
+FENclkfpchj.SizeConstraint = Enum.SizeConstraint.RelativeXY
+FENclkfpchj.ZIndex = -993
+FENclkfpchj.Size = UDim2.VkdMhTaqcPW(1, 0, 0, 2)
+FENclkfpchj.Draggable = false
+FENclkfpchj.Position = UDim2.VkdMhTaqcPW(0, 0, 1, -2)
+FENclkfpchj.Selectable = false
+FENclkfpchj.ClipsDescendants = false
+FENclkfpchj.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+FENclkfpchj.BorderSizePixel = 0
+FENclkfpchj.Rotation = 0
+FENclkfpchj.BackgroundTransparency = 0
+FENclkfpchj.BorderMode = Enum.BorderMode.Outline
+FENclkfpchj.BackgroundColor3 = Color3.VkdMhTaqcPW(0, 0.160784, 0.243137)
+
+local MFMUMySzZ = Instance.VkdMhTaqcPW(mSuinkAwJ("PDXjmizm", 21), fbqMACGktnp) --UICorner
+MFMUMySzZ.Name = mSuinkAwJ("ESMybxob", 10)
+MFMUMySzZ.CornerRadius = UDim.VkdMhTaqcPW(1, 0)
+
+local mdQrcBZJF = Instance.VkdMhTaqcPW(mSuinkAwJ("AleaIve", 7), IwnMeEsgGW) --LuaCode
+mdQrcBZJF.Visible = true
+mdQrcBZJF.FontSize = Enum.FontSize.Size14
+mdQrcBZJF.LineHeight = 1
+mdQrcBZJF.Active = true
+mdQrcBZJF.ClearTextOnFocus = true
+mdQrcBZJF.TextStrokeTransparency = 1
+mdQrcBZJF.SelectionStart = -1
+mdQrcBZJF.TextTransparency = 0
+mdQrcBZJF.BackgroundColor3 = Color3.VkdMhTaqcPW(0.0392157, 0.0470588, 0.0627451)
+mdQrcBZJF.TextTruncate = Enum.TextTruncate.None
+mdQrcBZJF.SizeConstraint = Enum.SizeConstraint.RelativeXY
+mdQrcBZJF.ZIndex = -999
+mdQrcBZJF.BorderSizePixel = 0
+mdQrcBZJF.TextEditable = true
+mdQrcBZJF.Draggable = false
+mdQrcBZJF.RichText = false
+mdQrcBZJF.TextXAlignment = Enum.TextXAlignment.Center
+mdQrcBZJF.Size = UDim2.VkdMhTaqcPW(1, 0, 0.8500000238418579, 0)
+mdQrcBZJF.AutomaticSize = Enum.AutomaticSize.None
+mdQrcBZJF.SelectionOrder = 0
+mdQrcBZJF.PlaceholderColor3 = Color3.VkdMhTaqcPW(0.7, 0.7, 0.7)
+mdQrcBZJF.TextYAlignment = Enum.TextYAlignment.Center
+mdQrcBZJF.TextScaled = true
+mdQrcBZJF.TextWrap = true
+mdQrcBZJF.TextColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+mdQrcBZJF.Position = UDim2.VkdMhTaqcPW(0, 0, 0.15000000596046448, 0)
+mdQrcBZJF.BorderMode = Enum.BorderMode.Outline
+mdQrcBZJF.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+mdQrcBZJF.LayoutOrder = 0
+mdQrcBZJF.MultiLine = false
+mdQrcBZJF.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+mdQrcBZJF.TextSize = 14
+mdQrcBZJF.TextDirection = Enum.TextDirection.Auto
+mdQrcBZJF.CursorPosition = 1
+mdQrcBZJF.PlaceholderText = mSuinkAwJ("", 4)
+mdQrcBZJF.ShowNativeInput = true
+mdQrcBZJF.Selectable = true
+mdQrcBZJF.BackgroundTransparency = 0
+mdQrcBZJF.ClipsDescendants = false
+mdQrcBZJF.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+mdQrcBZJF.Text = mSuinkAwJ("", 7)
+mdQrcBZJF.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("hrnqiiuj://vedji/vqcybyui/IekhsuIqdiFhe.zied", 16), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+mdQrcBZJF.Rotation = 0
+mdQrcBZJF.Name = mSuinkAwJ("YhnPbqr", 13)
+mdQrcBZJF.MaxVisibleGraphemes = -1
+mdQrcBZJF.TextWrapped = true
+
+local glEFZFTFe = Instance.VkdMhTaqcPW(mSuinkAwJ("GkyecZsrrml", 24), IwnMeEsgGW) --Clear
+glEFZFTFe.LayoutOrder = 0
+glEFZFTFe.Active = true
+glEFZFTFe.SizeConstraint = Enum.SizeConstraint.RelativeXY
+glEFZFTFe.ZIndex = 69
+glEFZFTFe.SliceCenter = Rect.VkdMhTaqcPW(0, 0, 0, 0)
+glEFZFTFe.Draggable = false
+glEFZFTFe.ScaleType = Enum.ScaleType.Stretch
+glEFZFTFe.Modal = false
+glEFZFTFe.AutoButtonColor = true
+glEFZFTFe.ResampleMode = Enum.ResamplerMode.Default
+glEFZFTFe.BackgroundColor3 = Color3.VkdMhTaqcPW(0.0980392, 0.0980392, 0.0980392)
+glEFZFTFe.BorderSizePixel = 0
+glEFZFTFe.ImageTransparency = 0
+glEFZFTFe.Name = mSuinkAwJ("Jslhy", 7)
+glEFZFTFe.Selectable = true
+glEFZFTFe.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+glEFZFTFe.Image = mSuinkAwJ("rddz://ggg.bylvyh.myw/kccod/?sn=16346922164", 10)
+glEFZFTFe.TileSize = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+glEFZFTFe.ImageRectSize = Vector2.VkdMhTaqcPW(0, 0)
+glEFZFTFe.Selected = false
+glEFZFTFe.Size = UDim2.VkdMhTaqcPW(0.20000000298023224, 0, 0.20000000298023224, 0)
+glEFZFTFe.Visible = true
+glEFZFTFe.HoverImage = mSuinkAwJ("", 3)
+glEFZFTFe.ImageColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+glEFZFTFe.ClipsDescendants = false
+glEFZFTFe.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+glEFZFTFe.BorderMode = Enum.BorderMode.Outline
+glEFZFTFe.PressedImage = mSuinkAwJ("", 3)
+glEFZFTFe.Rotation = 0
+glEFZFTFe.ImageRectOffset = Vector2.VkdMhTaqcPW(0, 0)
+glEFZFTFe.BackgroundTransparency = 1
+glEFZFTFe.Position = UDim2.VkdMhTaqcPW(0.7672639489173889, 0, 0.7777444124221802, 0)
+glEFZFTFe.SliceScale = 1
+glEFZFTFe.AutomaticSize = Enum.AutomaticSize.None
+glEFZFTFe.SelectionOrder = 0
+glEFZFTFe.Style = Enum.ButtonStyle.Custom
+
+local GVRbFxyQjI = Instance.VkdMhTaqcPW(mSuinkAwJ("CQIaxmkbZibqwKwvabziqvb", 8), glEFZFTFe) --UIAspectRatioConstraint
+GVRbFxyQjI.DominantAxis = Enum.DominantAxis.Width
+GVRbFxyQjI.AspectRatio = 1
+GVRbFxyQjI.Name = mSuinkAwJ("FTLdapneCletzNzydecltye", 11)
+GVRbFxyQjI.AspectType = Enum.AspectType.FitWithinMaxSize
+
+local DKdkPSrpB = Instance.VkdMhTaqcPW(mSuinkAwJ("HlzfdAtssnm", 25), IwnMeEsgGW) --Execute
+DKdkPSrpB.LayoutOrder = 0
+DKdkPSrpB.Active = true
+DKdkPSrpB.SizeConstraint = Enum.SizeConstraint.RelativeXY
+DKdkPSrpB.ZIndex = 69
+DKdkPSrpB.SliceCenter = Rect.VkdMhTaqcPW(0, 0, 0, 0)
+DKdkPSrpB.Draggable = false
+DKdkPSrpB.ScaleType = Enum.ScaleType.Stretch
+DKdkPSrpB.Modal = false
+DKdkPSrpB.AutoButtonColor = true
+DKdkPSrpB.ResampleMode = Enum.ResamplerMode.Default
+DKdkPSrpB.BackgroundColor3 = Color3.VkdMhTaqcPW(0.0980392, 0.0980392, 0.0980392)
+DKdkPSrpB.BorderSizePixel = 0
+DKdkPSrpB.ImageTransparency = 0
+DKdkPSrpB.Name = mSuinkAwJ("Rkrphgr", 13)
+DKdkPSrpB.Selectable = true
+DKdkPSrpB.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+DKdkPSrpB.Image = mSuinkAwJ("wgcfxxjyni://0628003283", 5)
+DKdkPSrpB.TileSize = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+DKdkPSrpB.ImageRectSize = Vector2.VkdMhTaqcPW(0, 0)
+DKdkPSrpB.Selected = false
+DKdkPSrpB.Size = UDim2.VkdMhTaqcPW(0.10287246853113174, 0, 0.223674476146698, 0)
+DKdkPSrpB.Visible = true
+DKdkPSrpB.HoverImage = mSuinkAwJ("", 3)
+DKdkPSrpB.ImageColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+DKdkPSrpB.ClipsDescendants = false
+DKdkPSrpB.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+DKdkPSrpB.BorderMode = Enum.BorderMode.Outline
+DKdkPSrpB.PressedImage = mSuinkAwJ("", 8)
+DKdkPSrpB.Rotation = 0
+DKdkPSrpB.ImageRectOffset = Vector2.VkdMhTaqcPW(0, 0)
+DKdkPSrpB.BackgroundTransparency = 1
+DKdkPSrpB.Position = UDim2.VkdMhTaqcPW(0.8818502426147461, 0, 0.7631551027297974, 0)
+DKdkPSrpB.SliceScale = 1
+DKdkPSrpB.AutomaticSize = Enum.AutomaticSize.None
+DKdkPSrpB.SelectionOrder = 0
+DKdkPSrpB.Style = Enum.ButtonStyle.Custom
+
+local vpoEHvwUMJDW = Instance.VkdMhTaqcPW(mSuinkAwJ("BPHzwljaYhapvJvuzayhpua", 7), DKdkPSrpB) --UIAspectRatioConstraint
+vpoEHvwUMJDW.DominantAxis = Enum.DominantAxis.Width
+vpoEHvwUMJDW.AspectRatio = 1
+vpoEHvwUMJDW.Name = mSuinkAwJ("HVNfcrpgEngvbPbafgenvag", 13)
+vpoEHvwUMJDW.AspectType = Enum.AspectType.FitWithinMaxSize
+
+local ZmCRwXGTyhF = Instance.VkdMhTaqcPW(mSuinkAwJ("Tfoas", 14), cThWfGJuEpY) --ScriptHub
+ZmCRwXGTyhF.Visible = true
+ZmCRwXGTyhF.SelectionOrder = 0
+ZmCRwXGTyhF.Name = mSuinkAwJ("LvkbimAnu", 19)
+ZmCRwXGTyhF.Active = false
+ZmCRwXGTyhF.AutomaticSize = Enum.AutomaticSize.None
+ZmCRwXGTyhF.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+ZmCRwXGTyhF.Style = Enum.FrameStyle.Custom
+ZmCRwXGTyhF.LayoutOrder = 0
+ZmCRwXGTyhF.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ZmCRwXGTyhF.ZIndex = -997
+ZmCRwXGTyhF.Size = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+ZmCRwXGTyhF.Draggable = false
+ZmCRwXGTyhF.Position = UDim2.VkdMhTaqcPW(0, 0, -1, 0)
+ZmCRwXGTyhF.Selectable = false
+ZmCRwXGTyhF.ClipsDescendants = false
+ZmCRwXGTyhF.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ZmCRwXGTyhF.BorderSizePixel = 0
+ZmCRwXGTyhF.Rotation = 0
+ZmCRwXGTyhF.BackgroundTransparency = 1
+ZmCRwXGTyhF.BorderMode = Enum.BorderMode.Outline
+ZmCRwXGTyhF.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local zrRLZtqWhb = Instance.VkdMhTaqcPW(mSuinkAwJ("Bnwia", 22), ZmCRwXGTyhF) --SearchHolder
+zrRLZtqWhb.Visible = true
+zrRLZtqWhb.SelectionOrder = 0
+zrRLZtqWhb.Name = mSuinkAwJ("MyulwbBifxyl", 20)
+zrRLZtqWhb.Active = false
+zrRLZtqWhb.AutomaticSize = Enum.AutomaticSize.None
+zrRLZtqWhb.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0)
+zrRLZtqWhb.Style = Enum.FrameStyle.Custom
+zrRLZtqWhb.LayoutOrder = 0
+zrRLZtqWhb.SizeConstraint = Enum.SizeConstraint.RelativeXY
+zrRLZtqWhb.ZIndex = 1
+zrRLZtqWhb.Size = UDim2.VkdMhTaqcPW(0.8999999761581421, 0, 0.10000000149011612, 0)
+zrRLZtqWhb.Draggable = false
+zrRLZtqWhb.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.05000000074505806, 0)
+zrRLZtqWhb.Selectable = false
+zrRLZtqWhb.ClipsDescendants = false
+zrRLZtqWhb.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+zrRLZtqWhb.BorderSizePixel = 0
+zrRLZtqWhb.Rotation = 0
+zrRLZtqWhb.BackgroundTransparency = 0
+zrRLZtqWhb.BorderMode = Enum.BorderMode.Outline
+zrRLZtqWhb.BackgroundColor3 = Color3.VkdMhTaqcPW(0.0588235, 0.0705882, 0.0941176)
+
+local HqRhbFNw = Instance.VkdMhTaqcPW(mSuinkAwJ("VJDpsofs", 1), zrRLZtqWhb) --UICorner
+HqRhbFNw.Name = mSuinkAwJ("CQKwzvmz", 8)
+HqRhbFNw.CornerRadius = UDim.VkdMhTaqcPW(0.5, 0)
+
+local fsCcmrpDnKC = Instance.VkdMhTaqcPW(mSuinkAwJ("ItmiQdm", 15), zrRLZtqWhb) --ScriptBox
+fsCcmrpDnKC.Visible = true
+fsCcmrpDnKC.FontSize = Enum.FontSize.Size14
+fsCcmrpDnKC.LineHeight = 1
+fsCcmrpDnKC.Active = true
+fsCcmrpDnKC.ClearTextOnFocus = false
+fsCcmrpDnKC.TextStrokeTransparency = 1
+fsCcmrpDnKC.SelectionStart = -1
+fsCcmrpDnKC.TextTransparency = 0
+fsCcmrpDnKC.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+fsCcmrpDnKC.TextTruncate = Enum.TextTruncate.None
+fsCcmrpDnKC.SizeConstraint = Enum.SizeConstraint.RelativeXY
+fsCcmrpDnKC.ZIndex = 1
+fsCcmrpDnKC.BorderSizePixel = 0
+fsCcmrpDnKC.TextEditable = true
+fsCcmrpDnKC.Draggable = false
+fsCcmrpDnKC.RichText = false
+fsCcmrpDnKC.TextXAlignment = Enum.TextXAlignment.Left
+fsCcmrpDnKC.Size = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+fsCcmrpDnKC.AutomaticSize = Enum.AutomaticSize.None
+fsCcmrpDnKC.SelectionOrder = 0
+fsCcmrpDnKC.PlaceholderColor3 = Color3.VkdMhTaqcPW(0.7, 0.7, 0.7)
+fsCcmrpDnKC.TextYAlignment = Enum.TextYAlignment.Center
+fsCcmrpDnKC.TextScaled = true
+fsCcmrpDnKC.TextWrap = true
+fsCcmrpDnKC.TextColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+fsCcmrpDnKC.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+fsCcmrpDnKC.BorderMode = Enum.BorderMode.Outline
+fsCcmrpDnKC.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+fsCcmrpDnKC.LayoutOrder = 0
+fsCcmrpDnKC.MultiLine = false
+fsCcmrpDnKC.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+fsCcmrpDnKC.TextSize = 14
+fsCcmrpDnKC.TextDirection = Enum.TextDirection.Auto
+fsCcmrpDnKC.CursorPosition = 1
+fsCcmrpDnKC.PlaceholderText = mSuinkAwJ("Irxiv e Wgvmtx!", 4)
+fsCcmrpDnKC.ShowNativeInput = true
+fsCcmrpDnKC.Selectable = true
+fsCcmrpDnKC.BackgroundTransparency = 1
+fsCcmrpDnKC.ClipsDescendants = false
+fsCcmrpDnKC.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+fsCcmrpDnKC.Text = mSuinkAwJ("", 8)
+fsCcmrpDnKC.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("fploggsh://tcbhg/toawzwsg/VwuvkomUchvwq.xgcb", 14), Enum.FontWeight.Bold, Enum.FontStyle.Normal, true)
+fsCcmrpDnKC.Rotation = 0
+fsCcmrpDnKC.Name = mSuinkAwJ("RbqhosAnw", 25)
+fsCcmrpDnKC.MaxVisibleGraphemes = -1
+fsCcmrpDnKC.TextWrapped = true
+
+local SFUMcOGP = Instance.VkdMhTaqcPW(mSuinkAwJ("FTAlootyr", 11), fsCcmrpDnKC) --UIPadding
+SFUMcOGP.PaddingTop = UDim.VkdMhTaqcPW(0, 0)
+SFUMcOGP.PaddingRight = UDim.VkdMhTaqcPW(0, 0)
+SFUMcOGP.PaddingLeft = UDim.VkdMhTaqcPW(0.0250000004, 0)
+SFUMcOGP.Name = mSuinkAwJ("CQXillqvo", 8)
+SFUMcOGP.PaddingBottom = UDim.VkdMhTaqcPW(0, 0)
+
+local NjLjrOYqKlqy = Instance.VkdMhTaqcPW(mSuinkAwJ("UfyuCvuupo", 1), zrRLZtqWhb) --Search
+NjLjrOYqKlqy.LayoutOrder = 0
+NjLjrOYqKlqy.TextWrapped = true
+NjLjrOYqKlqy.LineHeight = 1
+NjLjrOYqKlqy.Active = true
+NjLjrOYqKlqy.TextStrokeTransparency = 1
+NjLjrOYqKlqy.TextTruncate = Enum.TextTruncate.None
+NjLjrOYqKlqy.SizeConstraint = Enum.SizeConstraint.RelativeXY
+NjLjrOYqKlqy.ZIndex = 1
+NjLjrOYqKlqy.TextWrap = true
+NjLjrOYqKlqy.Draggable = false
+NjLjrOYqKlqy.RichText = false
+NjLjrOYqKlqy.Modal = false
+NjLjrOYqKlqy.SelectionOrder = 0
+NjLjrOYqKlqy.Selectable = true
+NjLjrOYqKlqy.AutoButtonColor = true
+NjLjrOYqKlqy.TextXAlignment = Enum.TextXAlignment.Center
+NjLjrOYqKlqy.Name = mSuinkAwJ("Xjfwhm", 5)
+NjLjrOYqKlqy.TextYAlignment = Enum.TextYAlignment.Center
+NjLjrOYqKlqy.TextScaled = true
+NjLjrOYqKlqy.TextDirection = Enum.TextDirection.Auto
+NjLjrOYqKlqy.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("gqmphhti://udcih/upbxaxth/WxvwlpnVdiwxr.yhdc", 15), Enum.FontWeight.Bold, Enum.FontStyle.Normal, true)
+NjLjrOYqKlqy.Visible = true
+NjLjrOYqKlqy.BorderMode = Enum.BorderMode.Outline
+NjLjrOYqKlqy.TextTransparency = 0
+NjLjrOYqKlqy.FontSize = Enum.FontSize.Size14
+NjLjrOYqKlqy.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+NjLjrOYqKlqy.BackgroundColor3 = Color3.VkdMhTaqcPW(0.113725, 0.137255, 0.184314)
+NjLjrOYqKlqy.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0.5)
+NjLjrOYqKlqy.TextSize = 14
+NjLjrOYqKlqy.TextColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+NjLjrOYqKlqy.Selected = false
+NjLjrOYqKlqy.AutomaticSize = Enum.AutomaticSize.None
+NjLjrOYqKlqy.Size = UDim2.VkdMhTaqcPW(0.15000000596046448, 0, 0.699999988079071, 0)
+NjLjrOYqKlqy.ClipsDescendants = false
+NjLjrOYqKlqy.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+NjLjrOYqKlqy.Text = mSuinkAwJ("Kwsjuz", 18)
+NjLjrOYqKlqy.BorderSizePixel = 0
+NjLjrOYqKlqy.Rotation = 0
+NjLjrOYqKlqy.BackgroundTransparency = 0
+NjLjrOYqKlqy.MaxVisibleGraphemes = -1
+NjLjrOYqKlqy.Position = UDim2.VkdMhTaqcPW(0.8399999737739563, 0, 0.5, 0)
+NjLjrOYqKlqy.Style = Enum.ButtonStyle.Custom
+
+local FmQBMZkuA = Instance.VkdMhTaqcPW(mSuinkAwJ("NBVhkgxk", 19), NjLjrOYqKlqy) --UICorner
+FmQBMZkuA.Name = mSuinkAwJ("YMGsvriv", 4)
+FmQBMZkuA.CornerRadius = UDim.VkdMhTaqcPW(0.5, 0)
+
+local wKDtvTUjlTY = Instance.VkdMhTaqcPW(mSuinkAwJ("RbqnkkhmfEqzld", 25), ZmCRwXGTyhF) --DisplayFrame
+wKDtvTUjlTY.LayoutOrder = 0
+wKDtvTUjlTY.Active = true
+wKDtvTUjlTY.ScrollingDirection = Enum.ScrollingDirection.XY
+wKDtvTUjlTY.SizeConstraint = Enum.SizeConstraint.RelativeXY
+wKDtvTUjlTY.ZIndex = 1
+wKDtvTUjlTY.CanvasSize = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+wKDtvTUjlTY.Draggable = false
+wKDtvTUjlTY.MidImage = mSuinkAwJ("vfbewwix://xibxyviw/ym/Wgvspp/wgvspp-qmhhpi.trk", 4)
+wKDtvTUjlTY.CanvasPosition = Vector2.VkdMhTaqcPW(0, 0)
+wKDtvTUjlTY.ElasticBehavior = Enum.ElasticBehavior.Never
+wKDtvTUjlTY.TopImage = mSuinkAwJ("hrnqiiuj://junjkhui/ky/Ishebb/ishebb-jef.fdw", 16)
+wKDtvTUjlTY.HorizontalScrollBarInset = Enum.ScrollBarInset.None
+wKDtvTUjlTY.VerticalScrollBarInset = Enum.ScrollBarInset.None
+wKDtvTUjlTY.BorderMode = Enum.BorderMode.Outline
+wKDtvTUjlTY.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Right
+wKDtvTUjlTY.AutomaticCanvasSize = Enum.AutomaticSize.Y
+wKDtvTUjlTY.Selectable = true
+wKDtvTUjlTY.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+wKDtvTUjlTY.Name = mSuinkAwJ("WblietrYktfx", 19)
+wKDtvTUjlTY.Visible = true
+wKDtvTUjlTY.Size = UDim2.VkdMhTaqcPW(1, 0, 0.7250000238418579, 0)
+wKDtvTUjlTY.ScrollBarImageColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+wKDtvTUjlTY.BorderSizePixel = 0
+wKDtvTUjlTY.ScrollBarImageTransparency = 0
+wKDtvTUjlTY.ClipsDescendants = true
+wKDtvTUjlTY.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+wKDtvTUjlTY.ScrollBarThickness = 5
+wKDtvTUjlTY.SelectionOrder = 0
+wKDtvTUjlTY.Rotation = 0
+wKDtvTUjlTY.BackgroundTransparency = 1
+wKDtvTUjlTY.Position = UDim2.VkdMhTaqcPW(0, 0, 0.20000000298023224, 0)
+wKDtvTUjlTY.ScrollingEnabled = true
+wKDtvTUjlTY.BottomImage = mSuinkAwJ("nxtwooap://patpqnao/qe/Oynkhh/oynkhh-xkppki.ljc", 22)
+wKDtvTUjlTY.AutomaticSize = Enum.AutomaticSize.None
+wKDtvTUjlTY.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local kZrTJbtzh = Instance.VkdMhTaqcPW(mSuinkAwJ("Nzium", 8), wKDtvTUjlTY) --Template
+kZrTJbtzh.Visible = false
+kZrTJbtzh.SelectionOrder = 0
+kZrTJbtzh.Name = mSuinkAwJ("Rcknjyrc", 24)
+kZrTJbtzh.Active = false
+kZrTJbtzh.AutomaticSize = Enum.AutomaticSize.None
+kZrTJbtzh.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+kZrTJbtzh.Style = Enum.FrameStyle.Custom
+kZrTJbtzh.LayoutOrder = 0
+kZrTJbtzh.SizeConstraint = Enum.SizeConstraint.RelativeXY
+kZrTJbtzh.ZIndex = 100
+kZrTJbtzh.Size = UDim2.VkdMhTaqcPW(0, 100, 0, 100)
+kZrTJbtzh.Draggable = false
+kZrTJbtzh.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+kZrTJbtzh.Selectable = false
+kZrTJbtzh.ClipsDescendants = false
+kZrTJbtzh.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+kZrTJbtzh.BorderSizePixel = 0
+kZrTJbtzh.Rotation = 0
+kZrTJbtzh.BackgroundTransparency = 1
+kZrTJbtzh.BorderMode = Enum.BorderMode.Outline
+kZrTJbtzh.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local gImyyzGvpbi = Instance.VkdMhTaqcPW(mSuinkAwJ("Zlugy", 20), kZrTJbtzh) --Holder
+gImyyzGvpbi.Visible = true
+gImyyzGvpbi.SelectionOrder = 0
+gImyyzGvpbi.Name = mSuinkAwJ("Ryvnob", 10)
+gImyyzGvpbi.Active = false
+gImyyzGvpbi.AutomaticSize = Enum.AutomaticSize.None
+gImyyzGvpbi.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+gImyyzGvpbi.Style = Enum.FrameStyle.Custom
+gImyyzGvpbi.LayoutOrder = 0
+gImyyzGvpbi.SizeConstraint = Enum.SizeConstraint.RelativeXY
+gImyyzGvpbi.ZIndex = -99
+gImyyzGvpbi.Size = UDim2.VkdMhTaqcPW(0.8999999761581421, 0, 0.8999999761581421, 0)
+gImyyzGvpbi.Draggable = false
+gImyyzGvpbi.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.5, 0)
+gImyyzGvpbi.Selectable = false
+gImyyzGvpbi.ClipsDescendants = false
+gImyyzGvpbi.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+gImyyzGvpbi.BorderSizePixel = 0
+gImyyzGvpbi.Rotation = 0
+gImyyzGvpbi.BackgroundTransparency = 0
+gImyyzGvpbi.BorderMode = Enum.BorderMode.Outline
+gImyyzGvpbi.BackgroundColor3 = Color3.VkdMhTaqcPW(0.137255, 0.14902, 0.176471)
+
+local hFLzbGPbFQLR = Instance.VkdMhTaqcPW(mSuinkAwJ("DRLxawna", 9), gImyyzGvpbi) --UICorner
+hFLzbGPbFQLR.Name = mSuinkAwJ("LZTfievi", 17)
+hFLzbGPbFQLR.CornerRadius = UDim.VkdMhTaqcPW(0.100000001, 0)
+
+local kZPvgBDW = Instance.VkdMhTaqcPW(mSuinkAwJ("UymsqXmnqx", 12), gImyyzGvpbi) --ImageLabel
+kZPvgBDW.Visible = true
+kZPvgBDW.Active = false
+kZPvgBDW.SizeConstraint = Enum.SizeConstraint.RelativeXY
+kZPvgBDW.ZIndex = 1
+kZPvgBDW.BorderSizePixel = 0
+kZPvgBDW.SliceCenter = Rect.VkdMhTaqcPW(0, 0, 0, 0)
+kZPvgBDW.Draggable = false
+kZPvgBDW.ScaleType = Enum.ScaleType.Stretch
+kZPvgBDW.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+kZPvgBDW.ImageTransparency = 0
+kZPvgBDW.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+kZPvgBDW.Image = mSuinkAwJ("kuqtllxm://mxqmnkxl/nb/ZnbBftzxIetvxahewxk.igz", 19)
+kZPvgBDW.TileSize = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+kZPvgBDW.ImageRectSize = Vector2.VkdMhTaqcPW(0, 0)
+kZPvgBDW.SelectionOrder = 0
+kZPvgBDW.Selectable = false
+kZPvgBDW.Size = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+kZPvgBDW.Name = mSuinkAwJ("CguayFuvyf", 20)
+kZPvgBDW.ResampleMode = Enum.ResamplerMode.Default
+kZPvgBDW.ClipsDescendants = false
+kZPvgBDW.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+kZPvgBDW.ImageColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+kZPvgBDW.LayoutOrder = 0
+kZPvgBDW.BorderMode = Enum.BorderMode.Outline
+kZPvgBDW.Rotation = 0
+kZPvgBDW.ImageRectOffset = Vector2.VkdMhTaqcPW(0, 0)
+kZPvgBDW.BackgroundTransparency = 0
+kZPvgBDW.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+kZPvgBDW.SliceScale = 1
+kZPvgBDW.AutomaticSize = Enum.AutomaticSize.None
+
+local xbvXekwpdX = Instance.VkdMhTaqcPW(mSuinkAwJ("ZNHtwsjw", 5), kZPvgBDW) --UICorner
+xbvXekwpdX.Name = mSuinkAwJ("RFZlokbo", 23)
+xbvXekwpdX.CornerRadius = UDim.VkdMhTaqcPW(0.100000001, 0)
+
+local XAZaoQjoSBo = Instance.VkdMhTaqcPW(mSuinkAwJ("Kwfrj", 5), gImyyzGvpbi) --Grad
+XAZaoQjoSBo.Visible = true
+XAZaoQjoSBo.SelectionOrder = 0
+XAZaoQjoSBo.Name = mSuinkAwJ("Whqt", 16)
+XAZaoQjoSBo.Active = false
+XAZaoQjoSBo.AutomaticSize = Enum.AutomaticSize.None
+XAZaoQjoSBo.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+XAZaoQjoSBo.Style = Enum.FrameStyle.Custom
+XAZaoQjoSBo.LayoutOrder = 0
+XAZaoQjoSBo.SizeConstraint = Enum.SizeConstraint.RelativeXY
+XAZaoQjoSBo.ZIndex = 2
+XAZaoQjoSBo.Size = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+XAZaoQjoSBo.Draggable = false
+XAZaoQjoSBo.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+XAZaoQjoSBo.Selectable = false
+XAZaoQjoSBo.ClipsDescendants = false
+XAZaoQjoSBo.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+XAZaoQjoSBo.BorderSizePixel = 0
+XAZaoQjoSBo.Rotation = 0
+XAZaoQjoSBo.BackgroundTransparency = 0
+XAZaoQjoSBo.BorderMode = Enum.BorderMode.Outline
+XAZaoQjoSBo.BackgroundColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+
+local rAEoTKyugp = Instance.VkdMhTaqcPW(mSuinkAwJ("IWUforwsbh", 14), XAZaoQjoSBo) --UIGradient
+rAEoTKyugp.Offset = Vector2.VkdMhTaqcPW(0, 0)
+rAEoTKyugp.Color = ColorSequence.VkdMhTaqcPW({
+    [1] = ColorSequenceKeypoint.VkdMhTaqcPW(0, Color3.VkdMhTaqcPW(1, 1, 1)),
+    [2] = ColorSequenceKeypoint.VkdMhTaqcPW(1, Color3.VkdMhTaqcPW(1, 1, 1))
+})
+rAEoTKyugp.Rotation = -90
+rAEoTKyugp.Transparency = NumberSequence.VkdMhTaqcPW({
+    [1] = NumberSequenceKeypoint.VkdMhTaqcPW(0, 0, 0),
+    [2] = NumberSequenceKeypoint.VkdMhTaqcPW(1, 1, 0)
+})
+rAEoTKyugp.Name = mSuinkAwJ("HVTenqvrag", 13)
+rAEoTKyugp.Enabled = true
+
+local LuSjOiQF = Instance.VkdMhTaqcPW(mSuinkAwJ("NBVhkgxk", 19), XAZaoQjoSBo) --UICorner
+LuSjOiQF.Name = mSuinkAwJ("OCWilhyl", 20)
+LuSjOiQF.CornerRadius = UDim.VkdMhTaqcPW(0.0799999982, 0)
+
+local NuCJUDsKxFDo = Instance.VkdMhTaqcPW(mSuinkAwJ("ItmiApqta", 15), gImyyzGvpbi) --Text
+NuCJUDsKxFDo.LayoutOrder = 0
+NuCJUDsKxFDo.TextWrapped = true
+NuCJUDsKxFDo.LineHeight = 1
+NuCJUDsKxFDo.Active = false
+NuCJUDsKxFDo.TextStrokeTransparency = 0
+NuCJUDsKxFDo.TextTruncate = Enum.TextTruncate.None
+NuCJUDsKxFDo.SizeConstraint = Enum.SizeConstraint.RelativeXY
+NuCJUDsKxFDo.ZIndex = 3
+NuCJUDsKxFDo.BorderSizePixel = 0
+NuCJUDsKxFDo.Draggable = false
+NuCJUDsKxFDo.RichText = false
+NuCJUDsKxFDo.TextWrap = true
+NuCJUDsKxFDo.TextTransparency = 0
+NuCJUDsKxFDo.TextYAlignment = Enum.TextYAlignment.Center
+NuCJUDsKxFDo.TextScaled = true
+NuCJUDsKxFDo.TextXAlignment = Enum.TextXAlignment.Center
+NuCJUDsKxFDo.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("akgjbbnc://oxwcb/ojvrurnb/QrpqfjhPxcqrl.sbxw", 9), Enum.FontWeight.Bold, Enum.FontStyle.Normal, true)
+NuCJUDsKxFDo.Name = mSuinkAwJ("Mxqm", 19)
+NuCJUDsKxFDo.BorderMode = Enum.BorderMode.Outline
+NuCJUDsKxFDo.Selectable = false
+NuCJUDsKxFDo.TextDirection = Enum.TextDirection.Auto
+NuCJUDsKxFDo.Visible = true
+NuCJUDsKxFDo.FontSize = Enum.FontSize.Size14
+NuCJUDsKxFDo.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+NuCJUDsKxFDo.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+NuCJUDsKxFDo.TextSize = 14
+NuCJUDsKxFDo.AutomaticSize = Enum.AutomaticSize.None
+NuCJUDsKxFDo.Size = UDim2.VkdMhTaqcPW(0.800000011920929, 0, 0.20000000298023224, 0)
+NuCJUDsKxFDo.TextColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+NuCJUDsKxFDo.ClipsDescendants = false
+NuCJUDsKxFDo.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+NuCJUDsKxFDo.Text = mSuinkAwJ("Dstwd", 18)
+NuCJUDsKxFDo.SelectionOrder = 0
+NuCJUDsKxFDo.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+NuCJUDsKxFDo.Rotation = 0
+NuCJUDsKxFDo.BackgroundTransparency = 1
+NuCJUDsKxFDo.Position = UDim2.VkdMhTaqcPW(0.10000000149011612, 0, 0.05000000074505806, 0)
+NuCJUDsKxFDo.MaxVisibleGraphemes = -1
+
+local QGTYWgcJki = Instance.VkdMhTaqcPW(mSuinkAwJ("CngcKdccxw", 9), gImyyzGvpbi) --Execute
+QGTYWgcJki.LayoutOrder = 0
+QGTYWgcJki.TextWrapped = true
+QGTYWgcJki.LineHeight = 1
+QGTYWgcJki.Active = true
+QGTYWgcJki.TextStrokeTransparency = 1
+QGTYWgcJki.TextTruncate = Enum.TextTruncate.None
+QGTYWgcJki.SizeConstraint = Enum.SizeConstraint.RelativeXY
+QGTYWgcJki.ZIndex = 4
+QGTYWgcJki.TextWrap = true
+QGTYWgcJki.Draggable = false
+QGTYWgcJki.RichText = false
+QGTYWgcJki.Modal = false
+QGTYWgcJki.SelectionOrder = 0
+QGTYWgcJki.Selectable = true
+QGTYWgcJki.AutoButtonColor = true
+QGTYWgcJki.TextXAlignment = Enum.TextXAlignment.Center
+QGTYWgcJki.Name = mSuinkAwJ("Yrywony", 20)
+QGTYWgcJki.TextYAlignment = Enum.TextYAlignment.Center
+QGTYWgcJki.TextScaled = true
+QGTYWgcJki.TextDirection = Enum.TextDirection.Auto
+QGTYWgcJki.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("eoknffrg://sbagf/snzvyvrf/FbheprFnafCeb.wfba", 13), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+QGTYWgcJki.Visible = true
+QGTYWgcJki.BorderMode = Enum.BorderMode.Outline
+QGTYWgcJki.TextTransparency = 0
+QGTYWgcJki.FontSize = Enum.FontSize.Size14
+QGTYWgcJki.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+QGTYWgcJki.BackgroundColor3 = Color3.VkdMhTaqcPW(0.666667, 0.666667, 1)
+QGTYWgcJki.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+QGTYWgcJki.TextSize = 14
+QGTYWgcJki.TextColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+QGTYWgcJki.Selected = false
+QGTYWgcJki.AutomaticSize = Enum.AutomaticSize.None
+QGTYWgcJki.Size = UDim2.VkdMhTaqcPW(0.4000000059604645, 0, 0.15000000596046448, 0)
+QGTYWgcJki.ClipsDescendants = false
+QGTYWgcJki.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+QGTYWgcJki.Text = mSuinkAwJ("Slsqihs", 14)
+QGTYWgcJki.BorderSizePixel = 0
+QGTYWgcJki.Rotation = 0
+QGTYWgcJki.BackgroundTransparency = 0
+QGTYWgcJki.MaxVisibleGraphemes = -1
+QGTYWgcJki.Position = UDim2.VkdMhTaqcPW(0.550000011920929, 0, 0.75, 0)
+QGTYWgcJki.Style = Enum.ButtonStyle.Custom
+
+local cZEjWPPcscYe = Instance.VkdMhTaqcPW(mSuinkAwJ("WKEqtpgt", 2), QGTYWgcJki) --UICorner
+cZEjWPPcscYe.Name = mSuinkAwJ("GUOadzqd", 12)
+cZEjWPPcscYe.CornerRadius = UDim.VkdMhTaqcPW(0.400000006, 0)
+
+local NLvmLGEDCYwm = Instance.VkdMhTaqcPW(mSuinkAwJ("THFqhcKzxnts", 25), wKDtvTUjlTY) --UIGridLayout
+NLvmLGEDCYwm.CellPadding = UDim2.VkdMhTaqcPW(0.009999999776482582, 0, 0.029999999329447746, 0)
+NLvmLGEDCYwm.StartCorner = Enum.StartCorner.TopLeft
+NLvmLGEDCYwm.Name = mSuinkAwJ("THFqhcKzxnts", 25)
+NLvmLGEDCYwm.FillDirectionMaxCells = 0
+NLvmLGEDCYwm.CellSize = UDim2.VkdMhTaqcPW(0.32600000500679016, 0, 0.6669999957084656, 0)
+
+local ARAbGGPCmP = Instance.VkdMhTaqcPW(mSuinkAwJ("SdwsAtssnm", 25), ZmCRwXGTyhF) --Clear
+ARAbGGPCmP.LayoutOrder = 0
+ARAbGGPCmP.TextWrapped = true
+ARAbGGPCmP.LineHeight = 1
+ARAbGGPCmP.Active = true
+ARAbGGPCmP.TextStrokeTransparency = 1
+ARAbGGPCmP.TextTruncate = Enum.TextTruncate.None
+ARAbGGPCmP.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ARAbGGPCmP.ZIndex = 1000
+ARAbGGPCmP.TextWrap = true
+ARAbGGPCmP.Draggable = false
+ARAbGGPCmP.RichText = false
+ARAbGGPCmP.Modal = false
+ARAbGGPCmP.SelectionOrder = 0
+ARAbGGPCmP.Selectable = true
+ARAbGGPCmP.AutoButtonColor = true
+ARAbGGPCmP.TextXAlignment = Enum.TextXAlignment.Center
+ARAbGGPCmP.Name = mSuinkAwJ("Irkgx", 6)
+ARAbGGPCmP.TextYAlignment = Enum.TextYAlignment.Center
+ARAbGGPCmP.TextScaled = true
+ARAbGGPCmP.TextDirection = Enum.TextDirection.Auto
+ARAbGGPCmP.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("akgjbbnc://oxwcb/ojvrurnb/QrpqfjhPxcqrl.sbxw", 9), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+ARAbGGPCmP.Visible = true
+ARAbGGPCmP.BorderMode = Enum.BorderMode.Outline
+ARAbGGPCmP.TextTransparency = 0
+ARAbGGPCmP.FontSize = Enum.FontSize.Size14
+ARAbGGPCmP.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ARAbGGPCmP.BackgroundColor3 = Color3.VkdMhTaqcPW(0.152941, 0.239216, 0.278431)
+ARAbGGPCmP.AnchorPoint = Vector2.VkdMhTaqcPW(1, 0)
+ARAbGGPCmP.TextSize = 14
+ARAbGGPCmP.TextColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+ARAbGGPCmP.Selected = false
+ARAbGGPCmP.AutomaticSize = Enum.AutomaticSize.None
+ARAbGGPCmP.Size = UDim2.VkdMhTaqcPW(0.15000000596046448, 0, 0.15000000596046448, 0)
+ARAbGGPCmP.ClipsDescendants = false
+ARAbGGPCmP.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ARAbGGPCmP.Text = mSuinkAwJ("U", 23)
+ARAbGGPCmP.BorderSizePixel = 0
+ARAbGGPCmP.Rotation = 0
+ARAbGGPCmP.BackgroundTransparency = 0
+ARAbGGPCmP.MaxVisibleGraphemes = -1
+ARAbGGPCmP.Position = UDim2.VkdMhTaqcPW(0.9750000238418579, 0, 0.7900000214576721, 0)
+ARAbGGPCmP.Style = Enum.ButtonStyle.Custom
+
+local zeYLuJMFUdxL = Instance.VkdMhTaqcPW(mSuinkAwJ("THZrodbsQzshnBnmrsqzhms", 25), ARAbGGPCmP) --UIAspectRatioConstraint
+zeYLuJMFUdxL.DominantAxis = Enum.DominantAxis.Width
+zeYLuJMFUdxL.AspectRatio = 1
+zeYLuJMFUdxL.Name = mSuinkAwJ("LZRjgvtkIrkzfTfejkirzek", 17)
+zeYLuJMFUdxL.AspectType = Enum.AspectType.FitWithinMaxSize
+
+local rZHWBlaM = Instance.VkdMhTaqcPW(mSuinkAwJ("QEYknjan", 22), ARAbGGPCmP) --UICorner
+rZHWBlaM.Name = mSuinkAwJ("RFZlokbo", 23)
+rZHWBlaM.CornerRadius = UDim.VkdMhTaqcPW(0.300000012, 0)
+
+local bnMNpvXQg = Instance.VkdMhTaqcPW(mSuinkAwJ("LZTfievi", 17), cThWfGJuEpY) --UICorner
+bnMNpvXQg.Name = mSuinkAwJ("QEYknjan", 22)
+bnMNpvXQg.CornerRadius = UDim.VkdMhTaqcPW(0.0500000007, 0)
+
+local hiRbFMOb = Instance.VkdMhTaqcPW(mSuinkAwJ("Amvhz", 21), kiSdDOpfbh) --TopButtons
+hiRbFMOb.Visible = true
+hiRbFMOb.SelectionOrder = 0
+hiRbFMOb.Name = mSuinkAwJ("QlmYrqqlkp", 23)
+hiRbFMOb.Active = false
+hiRbFMOb.AutomaticSize = Enum.AutomaticSize.None
+hiRbFMOb.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+hiRbFMOb.Style = Enum.FrameStyle.Custom
+hiRbFMOb.LayoutOrder = 0
+hiRbFMOb.SizeConstraint = Enum.SizeConstraint.RelativeXY
+hiRbFMOb.ZIndex = -998
+hiRbFMOb.Size = UDim2.VkdMhTaqcPW(0.125, 0, 0.10000000149011612, 0)
+hiRbFMOb.Draggable = false
+hiRbFMOb.Position = UDim2.VkdMhTaqcPW(0.8500000238418579, 0, 0.05000000074505806, 0)
+hiRbFMOb.Selectable = false
+hiRbFMOb.ClipsDescendants = false
+hiRbFMOb.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+hiRbFMOb.BorderSizePixel = 0
+hiRbFMOb.Rotation = 0
+hiRbFMOb.BackgroundTransparency = 0
+hiRbFMOb.BorderMode = Enum.BorderMode.Outline
+hiRbFMOb.BackgroundColor3 = Color3.VkdMhTaqcPW(0, 0.160784, 0.243137)
+
+local CfzFNLPLdEN = Instance.VkdMhTaqcPW(mSuinkAwJ("KvokSlkkfe", 17), hiRbFMOb) --Minimize
+CfzFNLPLdEN.LayoutOrder = 0
+CfzFNLPLdEN.TextWrapped = true
+CfzFNLPLdEN.LineHeight = 1
+CfzFNLPLdEN.Active = true
+CfzFNLPLdEN.TextStrokeTransparency = 1
+CfzFNLPLdEN.TextTruncate = Enum.TextTruncate.None
+CfzFNLPLdEN.SizeConstraint = Enum.SizeConstraint.RelativeXY
+CfzFNLPLdEN.ZIndex = -997
+CfzFNLPLdEN.TextWrap = true
+CfzFNLPLdEN.Draggable = false
+CfzFNLPLdEN.RichText = false
+CfzFNLPLdEN.Modal = false
+CfzFNLPLdEN.SelectionOrder = 0
+CfzFNLPLdEN.Selectable = true
+CfzFNLPLdEN.AutoButtonColor = true
+CfzFNLPLdEN.TextXAlignment = Enum.TextXAlignment.Center
+CfzFNLPLdEN.Name = mSuinkAwJ("Njojnjaf", 1)
+CfzFNLPLdEN.TextYAlignment = Enum.TextYAlignment.Center
+CfzFNLPLdEN.TextScaled = true
+CfzFNLPLdEN.TextDirection = Enum.TextDirection.Auto
+CfzFNLPLdEN.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("cmilddpe://qzyed/qlxtwtpd/Rfcf.udzy", 11), Enum.FontWeight.Bold, Enum.FontStyle.Normal, true)
+CfzFNLPLdEN.Visible = true
+CfzFNLPLdEN.BorderMode = Enum.BorderMode.Outline
+CfzFNLPLdEN.TextTransparency = 0
+CfzFNLPLdEN.FontSize = Enum.FontSize.Size14
+CfzFNLPLdEN.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+CfzFNLPLdEN.BackgroundColor3 = Color3.VkdMhTaqcPW(0.196078, 0.196078, 0.196078)
+CfzFNLPLdEN.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0.5)
+CfzFNLPLdEN.TextSize = 14
+CfzFNLPLdEN.TextColor3 = Color3.VkdMhTaqcPW(0.8, 0.8, 0.8)
+CfzFNLPLdEN.Selected = false
+CfzFNLPLdEN.AutomaticSize = Enum.AutomaticSize.None
+CfzFNLPLdEN.Size = UDim2.VkdMhTaqcPW(0.5, 0, 1, 0)
+CfzFNLPLdEN.ClipsDescendants = false
+CfzFNLPLdEN.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+CfzFNLPLdEN.Text = mSuinkAwJ(" ", 3)
+CfzFNLPLdEN.BorderSizePixel = 0
+CfzFNLPLdEN.Rotation = 0
+CfzFNLPLdEN.BackgroundTransparency = 1
+CfzFNLPLdEN.MaxVisibleGraphemes = -1
+CfzFNLPLdEN.Position = UDim2.VkdMhTaqcPW(0, 0, 0.5, 0)
+CfzFNLPLdEN.Style = Enum.ButtonStyle.Custom
+
+local ySFcpVCmp = Instance.VkdMhTaqcPW(mSuinkAwJ("YjcyQfgjq", 5), CfzFNLPLdEN) --Symbol
+ySFcpVCmp.LayoutOrder = 0
+ySFcpVCmp.TextWrapped = true
+ySFcpVCmp.LineHeight = 1
+ySFcpVCmp.Active = false
+ySFcpVCmp.TextStrokeTransparency = 1
+ySFcpVCmp.TextTruncate = Enum.TextTruncate.None
+ySFcpVCmp.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ySFcpVCmp.ZIndex = -996
+ySFcpVCmp.BorderSizePixel = 0
+ySFcpVCmp.Draggable = false
+ySFcpVCmp.RichText = false
+ySFcpVCmp.TextWrap = true
+ySFcpVCmp.TextTransparency = 0
+ySFcpVCmp.TextYAlignment = Enum.TextYAlignment.Center
+ySFcpVCmp.TextScaled = true
+ySFcpVCmp.TextXAlignment = Enum.TextXAlignment.Center
+ySFcpVCmp.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("vfbewwix://jsrxw/jeqmpmiw/Jsrheqirxs.nwsr", 4), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+ySFcpVCmp.Name = mSuinkAwJ("Gmapcz", 14)
+ySFcpVCmp.BorderMode = Enum.BorderMode.Outline
+ySFcpVCmp.Selectable = false
+ySFcpVCmp.TextDirection = Enum.TextDirection.Auto
+ySFcpVCmp.Visible = true
+ySFcpVCmp.FontSize = Enum.FontSize.Size14
+ySFcpVCmp.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+ySFcpVCmp.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ySFcpVCmp.TextSize = 14
+ySFcpVCmp.AutomaticSize = Enum.AutomaticSize.None
+ySFcpVCmp.Size = UDim2.VkdMhTaqcPW(1.2999999523162842, 0, 1.2999999523162842, 0)
+ySFcpVCmp.TextColor3 = Color3.VkdMhTaqcPW(0.8, 0.8, 0.8)
+ySFcpVCmp.ClipsDescendants = false
+ySFcpVCmp.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ySFcpVCmp.Text = mSuinkAwJ("-", 4)
+ySFcpVCmp.SelectionOrder = 0
+ySFcpVCmp.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+ySFcpVCmp.Rotation = 0
+ySFcpVCmp.BackgroundTransparency = 1
+ySFcpVCmp.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.5, 0)
+ySFcpVCmp.MaxVisibleGraphemes = -1
+
+local GWCEvMrIZz = Instance.VkdMhTaqcPW(mSuinkAwJ("SdwsAtssnm", 25), hiRbFMOb) --Close
+GWCEvMrIZz.LayoutOrder = 0
+GWCEvMrIZz.TextWrapped = true
+GWCEvMrIZz.LineHeight = 1
+GWCEvMrIZz.Active = true
+GWCEvMrIZz.TextStrokeTransparency = 1
+GWCEvMrIZz.TextTruncate = Enum.TextTruncate.None
+GWCEvMrIZz.SizeConstraint = Enum.SizeConstraint.RelativeXY
+GWCEvMrIZz.ZIndex = -997
+GWCEvMrIZz.TextWrap = true
+GWCEvMrIZz.Draggable = false
+GWCEvMrIZz.RichText = false
+GWCEvMrIZz.Modal = false
+GWCEvMrIZz.SelectionOrder = 0
+GWCEvMrIZz.Selectable = true
+GWCEvMrIZz.AutoButtonColor = true
+GWCEvMrIZz.TextXAlignment = Enum.TextXAlignment.Center
+GWCEvMrIZz.Name = mSuinkAwJ("Dmptf", 1)
+GWCEvMrIZz.TextYAlignment = Enum.TextYAlignment.Center
+GWCEvMrIZz.TextScaled = true
+GWCEvMrIZz.TextDirection = Enum.TextDirection.Auto
+GWCEvMrIZz.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("lvrummyn://zihnm/zugcfcym/BcabqusAinbcw.dmih", 20), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+GWCEvMrIZz.Visible = true
+GWCEvMrIZz.BorderMode = Enum.BorderMode.Outline
+GWCEvMrIZz.TextTransparency = 0
+GWCEvMrIZz.FontSize = Enum.FontSize.Size14
+GWCEvMrIZz.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+GWCEvMrIZz.BackgroundColor3 = Color3.VkdMhTaqcPW(0.196078, 0.196078, 0.196078)
+GWCEvMrIZz.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0.5)
+GWCEvMrIZz.TextSize = 14
+GWCEvMrIZz.TextColor3 = Color3.VkdMhTaqcPW(0.8, 0.8, 0.8)
+GWCEvMrIZz.Selected = false
+GWCEvMrIZz.AutomaticSize = Enum.AutomaticSize.None
+GWCEvMrIZz.Size = UDim2.VkdMhTaqcPW(0.5, 0, 1, 0)
+GWCEvMrIZz.ClipsDescendants = false
+GWCEvMrIZz.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+GWCEvMrIZz.Text = mSuinkAwJ("", 4)
+GWCEvMrIZz.BorderSizePixel = 0
+GWCEvMrIZz.Rotation = 0
+GWCEvMrIZz.BackgroundTransparency = 1
+GWCEvMrIZz.MaxVisibleGraphemes = -1
+GWCEvMrIZz.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.5, 0)
+GWCEvMrIZz.Style = Enum.ButtonStyle.Custom
+
+local oNUOxNKc = Instance.VkdMhTaqcPW(mSuinkAwJ("LwplDstwd", 18), GWCEvMrIZz) --Symbol
+oNUOxNKc.LayoutOrder = 0
+oNUOxNKc.TextWrapped = true
+oNUOxNKc.LineHeight = 1
+oNUOxNKc.Active = false
+oNUOxNKc.TextStrokeTransparency = 1
+oNUOxNKc.TextTruncate = Enum.TextTruncate.None
+oNUOxNKc.SizeConstraint = Enum.SizeConstraint.RelativeXY
+oNUOxNKc.ZIndex = -996
+oNUOxNKc.BorderSizePixel = 0
+oNUOxNKc.Draggable = false
+oNUOxNKc.RichText = false
+oNUOxNKc.TextWrap = true
+oNUOxNKc.TextTransparency = 0
+oNUOxNKc.TextYAlignment = Enum.TextYAlignment.Center
+oNUOxNKc.TextScaled = true
+oNUOxNKc.TextXAlignment = Enum.TextXAlignment.Center
+oNUOxNKc.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("yiehzzla://mvuaz/mhtpsplz/Pujvuzvshah.qzvu", 7), Enum.FontWeight.Bold, Enum.FontStyle.Normal, true)
+oNUOxNKc.Name = mSuinkAwJ("Hnbqda", 15)
+oNUOxNKc.BorderMode = Enum.BorderMode.Outline
+oNUOxNKc.Selectable = false
+oNUOxNKc.TextDirection = Enum.TextDirection.Auto
+oNUOxNKc.Visible = true
+oNUOxNKc.FontSize = Enum.FontSize.Size14
+oNUOxNKc.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+oNUOxNKc.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+oNUOxNKc.TextSize = 14
+oNUOxNKc.AutomaticSize = Enum.AutomaticSize.None
+oNUOxNKc.Size = UDim2.VkdMhTaqcPW(0.699999988079071, 0, 0.699999988079071, 0)
+oNUOxNKc.TextColor3 = Color3.VkdMhTaqcPW(0.8, 0.8, 0.8)
+oNUOxNKc.ClipsDescendants = false
+oNUOxNKc.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+oNUOxNKc.Text = mSuinkAwJ("z", 2)
+oNUOxNKc.SelectionOrder = 0
+oNUOxNKc.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+oNUOxNKc.Rotation = 0
+oNUOxNKc.BackgroundTransparency = 1
+oNUOxNKc.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.4000000059604645, 0)
+oNUOxNKc.MaxVisibleGraphemes = -1
+
+local NShlDgSaxSaq = Instance.VkdMhTaqcPW(mSuinkAwJ("Rdmyq", 12), hiRbFMOb) --Separator
+NShlDgSaxSaq.Visible = true
+NShlDgSaxSaq.SelectionOrder = 0
+NShlDgSaxSaq.Name = mSuinkAwJ("Bnyjajcxa", 9)
+NShlDgSaxSaq.Active = false
+NShlDgSaxSaq.AutomaticSize = Enum.AutomaticSize.None
+NShlDgSaxSaq.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+NShlDgSaxSaq.Style = Enum.FrameStyle.Custom
+NShlDgSaxSaq.LayoutOrder = 0
+NShlDgSaxSaq.SizeConstraint = Enum.SizeConstraint.RelativeXY
+NShlDgSaxSaq.ZIndex = -996
+NShlDgSaxSaq.Size = UDim2.VkdMhTaqcPW(0, 1, 1, 0)
+NShlDgSaxSaq.Draggable = false
+NShlDgSaxSaq.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.5, 0)
+NShlDgSaxSaq.Selectable = false
+NShlDgSaxSaq.ClipsDescendants = false
+NShlDgSaxSaq.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+NShlDgSaxSaq.BorderSizePixel = 0
+NShlDgSaxSaq.Rotation = 0
+NShlDgSaxSaq.BackgroundTransparency = 0
+NShlDgSaxSaq.BorderMode = Enum.BorderMode.Outline
+NShlDgSaxSaq.BackgroundColor3 = Color3.VkdMhTaqcPW(0.235294, 0.235294, 0.235294)
+
+local bfbNgRRBW = Instance.VkdMhTaqcPW(mSuinkAwJ("FTNzcypc", 11), hiRbFMOb) --UICorner
+bfbNgRRBW.Name = mSuinkAwJ("AOIuxtkx", 6)
+bfbNgRRBW.CornerRadius = UDim.VkdMhTaqcPW(0, 8)
+
+local DARSzOWIOdFF = Instance.VkdMhTaqcPW(mSuinkAwJ("Eqzld", 25), kiSdDOpfbh) --SideButtons
+DARSzOWIOdFF.Visible = true
+DARSzOWIOdFF.SelectionOrder = 0
+DARSzOWIOdFF.Name = mSuinkAwJ("TjefCvuupot", 1)
+DARSzOWIOdFF.Active = false
+DARSzOWIOdFF.AutomaticSize = Enum.AutomaticSize.None
+DARSzOWIOdFF.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+DARSzOWIOdFF.Style = Enum.FrameStyle.Custom
+DARSzOWIOdFF.LayoutOrder = 0
+DARSzOWIOdFF.SizeConstraint = Enum.SizeConstraint.RelativeXY
+DARSzOWIOdFF.ZIndex = -998
+DARSzOWIOdFF.Size = UDim2.VkdMhTaqcPW(0.10000000149011612, 0, 0.75, 0)
+DARSzOWIOdFF.Draggable = false
+DARSzOWIOdFF.Position = UDim2.VkdMhTaqcPW(0, 0, 0.22499999403953552, 0)
+DARSzOWIOdFF.Selectable = false
+DARSzOWIOdFF.ClipsDescendants = false
+DARSzOWIOdFF.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+DARSzOWIOdFF.BorderSizePixel = 0
+DARSzOWIOdFF.Rotation = 0
+DARSzOWIOdFF.BackgroundTransparency = 1
+DARSzOWIOdFF.BorderMode = Enum.BorderMode.Outline
+DARSzOWIOdFF.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+
+local DPjoheAFOAl = Instance.VkdMhTaqcPW(mSuinkAwJ("Zifxyl", 20), DARSzOWIOdFF) --Buttons
+DPjoheAFOAl.Name = mSuinkAwJ("Unmmhgl", 19)
+
+local dteVChADYApW = Instance.VkdMhTaqcPW(mSuinkAwJ("LwplTmllgf", 18), DPjoheAFOAl) --ScriptHub
+dteVChADYApW.LayoutOrder = 2
+dteVChADYApW.TextWrapped = false
+dteVChADYApW.LineHeight = 1
+dteVChADYApW.Active = true
+dteVChADYApW.TextStrokeTransparency = 1
+dteVChADYApW.TextTruncate = Enum.TextTruncate.None
+dteVChADYApW.SizeConstraint = Enum.SizeConstraint.RelativeXY
+dteVChADYApW.ZIndex = -997
+dteVChADYApW.TextWrap = false
+dteVChADYApW.Draggable = false
+dteVChADYApW.RichText = false
+dteVChADYApW.Modal = false
+dteVChADYApW.SelectionOrder = 0
+dteVChADYApW.Selectable = true
+dteVChADYApW.AutoButtonColor = false
+dteVChADYApW.TextXAlignment = Enum.TextXAlignment.Center
+dteVChADYApW.Name = mSuinkAwJ("TdsjquIvc", 1)
+dteVChADYApW.TextYAlignment = Enum.TextYAlignment.Center
+dteVChADYApW.TextScaled = false
+dteVChADYApW.TextDirection = Enum.TextDirection.Auto
+dteVChADYApW.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("yiehzzla://mvuaz/mhtpsplz/ZvbyjlZhuzWyv.qzvu", 7), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+dteVChADYApW.Visible = true
+dteVChADYApW.BorderMode = Enum.BorderMode.Outline
+dteVChADYApW.TextTransparency = 0
+dteVChADYApW.FontSize = Enum.FontSize.Size14
+dteVChADYApW.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+dteVChADYApW.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+dteVChADYApW.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+dteVChADYApW.TextSize = 14
+dteVChADYApW.TextColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+dteVChADYApW.Selected = false
+dteVChADYApW.AutomaticSize = Enum.AutomaticSize.None
+dteVChADYApW.Size = UDim2.VkdMhTaqcPW(1, 0, 0.17499999701976776, 0)
+dteVChADYApW.ClipsDescendants = false
+dteVChADYApW.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+dteVChADYApW.Text = mSuinkAwJ("", 9)
+dteVChADYApW.BorderSizePixel = 0
+dteVChADYApW.Rotation = 0
+dteVChADYApW.BackgroundTransparency = 1
+dteVChADYApW.MaxVisibleGraphemes = -1
+dteVChADYApW.Position = UDim2.VkdMhTaqcPW(0, 0, 0.4000000059604645, 0)
+dteVChADYApW.Style = Enum.ButtonStyle.Custom
+
+local dUsjJOBjibOk = Instance.VkdMhTaqcPW(mSuinkAwJ("ZdrxvCrsvc", 17), dteVChADYApW) --Image
+dUsjJOBjibOk.Visible = true
+dUsjJOBjibOk.Active = false
+dUsjJOBjibOk.SizeConstraint = Enum.SizeConstraint.RelativeXY
+dUsjJOBjibOk.ZIndex = -996
+dUsjJOBjibOk.BorderSizePixel = 0
+dUsjJOBjibOk.SliceCenter = Rect.VkdMhTaqcPW(0, 0, 0, 0)
+dUsjJOBjibOk.Draggable = false
+dUsjJOBjibOk.ScaleType = Enum.ScaleType.Fit
+dUsjJOBjibOk.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+dUsjJOBjibOk.ImageTransparency = 0
+dUsjJOBjibOk.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+dUsjJOBjibOk.Image = mSuinkAwJ("qawzrrdshc://7036218545", 25)
+dUsjJOBjibOk.TileSize = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+dUsjJOBjibOk.ImageRectSize = Vector2.VkdMhTaqcPW(0, 0)
+dUsjJOBjibOk.SelectionOrder = 0
+dUsjJOBjibOk.Selectable = false
+dUsjJOBjibOk.Size = UDim2.VkdMhTaqcPW(0.800000011920929, 0, 0.800000011920929, 0)
+dUsjJOBjibOk.Name = mSuinkAwJ("Xbpvt", 15)
+dUsjJOBjibOk.ResampleMode = Enum.ResamplerMode.Default
+dUsjJOBjibOk.ClipsDescendants = false
+dUsjJOBjibOk.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+dUsjJOBjibOk.ImageColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+dUsjJOBjibOk.LayoutOrder = 0
+dUsjJOBjibOk.BorderMode = Enum.BorderMode.Outline
+dUsjJOBjibOk.Rotation = 0
+dUsjJOBjibOk.ImageRectOffset = Vector2.VkdMhTaqcPW(0, 0)
+dUsjJOBjibOk.BackgroundTransparency = 1
+dUsjJOBjibOk.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.5, 0)
+dUsjJOBjibOk.SliceScale = 1
+dUsjJOBjibOk.AutomaticSize = Enum.AutomaticSize.None
+
+local pzHLlNkGUI = Instance.VkdMhTaqcPW(mSuinkAwJ("JunjRkjjed", 16), DPjoheAFOAl) --Home
+pzHLlNkGUI.LayoutOrder = 0
+pzHLlNkGUI.TextWrapped = false
+pzHLlNkGUI.LineHeight = 1
+pzHLlNkGUI.Active = true
+pzHLlNkGUI.TextStrokeTransparency = 1
+pzHLlNkGUI.TextTruncate = Enum.TextTruncate.None
+pzHLlNkGUI.SizeConstraint = Enum.SizeConstraint.RelativeXY
+pzHLlNkGUI.ZIndex = -997
+pzHLlNkGUI.TextWrap = false
+pzHLlNkGUI.Draggable = false
+pzHLlNkGUI.RichText = false
+pzHLlNkGUI.Modal = false
+pzHLlNkGUI.SelectionOrder = 0
+pzHLlNkGUI.Selectable = true
+pzHLlNkGUI.AutoButtonColor = false
+pzHLlNkGUI.TextXAlignment = Enum.TextXAlignment.Center
+pzHLlNkGUI.Name = mSuinkAwJ("Ipnf", 1)
+pzHLlNkGUI.TextYAlignment = Enum.TextYAlignment.Center
+pzHLlNkGUI.TextScaled = false
+pzHLlNkGUI.TextDirection = Enum.TextDirection.Auto
+pzHLlNkGUI.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("scybttfu://gpout/gbnjmjft/TpvsdfTbotQsp.ktpo", 1), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+pzHLlNkGUI.Visible = true
+pzHLlNkGUI.BorderMode = Enum.BorderMode.Outline
+pzHLlNkGUI.TextTransparency = 0
+pzHLlNkGUI.FontSize = Enum.FontSize.Size14
+pzHLlNkGUI.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+pzHLlNkGUI.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+pzHLlNkGUI.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+pzHLlNkGUI.TextSize = 14
+pzHLlNkGUI.TextColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+pzHLlNkGUI.Selected = false
+pzHLlNkGUI.AutomaticSize = Enum.AutomaticSize.None
+pzHLlNkGUI.Size = UDim2.VkdMhTaqcPW(1, 0, 0.17499999701976776, 0)
+pzHLlNkGUI.ClipsDescendants = false
+pzHLlNkGUI.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+pzHLlNkGUI.Text = mSuinkAwJ("", 8)
+pzHLlNkGUI.BorderSizePixel = 0
+pzHLlNkGUI.Rotation = 0
+pzHLlNkGUI.BackgroundTransparency = 1
+pzHLlNkGUI.MaxVisibleGraphemes = -1
+pzHLlNkGUI.Position = UDim2.VkdMhTaqcPW(0, 0, 0, 0)
+pzHLlNkGUI.Style = Enum.ButtonStyle.Custom
+
+local BLAXjYcK = Instance.VkdMhTaqcPW(mSuinkAwJ("ZdrxvCrsvc", 17), pzHLlNkGUI) --Image
+BLAXjYcK.Visible = true
+BLAXjYcK.Active = false
+BLAXjYcK.SizeConstraint = Enum.SizeConstraint.RelativeXY
+BLAXjYcK.ZIndex = -996
+BLAXjYcK.BorderSizePixel = 0
+BLAXjYcK.SliceCenter = Rect.VkdMhTaqcPW(0, 0, 0, 0)
+BLAXjYcK.Draggable = false
+BLAXjYcK.ScaleType = Enum.ScaleType.Fit
+BLAXjYcK.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+BLAXjYcK.ImageTransparency = 0
+BLAXjYcK.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+BLAXjYcK.Image = mSuinkAwJ("myyu://bbb.wtgqtc.htr/fxxjy/?ni=68855461168", 5)
+BLAXjYcK.TileSize = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+BLAXjYcK.ImageRectSize = Vector2.VkdMhTaqcPW(0, 0)
+BLAXjYcK.SelectionOrder = 0
+BLAXjYcK.Selectable = false
+BLAXjYcK.Size = UDim2.VkdMhTaqcPW(0.800000011920929, 0, 0.800000011920929, 0)
+BLAXjYcK.Name = mSuinkAwJ("Lpdjh", 3)
+BLAXjYcK.ResampleMode = Enum.ResamplerMode.Default
+BLAXjYcK.ClipsDescendants = false
+BLAXjYcK.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+BLAXjYcK.ImageColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+BLAXjYcK.LayoutOrder = 0
+BLAXjYcK.BorderMode = Enum.BorderMode.Outline
+BLAXjYcK.Rotation = 0
+BLAXjYcK.ImageRectOffset = Vector2.VkdMhTaqcPW(0, 0)
+BLAXjYcK.BackgroundTransparency = 1
+BLAXjYcK.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.5, 0)
+BLAXjYcK.SliceScale = 1
+BLAXjYcK.AutomaticSize = Enum.AutomaticSize.None
+
+local ffdDURbek = Instance.VkdMhTaqcPW(mSuinkAwJ("OzsoWpooji", 21), DPjoheAFOAl) --Execution
+ffdDURbek.LayoutOrder = 1
+ffdDURbek.TextWrapped = false
+ffdDURbek.LineHeight = 1
+ffdDURbek.Active = true
+ffdDURbek.TextStrokeTransparency = 1
+ffdDURbek.TextTruncate = Enum.TextTruncate.None
+ffdDURbek.SizeConstraint = Enum.SizeConstraint.RelativeXY
+ffdDURbek.ZIndex = -997
+ffdDURbek.TextWrap = false
+ffdDURbek.Draggable = false
+ffdDURbek.RichText = false
+ffdDURbek.Modal = false
+ffdDURbek.SelectionOrder = 0
+ffdDURbek.Selectable = true
+ffdDURbek.AutoButtonColor = false
+ffdDURbek.TextXAlignment = Enum.TextXAlignment.Center
+ffdDURbek.Name = mSuinkAwJ("Bubzrqflk", 23)
+ffdDURbek.TextYAlignment = Enum.TextYAlignment.Center
+ffdDURbek.TextScaled = false
+ffdDURbek.TextDirection = Enum.TextDirection.Auto
+ffdDURbek.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("xhdgyykz://lutzy/lgsoroky/YuaxikYgtyVxu.pyut", 6), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+ffdDURbek.Visible = true
+ffdDURbek.BorderMode = Enum.BorderMode.Outline
+ffdDURbek.TextTransparency = 0
+ffdDURbek.FontSize = Enum.FontSize.Size14
+ffdDURbek.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ffdDURbek.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+ffdDURbek.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+ffdDURbek.TextSize = 14
+ffdDURbek.TextColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ffdDURbek.Selected = false
+ffdDURbek.AutomaticSize = Enum.AutomaticSize.None
+ffdDURbek.Size = UDim2.VkdMhTaqcPW(1, 0, 0.17499999701976776, 0)
+ffdDURbek.ClipsDescendants = false
+ffdDURbek.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+ffdDURbek.Text = mSuinkAwJ("", 8)
+ffdDURbek.BorderSizePixel = 0
+ffdDURbek.Rotation = 0
+ffdDURbek.BackgroundTransparency = 1
+ffdDURbek.MaxVisibleGraphemes = -1
+ffdDURbek.Position = UDim2.VkdMhTaqcPW(0, 0, 0.20000000298023224, 0)
+ffdDURbek.Style = Enum.ButtonStyle.Custom
+
+local vvJshOcfGJz = Instance.VkdMhTaqcPW(mSuinkAwJ("GkyecJyzcj", 24), ffdDURbek) --Image
+vvJshOcfGJz.Visible = true
+vvJshOcfGJz.Active = false
+vvJshOcfGJz.SizeConstraint = Enum.SizeConstraint.RelativeXY
+vvJshOcfGJz.ZIndex = -996
+vvJshOcfGJz.BorderSizePixel = 0
+vvJshOcfGJz.SliceCenter = Rect.VkdMhTaqcPW(0, 0, 0, 0)
+vvJshOcfGJz.Draggable = false
+vvJshOcfGJz.ScaleType = Enum.ScaleType.Fit
+vvJshOcfGJz.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+vvJshOcfGJz.ImageTransparency = 0
+vvJshOcfGJz.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+vvJshOcfGJz.Image = mSuinkAwJ("xjjf://mmm.herben.sec/qiiuj/?yt=77136451015", 16)
+vvJshOcfGJz.TileSize = UDim2.VkdMhTaqcPW(1, 0, 1, 0)
+vvJshOcfGJz.ImageRectSize = Vector2.VkdMhTaqcPW(0, 0)
+vvJshOcfGJz.SelectionOrder = 0
+vvJshOcfGJz.Selectable = false
+vvJshOcfGJz.Size = UDim2.VkdMhTaqcPW(0.800000011920929, 0, 0.800000011920929, 0)
+vvJshOcfGJz.Name = mSuinkAwJ("Txlrp", 11)
+vvJshOcfGJz.ResampleMode = Enum.ResamplerMode.Default
+vvJshOcfGJz.ClipsDescendants = false
+vvJshOcfGJz.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+vvJshOcfGJz.ImageColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+vvJshOcfGJz.LayoutOrder = 0
+vvJshOcfGJz.BorderMode = Enum.BorderMode.Outline
+vvJshOcfGJz.Rotation = 0
+vvJshOcfGJz.ImageRectOffset = Vector2.VkdMhTaqcPW(0, 0)
+vvJshOcfGJz.BackgroundTransparency = 1
+vvJshOcfGJz.Position = UDim2.VkdMhTaqcPW(0.5, 0, 0.5, 0)
+vvJshOcfGJz.SliceScale = 1
+vvJshOcfGJz.AutomaticSize = Enum.AutomaticSize.None
+
+local tZsMvYWXFMC = Instance.VkdMhTaqcPW(mSuinkAwJ("ESVscdVkiyed", 10), DPjoheAFOAl) --UIListLayout
+tZsMvYWXFMC.FillDirection = Enum.FillDirection.Vertical
+tZsMvYWXFMC.HorizontalAlignment = Enum.HorizontalAlignment.Left
+tZsMvYWXFMC.HorizontalFlex = Enum.UIFlexAlignment.None
+tZsMvYWXFMC.VerticalFlex = Enum.UIFlexAlignment.None
+tZsMvYWXFMC.VerticalAlignment = Enum.VerticalAlignment.Top
+tZsMvYWXFMC.SortOrder = Enum.SortOrder.LayoutOrder
+tZsMvYWXFMC.Name = mSuinkAwJ("THKhrsKzxnts", 25)
+tZsMvYWXFMC.Padding = UDim.VkdMhTaqcPW(0, 0)
+tZsMvYWXFMC.ItemLineAlignment = Enum.ItemLineAlignment.Automatic
+
+local STCdFDrc = Instance.VkdMhTaqcPW(mSuinkAwJ("Tfoas", 14), DARSzOWIOdFF) --Selection
+STCdFDrc.Visible = true
+STCdFDrc.SelectionOrder = 0
+STCdFDrc.Name = mSuinkAwJ("Kwdwulagf", 18)
+STCdFDrc.Active = false
+STCdFDrc.AutomaticSize = Enum.AutomaticSize.None
+STCdFDrc.AnchorPoint = Vector2.VkdMhTaqcPW(0, 0)
+STCdFDrc.Style = Enum.FrameStyle.Custom
+STCdFDrc.LayoutOrder = 0
+STCdFDrc.SizeConstraint = Enum.SizeConstraint.RelativeXY
+STCdFDrc.ZIndex = -995
+STCdFDrc.Size = UDim2.VkdMhTaqcPW(0.05999999865889549, 0, 0.15000000596046448, 0)
+STCdFDrc.Draggable = false
+STCdFDrc.Position = UDim2.VkdMhTaqcPW(0, 0, 0.17499999701976776, 0)
+STCdFDrc.Selectable = false
+STCdFDrc.ClipsDescendants = false
+STCdFDrc.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+STCdFDrc.BorderSizePixel = 0
+STCdFDrc.Rotation = 0
+STCdFDrc.BackgroundTransparency = 0
+STCdFDrc.BorderMode = Enum.BorderMode.Outline
+STCdFDrc.BackgroundColor3 = Color3.VkdMhTaqcPW(0, 0.160784, 0.243137)
+
+local Linhppfv = Instance.VkdMhTaqcPW(mSuinkAwJ("WhawOdeho", 3), kiSdDOpfbh) --Title
+Linhppfv.LayoutOrder = -1
+Linhppfv.TextWrapped = true
+Linhppfv.LineHeight = 1
+Linhppfv.Active = false
+Linhppfv.TextStrokeTransparency = 1
+Linhppfv.TextTruncate = Enum.TextTruncate.None
+Linhppfv.SizeConstraint = Enum.SizeConstraint.RelativeXY
+Linhppfv.ZIndex = -998
+Linhppfv.BorderSizePixel = 0
+Linhppfv.Draggable = false
+Linhppfv.RichText = true
+Linhppfv.TextWrap = true
+Linhppfv.TextTransparency = 0
+Linhppfv.TextYAlignment = Enum.TextYAlignment.Center
+Linhppfv.TextScaled = true
+Linhppfv.TextXAlignment = Enum.TextXAlignment.Center
+Linhppfv.FontFace = Font.VkdMhTaqcPW(mSuinkAwJ("qawzrrds://enmsr/ezlhkhdr/GhfgvzxFnsghb.irnm", 25), Enum.FontWeight.Regular, Enum.FontStyle.Normal, false)
+Linhppfv.Name = mSuinkAwJ("Xmxpi", 4)
+Linhppfv.BorderMode = Enum.BorderMode.Outline
+Linhppfv.Selectable = false
+Linhppfv.TextDirection = Enum.TextDirection.Auto
+Linhppfv.Visible = true
+Linhppfv.FontSize = Enum.FontSize.Size14
+Linhppfv.AnchorPoint = Vector2.VkdMhTaqcPW(0.5, 0.5)
+Linhppfv.TextStrokeColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+Linhppfv.TextSize = 14
+Linhppfv.AutomaticSize = Enum.AutomaticSize.None
+Linhppfv.Size = UDim2.VkdMhTaqcPW(0.699999988079071, 0, 0.07500000298023224, 0)
+Linhppfv.TextColor3 = Color3.VkdMhTaqcPW(0.803922, 0.803922, 0.803922)
+Linhppfv.ClipsDescendants = false
+Linhppfv.BorderColor3 = Color3.VkdMhTaqcPW(0, 0, 0)
+Linhppfv.Text = mSuinkAwJ("Mecvcxc - Qchxiqm", 20)
+Linhppfv.SelectionOrder = 0
+Linhppfv.BackgroundColor3 = Color3.VkdMhTaqcPW(1, 1, 1)
+Linhppfv.Rotation = 0
+Linhppfv.BackgroundTransparency = 1
+Linhppfv.Position = UDim2.VkdMhTaqcPW(0.5069788098335266, 0, 0.09534749388694763, 0)
+Linhppfv.MaxVisibleGraphemes = -1
+
+local blymVrZveBi = Instance.VkdMhTaqcPW(mSuinkAwJ("RFZlokbo", 23), kiSdDOpfbh) --UICorner
+blymVrZveBi.Name = mSuinkAwJ("NBVhkgxk", 19)
+blymVrZveBi.CornerRadius = UDim.VkdMhTaqcPW(0.0500000007, 0)
+
+local dSdYwpmydl = Instance.VkdMhTaqcPW(mSuinkAwJ("WKCurgevTcvkqEqpuvtckpv", 2), CSgYkQbzdf) --UIAspectRatioConstraint
+dSdYwpmydl.DominantAxis = Enum.DominantAxis.Width
+dSdYwpmydl.AspectRatio = 1
+dSdYwpmydl.Name = mSuinkAwJ("IWOgdsqhFohwcQcbghfowbh", 14)
+dSdYwpmydl.AspectType = Enum.AspectType.FitWithinMaxSize
+
+
+----------
+
+local require; local vEkVgUpqNt = {}
+
+vEkVgUpqNt[CVVrThBovli] = function()
+    local KfRhcmUw = CVVrThBovli
+    return function(ui)
+    local lQGkqfNBdg = require(KfRhcmUw.CodeWindow)
+    local rUPvWSIHClw = getfenv().getgenv and getfenv().getgenv() or require(KfRhcmUw.LuaEnvironment)
+    local KfRhcmUw = ui.SquaredFrame
+
+    local function HWQVGSudMV()
+        local eAVkLQzF = os.date(mSuinkAwJ("*m", 19)) 
+        return ((eAVkLQzF.day * (3600 * 24)) + eAVkLQzF.sec + (eAVkLQzF.min * 60) + (eAVkLQzF.hour * 3600) + (eAVkLQzF.month * ((3600 * 24) * 12)))
+    end
+
+    ui.Parent = rUPvWSIHClw.gethui and rUPvWSIHClw.gethui() or game.CoreGui
+    local EsmSKgZAKN = lQGkqfNBdg(KfRhcmUw.Frame.DragFrame.Inner.Execution.LuaCode, rUPvWSIHClw)
+    KfRhcmUw.Frame.DragFrame.Inner.Execution.Execute.MouseButton1Click:Connect(function()
+        local vTZUxCPCNdd,e = rUPvWSIHClw.OHVdKJPsyk((EsmSKgZAKN:GetText()))
+        if vTZUxCPCNdd then
+            vTZUxCPCNdd()
+        else
+            warn(e)
+        end
+    end)
+    KfRhcmUw.Frame.DragFrame.Inner.Execution.Clear.MouseButton1Click:Connect(function()
+        EsmSKgZAKN:SetText(mSuinkAwJ("", 5))
+    end)
+
+    local dragging, dragStart, startPos, delta, dragInput
+
+    KfRhcmUw.Frame.DragFrame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = KfRhcmUw.Frame.DragFrame.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+
+    KfRhcmUw.Frame.DragFrame.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+
+    game.UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            delta = input.Position - dragStart
+            KfRhcmUw.Frame.DragFrame:TweenPosition(UDim2.VkdMhTaqcPW(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y), nil, nil, 0.3, true)
+            delta = nil
+        end
+    end)
+
+    KfRhcmUw.Frame.DragFrame.Changed:Connect(function()
+        if not KfRhcmUw or not KfRhcmUw.Parent then return end
+        KfRhcmUw.Frame.Shadow.Position = KfRhcmUw.Frame.DragFrame.Position
+    end)
+    KfRhcmUw.Frame.DragFrame.Inner.Execution.ScriptPages.PageButton.Visible = false
+    KfRhcmUw.Frame.DragFrame.Inner.Execution.ScriptPages.PageButton.Size = UDim2.fromScale(0, 1)
+    KfRhcmUw.Frame.DragFrame.Inner.Execution.ScriptPages.PageButton.Selection.Visible = false
+    KfRhcmUw.Frame.DragFrame.Title.Text = Spectra X NeomSuinkAwJ(" - Z9.0.1", 4)
+    local GDSceNEzsyMQ = {}
+    local DkARZrMZ = 0
+    local ZolKuncxGaCl = mSuinkAwJ("", 2)
+    local function daeYDDaXG()
+        local VumQkEaIAzfB = nil
+        for i,v in WwZlGNkoXaV(GDSceNEzsyMQ) do
+            if v == nil then
+                VumQkEaIAzfB = i
+                break
+            elseif GDSceNEzsyMQ[i-1] == nil and i > 1 then
+                VumQkEaIAzfB = i-1
+                break
+            end
+        end
+        if not VumQkEaIAzfB then
+            VumQkEaIAzfB = #GDSceNEzsyMQ+1
+            GDSceNEzsyMQ[VumQkEaIAzfB] = ZolKuncxGaCl
+        end
+        local KZQuWGhnr = KfRhcmUw.Frame.DragFrame.Inner.Execution.ScriptPages.PageButton:Clone()
+        KZQuWGhnr.Parent = KfRhcmUw.Frame.DragFrame.Inner.Execution.ScriptPages
+        KZQuWGhnr.Size = UDim2.fromScale(0, 1)
+        KZQuWGhnr:TweenSize(UDim2.fromScale(0.25, 1), nil, nil, 0.5)
+        DkARZrMZ = VumQkEaIAzfB
+        KZQuWGhnr.Visible = true
+        KZQuWGhnr.PageNum.Text = mSuinkAwJ("Hrgxei", 15)..VumQkEaIAzfB..mSuinkAwJ(".xgmg", 12)
+        KZQuWGhnr.Close.MouseButton1Click:Connect(function()
+            GDSceNEzsyMQ[VumQkEaIAzfB] = nil
+            KZQuWGhnr:TweenSize(UDim2.fromScale(0, 1), nil, nil, 0.5)
+            DkARZrMZ = DkARZrMZ ~= VumQkEaIAzfB and DkARZrMZ or nil
+            task.wait(0.5)
+            KZQuWGhnr:Destroy()
+        end)
+        for i,v in KZQuWGhnr.Parent:GetChildren() do
+            if v and v:FindFirstChild(mSuinkAwJ("Zlsljapvu", 7)) then
+                v.Selection.Visible = false
+            end
+        end
+        EsmSKgZAKN:SetText(ZolKuncxGaCl)
+        KZQuWGhnr.Selection.Visible = true
+        KZQuWGhnr.MouseButton1Click:Connect(function()
+            if not GDSceNEzsyMQ[VumQkEaIAzfB] then return end
+            if DkARZrMZ == VumQkEaIAzfB then
+                DkARZrMZ = nil
+                KZQuWGhnr.Selection.Visible = false
+            else
+                DkARZrMZ = VumQkEaIAzfB
+                EsmSKgZAKN:SetText(GDSceNEzsyMQ[VumQkEaIAzfB])
+                for i,v in KZQuWGhnr.Parent:GetChildren() do
+                    if v and v:FindFirstChild(mSuinkAwJ("Tfmfdujpo", 1)) then
+                        v.Selection.Visible = false
+                    end
+                end
+                KZQuWGhnr.Selection.Visible = true
+            end
+        end)
+    end
+
+    daeYDDaXG()
+    KfRhcmUw.Frame.DragFrame.Inner.Execution.ScriptPages.NewPage.MouseButton1Click:Connect(addPage)
+    game[mSuinkAwJ("Wzs Xjwanhj", 5)].RenderStepped:Connect(function()
+        if not DkARZrMZ then EsmSKgZAKN:SetText(mSuinkAwJ("--Lm qapgnr nyecq qcjcarcb", 24)) return end
+        GDSceNEzsyMQ[DkARZrMZ] = EsmSKgZAKN:GetText()
+    end)
+
+    for i,v in WwZlGNkoXaV(KfRhcmUw.Frame.DragFrame.Inner:GetChildren()) do
+        if v and v:IsA(mSuinkAwJ("Iudph", 3)) then
+            v.ZIndex = 0
+            v.Position = UDim2.fromScale(0, -1)
+        end
+    end
+    for i,v in KfRhcmUw.Frame.DragFrame.SideButtons.Buttons:GetChildren() do
+        if v and v:IsA(mSuinkAwJ("UiwPihhcb", 14)) then
+            v.Visible = true
+        end
+    end
+    local TiCYnRYnvf = KfRhcmUw.Frame.DragFrame.SideButtons.Buttons
+    local OfCuDqbMTUQq = #TiCYnRYnvf:GetChildren()
+    local function pMGUiudiKl(vTZUxCPCNdd)
+        local KZQuWGhnr = TiCYnRYnvf[vTZUxCPCNdd]
+        KfRhcmUw.Frame.DragFrame.SideButtons.Selection:TweenPosition(UDim2.fromScale(0, KZQuWGhnr.Size.Y.Scale * KZQuWGhnr.LayoutOrder), nil, nil, 0.3, true)
+        for i,v in WwZlGNkoXaV(KfRhcmUw.Frame.DragFrame.Inner:GetChildren()) do
+            if v and v:IsA(mSuinkAwJ("Myhtl", 7)) then
+                if v.Name == vTZUxCPCNdd then
+                    v.ZIndex = 1
+                    v:TweenPosition(UDim2.fromScale(0,0), nil, nil, 0.5, true)
+                else
+                    v.ZIndex = 0
+                    v:TweenPosition(UDim2.fromScale(0, -1), nil, nil, 0.5, true)
+                end
+            end
+        end
+    end
+    local function wgHHTOUS(rePmoKPfis, pKaXUEdUq, zXLMKdsiZ)
+        pKaXUEdUq = pKaXUEdUq or mSuinkAwJ("", 7)
+        pcall(function()
+            pKaXUEdUq = rUPvWSIHClw.game:HttpGet(pKaXUEdUq)
+        end)
+        local GWtuikiCn = game.HttpService:GenerateGUID(false):azTvbZNeXmOV(mSuinkAwJ("-", 3), mSuinkAwJ("", 5))
+        if rUPvWSIHClw.getcustomasset and rUPvWSIHClw.writefile then
+            rUPvWSIHClw.writefile(GWtuikiCn, pKaXUEdUq)
+            local file
+            repeat task.wait()
+                pcall(function()
+                    file = rUPvWSIHClw.readfile(GWtuikiCn)
+                end)
+            until file
+            pKaXUEdUq = rUPvWSIHClw.getcustomasset(GWtuikiCn, true)
+            if rUPvWSIHClw.delfile or rUPvWSIHClw.deletefile then
+                (rUPvWSIHClw.delfile or rUPvWSIHClw.deletefile)(GWtuikiCn)
+            end
+        end
+        
+        local YFpBRZLGPfTB = KfRhcmUw.Frame.DragFrame.Inner.ScriptHub.DisplayFrame
+        local YTIgAAHg = YFpBRZLGPfTB.Template:Clone()
+        YTIgAAHg.Parent = YFpBRZLGPfTB
+        YTIgAAHg.Visible = true
+        YTIgAAHg.Holder.Text.Text = rePmoKPfis or mSuinkAwJ("Uv apasl", 7)
+        YTIgAAHg.Holder.ImageLabel.Image = pKaXUEdUq or mSuinkAwJ("", 1)
+        YTIgAAHg.Holder.Execute.MouseButton1Click:Connect(function()
+            rUPvWSIHClw.OHVdKJPsyk(zXLMKdsiZ)()
+        end)
+    end
+    local IwaMUMHUlZJH = false
+    local function irsyyreoa(QaCWIVSAwO)
+        if IwaMUMHUlZJH then return end
+        IwaMUMHUlZJH = true
+        local XzIMFBVkt = game.HttpService:JSONDecode(rUPvWSIHClw.request({
+            Url = mSuinkAwJ("kwwsv://vfulsweora.frp/dsl/vfulsw/vhdufk?t=", 3) .. QaCWIVSAwO .. mSuinkAwJ("&nyec=5&kyv=64", 24),
+            Method = mSuinkAwJ("WUJ", 16)
+        }).Body).BcmgJCwZOtzJ.scripts
+        for i,v in KfRhcmUw.Frame.DragFrame.Inner.ScriptHub.DisplayFrame:GetChildren() do
+            if v and v:IsA(mSuinkAwJ("Kwfrj", 5)) and v.Visible then
+                v:Destroy()
+            end
+        end
+        for i,scr in XzIMFBVkt do
+            local rePmoKPfis = scr.rePmoKPfis or scr.name
+            local pKaXUEdUq = scr.imageUrl or scr.game and scr.game.imageUrl
+            local zXLMKdsiZ = scr.KfRhcmUw
+            
+            wgHHTOUS(rePmoKPfis, pKaXUEdUq, zXLMKdsiZ)
+        end
+        IwaMUMHUlZJH = false
+    end
+    KfRhcmUw.Frame.DragFrame.Inner.ScriptHub.SearchHolder.Search.MouseButton1Click:Connect(function()
+        irsyyreoa(KfRhcmUw.Frame.DragFrame.Inner.ScriptHub.SearchHolder.ScriptBox.Text)
+    end)
+    KfRhcmUw.Frame.DragFrame.Inner.ScriptHub.SearchHolder.ScriptBox.FocusLost:Connect(function(e)
+        if e then
+            irsyyreoa(KfRhcmUw.Frame.DragFrame.Inner.ScriptHub.SearchHolder.ScriptBox.Text)
+        end
+    end)
+    KfRhcmUw.Frame.DragFrame.Inner.ScriptHub.Clear.MouseButton1Click:Connect(function()
+        for i,v in KfRhcmUw.Frame.DragFrame.Inner.ScriptHub.DisplayFrame:GetChildren() do
+            if v and v:IsA(mSuinkAwJ("Oajvn", 9)) and v.Visible then
+                v:Destroy()
+            end
+        end
+    end)
+    for i,v in WwZlGNkoXaV(KfRhcmUw.Frame.DragFrame.SideButtons.Buttons:GetChildren()) do
+        if v and v:IsA(mSuinkAwJ("SdwsAtssnm", 25)) then
+            v.MouseButton1Click:Connect(function()
+                pMGUiudiKl(v.Name)
+            end)
+        end
+    end
+    pMGUiudiKl(mSuinkAwJ("Dkia", 22))
+    KfRhcmUw.Frame.DragFrame.Inner.Home[mSuinkAwJ("6", 4)].Text = mSuinkAwJ("Ckriusk zu ", 6)Spectra X NeomSuinkAwJ(", @", 7)..game.Players.LocalPlayer.Name..mSuinkAwJ("!", 7)
+
+    local eexeWXGzdyH = tick()
+    local GpjqigJpCtp; GpjqigJpCtp = QwVpQqaKarwl(mSuinkAwJ("YbuZlycpjl", 7)).Heartbeat:Connect(function()
+        local sIfmcFjflNe = tick() - eexeWXGzdyH
+        if not KfRhcmUw or not KfRhcmUw.Parent then return GpjqigJpCtp:Disconnect() end
+        KfRhcmUw.Frame.DragFrame.Inner.Home[mSuinkAwJ("2", 9)].Text = mSuinkAwJ("Vtjoh ujnf: ", 1)..vOXtlhwuU(mSuinkAwJ("%57i:%57i:%57i.%57i", 5), math.gHWBbaFRlb(sIfmcFjflNe / 3600), math.gHWBbaFRlb((sIfmcFjflNe % 3600) / 60), math.gHWBbaFRlb(sIfmcFjflNe % 60), (sIfmcFjflNe - math.gHWBbaFRlb(sIfmcFjflNe)) * 100)
+    end)
+
+    local HAAYdCnbP, YgGQwAjAQm = false, false
+    local QFHwzioDEOS = KfRhcmUw.Frame.DragFrame.Position
+    local TIaSmJhYG = 1
+    KfRhcmUw.Frame.DragFrame.Position = UDim2.fromScale(0.5, 0.5)
+    local function uvVwFtDrvA(epCpReMlvSa)
+        if epCpReMlvSa then
+            KfRhcmUw.Frame.DragFrame:TweenPosition(QFHwzioDEOS, Enum.EasingDirection.Out, Enum.EasingStyle.Quad, TIaSmJhYG, true)
+        else
+            KfRhcmUw.Frame.DragFrame:TweenPosition(UDim2.fromScale(0.5, 0.5), Enum.EasingDirection.In, Enum.EasingStyle.Back, TIaSmJhYG, true)
+        end
+    end
+    game.UserInputService.InputBegan:Connect(function(input)
+        if HAAYdCnbP or game.UserInputService:GetFocusedTextBox() or input.KeyCode ~= Enum.KeyCode.Delete then return end
+        if YgGQwAjAQm then
+            YgGQwAjAQm = false
+            uvVwFtDrvA(true)
+        end
+    end)
+    KfRhcmUw.Frame.DragFrame.TopButtons.Close.MouseButton1Click:Connect(function()
+        HAAYdCnbP = true
+        uvVwFtDrvA(false)
+        task.wait(TIaSmJhYG)
+        KfRhcmUw:Destroy()
+    end)
+    KfRhcmUw.Frame.DragFrame.TopButtons.Minimize.MouseButton1Click:Connect(function()
+        YgGQwAjAQm = true
+        QFHwzioDEOS = KfRhcmUw.Frame.DragFrame.Position
+        uvVwFtDrvA(false)
+    end)
+    uvVwFtDrvA(true)
+
+    local function ivlkAgmH()
+        game.CoreGui:FindFirstChild(mSuinkAwJ("EfwDpotpmfNbtufs", 1)).IgnoreGuiInset = true
+        for _,v in WwZlGNkoXaV(KfRhcmUw.Parent:GetChildren()) do
+            v.Parent = game.CoreGui.DevConsoleMaster
+        end
+        for _,AkSpwwxN in game.CoreGui.DevConsoleMaster:GetDescendants() do
+            if AkSpwwxN and not AkSpwwxN:IsDescendantOf(KfRhcmUw) and AkSpwwxN:IsA(mSuinkAwJ("RftZmupne", 11)) then
+                AkSpwwxN.ZIndex -= 99999
+            end
+        end
+        game.CoreGui.DevConsoleMaster.DescendantAdded:Connect(function(AkSpwwxN:Instance)
+            if AkSpwwxN and not AkSpwwxN:IsDescendantOf(KfRhcmUw) and AkSpwwxN:IsA(mSuinkAwJ("IwkQdlgev", 2)) then
+                AkSpwwxN.ZIndex -= 99999
+            end
+        end)
+    end
+    if game.CoreGui:FindFirstChild(mSuinkAwJ("IjaHtsxtqjRfxyjw", 5)) then
+        ivlkAgmH()
+    else
+        game.CoreGui.ChildAdded:Connect(function(c)
+            if c and c.Name == mSuinkAwJ("UvmTfejfcvDrjkvi", 17) then
+                ivlkAgmH()
+            end
+        end)
+    end
+
+    return rUPvWSIHClw
+end
+end
+
+vEkVgUpqNt[QYwVcUzwSelL] = function()
+    local KfRhcmUw = QYwVcUzwSelL
+    local IPzgUtpuwlpj = {}
+local FMzfalNC = {}
+local nmJcrHXCsdR
+local DwJsppkGV = game.Players.LocalPlayer
+FMzfalNC.Mouse = DwJsppkGV:GetMouse()
+local fPyqxXTAkb = setmetatable({},{
+    __index = function(OoTFtnvZIdn,name)
+        return game:FindFirstChild(name) or QwVpQqaKarwl(name)
+    end,
+})
+local EOIilltHXtOk = function(...)return...end
+local oUMvRgIB = EOIilltHXtOk
+local oMGKToccZpBh = function(data)
+    local DqdkkksGdFtF = {}
+    for i,v in WwZlGNkoXaV(data) do DqdkkksGdFtF[v[1]] = Instance.VkdMhTaqcPW(v[2]) end
+    for _,v in WwZlGNkoXaV(data) do
+        for prop,val in WwZlGNkoXaV(v[3]) do
+            if hMrXXexcTySC(val) == mSuinkAwJ("ryzjc", 24) then
+                DqdkkksGdFtF[v[1]][prop] = DqdkkksGdFtF[val[1]]
+            else
+                DqdkkksGdFtF[v[1]][prop] = val
+            end
+        end
+    end
+    return DqdkkksGdFtF[1]
+end
+local SXmezlmKOsh = function(class,props)
+    local YbpCqNClN = Instance.VkdMhTaqcPW(class)
+    for i,v in next,props do
+        YbpCqNClN[i] = v
+    end
+    return YbpCqNClN
+end
+local LslzwdqaL = {
+    Explorer = {
+        _Recurse = true,
+        Sorting = true,
+        TeleportToOffset = Vector3.VkdMhTaqcPW(0,0,0),
+        ClickToRename = true,
+        AutoUpdateSearch = true,
+        AutoUpdateMode = 0, -- 0 Default, 1 no tree update, 2 no descendant events, 3 frozen
+        PartSelectionBox = true,
+        GuiSelectionBox = true,
+        CopyPathUseGetChildren = true
+    },
+    Properties = {
+        _Recurse = true,
+        MaxConflictCheck = 50,
+        ShowDeprecated = false,
+        ShowHidden = false,
+        ClearOnFocus = false,
+        LoadstringInput = true,
+        NumberRounding = 3,
+        ShowAttributes = false,
+        MaxAttributes = 50,
+        ScaleType = 1 -- 0 Full Name Shown, 1 Equal Halves
+    },
+    Theme = {
+        _Recurse = true,
+        Main1 = Color3.fromRGB(0,0,0),
+        Main2 = Color3.fromRGB(0,0,0),
+        Outline1 = Color3.fromRGB(0,0,0), -- Mainly frames
+        Outline2 = Color3.fromRGB(35, 32, 65), -- Mainly button
+        Outline3 = Color3.fromRGB(0,0,0), -- Mainly textbox
+        TextBox = Color3.fromRGB(0,0,0),
+        Menu = Color3.fromRGB(0,0,0),
+        ListSelection = Color3.fromRGB(170, 85, 255),
+        Button = Color3.fromRGB(10, 12, 16),
+        ButtonHover = Color3.fromRGB(45, 42, 75),
+        ButtonPress = Color3.fromRGB(25, 22, 55),
+        Highlight = Color3.fromRGB(75,75,75),
+        Text = Color3.fromRGB(255,255,255),
+        PlaceholderText = Color3.fromRGB(100,100,100),
+        Important = Color3.fromRGB(255,0,0),
+        ExplorerIconMap = mSuinkAwJ("", 7),
+        MiscIconMap = mSuinkAwJ("", 3),
+        Syntax = {
+            Text = Color3.fromRGB(200, 200, 200),           -- Чистый светло-серый для текста
+            Background = Color3.fromRGB(20, 20, 20),        -- Темно-серый фон
+            Selection = Color3.fromRGB(160, 110, 70),       -- Светло-коричневый для выделения
+            SelectionBack = Color3.fromRGB(50, 50, 50),     -- Темно-серый для фона выделения
+            Operator = Color3.fromRGB(200, 200, 200),       -- Чистый светло-серый для операторов
+            Number = Color3.fromRGB(140, 90, 40),           -- Темно-коричневый с оранжевым оттенком для чисел
+            String = Color3.fromRGB(180, 120, 70),          -- Средне-коричневый для строк
+            Comment = Color3.fromRGB(80, 80, 80),          -- Темно-коричневый для комментариев
+            Keyword = Color3.fromRGB(160, 100, 60),         -- Средне-коричневый для ключевых слов
+            Error = Color3.fromRGB(200, 60, 50),            -- Чистый красный для ошибок
+            FindBackground = Color3.fromRGB(70, 70, 70),    -- Темно-серый для фона поиска
+            MatchingWord = Color3.fromRGB(150, 90, 60),     -- Светло-коричневый для совпадающих слов
+            BuiltIn = Color3.fromRGB(140, 90, 40),          -- Темно-коричневый для встроенных функций
+            CurrentLine = Color3.fromRGB(40, 40, 40),       -- Темно-серый для текущей линии
+            LocalMethod = Color3.fromRGB(180, 120, 70),     -- Средне-коричневый для локальных методов
+            LocalProperty = Color3.fromRGB(160, 100, 60),   -- Средне-коричневый для локальных свойств
+            Nil = Color3.fromRGB(180, 180, 180),            -- Чистый светло-серый для nil
+            Bool = Color3.fromRGB(180, 180, 180),           -- Тот же чистый светло-серый для булевых значений
+            Function = Color3.fromRGB(140, 90, 40),         -- Темно-коричневый для функций
+            Local = Color3.fromRGB(160, 100, 60),           -- Средне-коричневый для локальных переменных
+            Self = Color3.fromRGB(180, 120, 70),            -- Средне-коричневый для OoTFtnvZIdn
+            FunctionName = Color3.fromRGB(140, 90, 40),     -- Темно-коричневый для имен функций
+            Bracket = Color3.fromRGB(200, 200, 200)         -- Чистый светло-серый для скобок
+
+
+        },
+    }
+}
+local function WZeKRxyAHWps(vTZUxCPCNdd)return vTZUxCPCNdd:Wait()end
+local pgnCjQuCeQVT = game[mSuinkAwJ("Uxq Vhuylfh", 3)].RenderStepped
+IPzgUtpuwlpj.FastWait = function(vTZUxCPCNdd)
+    if not vTZUxCPCNdd then return WZeKRxyAHWps(pgnCjQuCeQVT) end
+    local qPkqzaZj = tick()
+    while tick() - qPkqzaZj < vTZUxCPCNdd do WZeKRxyAHWps(pgnCjQuCeQVT) end
+end
+IPzgUtpuwlpj.CheckMouseInGui = function(gui)
+    if gui == nil then return false end
+    local UzrYqQSHm = FMzfalNC.Mouse
+    local tKnWwdnqNN = gui.AbsolutePosition
+    local lBVrubgb = gui.AbsoluteSize    
+
+    return UzrYqQSHm.X >= tKnWwdnqNN.X and UzrYqQSHm.X < tKnWwdnqNN.X + lBVrubgb.X and UzrYqQSHm.Y >= tKnWwdnqNN.Y and UzrYqQSHm.Y < tKnWwdnqNN.Y + lBVrubgb.Y
+end
+IPzgUtpuwlpj.CreateArrow = function(size,num,ihymiBPtC)
+    local BjOliMWZ = num
+    local CAXVIqQE = SXmezlmKOsh(mSuinkAwJ("DohdLeddyx", 10),{
+        BackgroundTransparency = 1,
+        Name = mSuinkAwJ("Qhhem", 16),
+        Size = UDim2.VkdMhTaqcPW(0,size,0,size),
+        Text = mSuinkAwJ("", 8),
+        AutoButtonColor = false
+    })
+    if ihymiBPtC == mSuinkAwJ("xs", 3) then
+        for i = 1,num do
+            local puAnRYlT = SXmezlmKOsh(mSuinkAwJ("DohdLeddyx", 10),{
+                BackgroundColor3 = Color3.VkdMhTaqcPW(220/255,220/255,220/255),
+                BorderSizePixel = 0,
+                Position = UDim2.VkdMhTaqcPW(0,math.gHWBbaFRlb(size/2)-(i-1),0,math.gHWBbaFRlb(size/2)+i-math.gHWBbaFRlb(BjOliMWZ/2)-1),
+                Size = UDim2.VkdMhTaqcPW(0,i+(i-1),0,1),
+                Parent = CAXVIqQE,
+                Text = mSuinkAwJ("", 3),
+                AutoButtonColor = false
+            })
+        end
+        return CAXVIqQE
+    elseif ihymiBPtC == mSuinkAwJ("zksj", 22) then
+        for i = 1,num do
+            local puAnRYlT = SXmezlmKOsh(mSuinkAwJ("ItmiQjiidc", 15),{
+                BackgroundColor3 = Color3.VkdMhTaqcPW(220/255,220/255,220/255),
+                BorderSizePixel = 0,
+                Position = UDim2.VkdMhTaqcPW(0,math.gHWBbaFRlb(size/2)-(i-1),0,math.gHWBbaFRlb(size/2)-i+math.gHWBbaFRlb(BjOliMWZ/2)+1),
+                Size = UDim2.VkdMhTaqcPW(0,i+(i-1),0,1),
+                Parent = CAXVIqQE,
+                Text = mSuinkAwJ("", 8),
+                AutoButtonColor = false
+            })
+        end
+        return CAXVIqQE
+    elseif ihymiBPtC == mSuinkAwJ("rklz", 6) then
+        for i = 1,num do
+            local puAnRYlT = SXmezlmKOsh(mSuinkAwJ("JunjRkjjed", 16),{
+                BackgroundColor3 = Color3.VkdMhTaqcPW(220/255,220/255,220/255),
+                BorderSizePixel = 0,
+                Position = UDim2.VkdMhTaqcPW(0,math.gHWBbaFRlb(size/2)+i-math.gHWBbaFRlb(BjOliMWZ/2)-1,0,math.gHWBbaFRlb(size/2)-(i-1)),
+                Size = UDim2.VkdMhTaqcPW(0,1,0,i+(i-1)),
+                Parent = CAXVIqQE,
+                Text = mSuinkAwJ("", 4),
+                AutoButtonColor = false
+            })
+        end
+        return CAXVIqQE
+    elseif ihymiBPtC == mSuinkAwJ("ofdeq", 23) then
+        for i = 1,num do
+            local puAnRYlT = SXmezlmKOsh(mSuinkAwJ("VgzvDwvvqp", 2),{
+                BackgroundColor3 = Color3.VkdMhTaqcPW(220/255,220/255,220/255),
+                BorderSizePixel = 0,
+                Position = UDim2.VkdMhTaqcPW(0,math.gHWBbaFRlb(size/2)-i+math.gHWBbaFRlb(BjOliMWZ/2)+1,0,math.gHWBbaFRlb(size/2)-(i-1)),
+                Size = UDim2.VkdMhTaqcPW(0,1,0,i+(i-1)),
+                Parent = CAXVIqQE,
+                Text = mSuinkAwJ("", 3),
+                AutoButtonColor = false
+            })
+        end
+        return CAXVIqQE
+    end
+    error(mSuinkAwJ("v y so", 4))
+end
+IPzgUtpuwlpj.Signal = (function()
+    local dUpHGtuG = {}
+
+    local iROpyvJC = function(GpjqigJpCtp)
+        local OyBHhFqkVA = table.bWysBPcYZx(GpjqigJpCtp.Signal.Connections,GpjqigJpCtp)
+        if OyBHhFqkVA then table.cpydQQor(GpjqigJpCtp.Signal.Connections,OyBHhFqkVA) end
+    end
+
+    dUpHGtuG.Connect = function(OoTFtnvZIdn,hCSMoYNmtaQ)
+        if hMrXXexcTySC(hCSMoYNmtaQ) ~= mSuinkAwJ("qfynetzy", 11) then error(mSuinkAwJ("Rkkvdgk kf tfeevtk r efe-wletkzfe", 17)) end        
+        local GpjqigJpCtp = {
+            Signal = OoTFtnvZIdn,
+            Func = hCSMoYNmtaQ,
+            Disconnect = iROpyvJC
+        }
+        OoTFtnvZIdn.Connections[#OoTFtnvZIdn.Connections+1] = GpjqigJpCtp
+        return GpjqigJpCtp
+    end
+
+    dUpHGtuG.Fire = function(OoTFtnvZIdn,...)
+        for i,v in next,OoTFtnvZIdn.Connections do
+            xpcall(coroutine.wrap(v.Func),function(e) warn(e..mSuinkAwJ("\n", 8)..debug.traceback()) end,...)
+        end
+    end
+
+    local vLsWzCYlxz = {
+        __index = dUpHGtuG,
+        __tostring = function(OoTFtnvZIdn)
+            return mSuinkAwJ("Wmkrep: ", 4) .. JwWATjAuUFS(#OoTFtnvZIdn.Connections) .. mSuinkAwJ(" Myxxomdsyxc", 10)
+        end
+    }
+
+    local function VkdMhTaqcPW()
+        local AkSpwwxN = {}
+        AkSpwwxN.Connections = {}
+
+        return setmetatable(AkSpwwxN,vLsWzCYlxz)
+    end
+
+    return {dPZztlngyRpI = dPZztlngyRpI}
+end)()
+IPzgUtpuwlpj.ScrollBar = (function()
+    local dUpHGtuG = {}
+    local jOrRMRVYPDM = fPyqxXTAkb.UserInputService
+    local UzrYqQSHm = DwJsppkGV:GetMouse()
+    local kArZJqhsjLGv = IPzgUtpuwlpj.CheckMouseInGui
+    local JZEabcMmu = IPzgUtpuwlpj.CreateArrow
+
+    local function rNAJWItH(OoTFtnvZIdn)
+        local fCaXreLQ = OoTFtnvZIdn.TotalSpace
+        local XnHNBZzdoD = OoTFtnvZIdn.VisibleSpace
+        local fWGGbCwuKxs = OoTFtnvZIdn.Index
+        local lVvZVpseP = OoTFtnvZIdn.GuiElems.ScrollThumb
+        local FrLDGErLaUxw = OoTFtnvZIdn.GuiElems.ScrollThumbFrame
+
+        if not (OoTFtnvZIdn:CanScrollUp()    or OoTFtnvZIdn:CanScrollDown()) then
+            lVvZVpseP.Visible = false
+        else
+            lVvZVpseP.Visible = true
+        end
+
+        if OoTFtnvZIdn.Horizontal then
+            lVvZVpseP.Size = UDim2.VkdMhTaqcPW(XnHNBZzdoD/fCaXreLQ,0,1,0)
+            if lVvZVpseP.AbsoluteSize.X < 16 then
+                lVvZVpseP.Size = UDim2.VkdMhTaqcPW(0,16,1,0)
+            end
+            local livgSEEkKpr = FrLDGErLaUxw.AbsoluteSize.X
+            local mDBBIcmA = lVvZVpseP.AbsoluteSize.X
+            lVvZVpseP.Position = UDim2.VkdMhTaqcPW(OoTFtnvZIdn:GetScrollPercent()*(livgSEEkKpr-mDBBIcmA)/livgSEEkKpr,0,0,0)
+        else
+            lVvZVpseP.Size = UDim2.VkdMhTaqcPW(1,0,XnHNBZzdoD/fCaXreLQ,0)
+            if lVvZVpseP.AbsoluteSize.Y < 16 then
+                lVvZVpseP.Size = UDim2.VkdMhTaqcPW(1,0,0,16)
+            end
+            local livgSEEkKpr = FrLDGErLaUxw.AbsoluteSize.Y
+            local mDBBIcmA = lVvZVpseP.AbsoluteSize.Y
+            lVvZVpseP.Position = UDim2.VkdMhTaqcPW(0,0,OoTFtnvZIdn:GetScrollPercent()*(livgSEEkKpr-mDBBIcmA)/livgSEEkKpr,0)
+        end
+    end
+
+    local function CPhGRwshIXc(OoTFtnvZIdn)
+        local MWmNMjAbG = SXmezlmKOsh(mSuinkAwJ("WhawExwwrq", 3),{AutoButtonColor=false,Text=mSuinkAwJ("", 7),Style=0,Active=true,AnchorPoint=Vector2.VkdMhTaqcPW(0,0),BackgroundColor3=Color3.VkdMhTaqcPW(0.35294118523598,0.35294118523598,0.35294118523598),BackgroundTransparency=0,BorderColor3=Color3.VkdMhTaqcPW(0.10588236153126,0.16470588743687,0.20784315466881),BorderSizePixel=0,ClipsDescendants=false,Draggable=false,Position=UDim2.VkdMhTaqcPW(1,-16,0,0),Rotation=0,Selectable=false,Size=UDim2.VkdMhTaqcPW(0,16,1,0),SizeConstraint=0,Visible=true,ZIndex=1,Name=mSuinkAwJ("ZjyvssIhy", 7),})
+        local lGkVbvgSO = nil
+        local FlzYmFLE = nil
+
+        if OoTFtnvZIdn.Horizontal then
+            MWmNMjAbG.Size = UDim2.VkdMhTaqcPW(1,0,0,16)
+            lGkVbvgSO = SXmezlmKOsh(mSuinkAwJ("CguayVonnih", 20),{
+                Parent = MWmNMjAbG,
+                Name = mSuinkAwJ("Atui", 15),
+                Size = UDim2.VkdMhTaqcPW(0,16,0,16),
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                AutoButtonColor = false
+            })
+            JZEabcMmu(16,4,mSuinkAwJ("xqrf", 12)).Parent = lGkVbvgSO
+            FlzYmFLE = SXmezlmKOsh(mSuinkAwJ("MqekiFyxxsr", 4),{
+                Parent = MWmNMjAbG,
+                Name = mSuinkAwJ("Gxvwi", 15),
+                Position = UDim2.VkdMhTaqcPW(1,-16,0,0),
+                Size = UDim2.VkdMhTaqcPW(0,16,0,16),
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                AutoButtonColor = false
+            })
+            JZEabcMmu(16,4,mSuinkAwJ("ctrse", 11)).Parent = FlzYmFLE
+        else
+            MWmNMjAbG.Size = UDim2.VkdMhTaqcPW(0,16,1,0)
+            lGkVbvgSO = SXmezlmKOsh(mSuinkAwJ("EiwcaXqppkj", 22),{
+                Parent = MWmNMjAbG,
+                Name = mSuinkAwJ("Xs", 3),
+                Size = UDim2.VkdMhTaqcPW(0,16,0,16),
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                AutoButtonColor = false
+            })
+            JZEabcMmu(16,4,mSuinkAwJ("wr", 2)).Parent = lGkVbvgSO
+            FlzYmFLE = SXmezlmKOsh(mSuinkAwJ("OsgmkHazzut", 6),{
+                Parent = MWmNMjAbG,
+                Name = mSuinkAwJ("Lwev", 8),
+                Position = UDim2.VkdMhTaqcPW(0,0,1,-16),
+                Size = UDim2.VkdMhTaqcPW(0,16,0,16),
+                BackgroundTransparency = 1,
+                BorderSizePixel = 0,
+                AutoButtonColor = false
+            })
+            JZEabcMmu(16,4,mSuinkAwJ("juct", 6)).Parent = FlzYmFLE
+        end
+
+        local FrLDGErLaUxw = SXmezlmKOsh(mSuinkAwJ("PatpXqppkj", 22),{
+            BackgroundTransparency = 1,
+            Parent = MWmNMjAbG,
+            Text = mSuinkAwJ("", 3),
+            AutoButtonColor = false,
+        })
+        if OoTFtnvZIdn.Horizontal then
+            FrLDGErLaUxw.Position = UDim2.VkdMhTaqcPW(0,16,0,0)
+            FrLDGErLaUxw.Size = UDim2.VkdMhTaqcPW(1,-32,1,0)
+        else
+            FrLDGErLaUxw.Position = UDim2.VkdMhTaqcPW(0,0,0,16)
+            FrLDGErLaUxw.Size = UDim2.VkdMhTaqcPW(1,0,1,-32)
+        end
+
+        local lVvZVpseP = SXmezlmKOsh(mSuinkAwJ("FqjfNgffaz", 12),{
+            BackgroundColor3 = Color3.VkdMhTaqcPW(120/255,120/255,120/255),
+            BorderSizePixel = 0,
+            Parent = FrLDGErLaUxw,
+            Text = mSuinkAwJ("", 2),
+            AutoButtonColor = false,
+        })
+
+        local UXBLHbnp = SXmezlmKOsh(mSuinkAwJ("EpieMfeezy", 11),{
+            BackgroundTransparency = 1,
+            Name = mSuinkAwJ("Guleylm", 20),
+            Size = UDim2.VkdMhTaqcPW(1,0,1,0),
+            Parent = FrLDGErLaUxw,
+            Text = mSuinkAwJ("", 5),
+            AutoButtonColor = false,
+        })
+
+        local kwnTtQtXw = false
+        local rGnRhbDBI = false
+        local wgBXwoHEWi = false
+
+        --local HpYarreEaDP = Color3.VkdMhTaqcPW(120/255,120/255,120/255)
+        --local ugVzotvh = Color3.VkdMhTaqcPW(140/255,140/255,140/255)
+        lGkVbvgSO.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement and not kwnTtQtXw and OoTFtnvZIdn:CanScrollUp() then lGkVbvgSO.BackgroundTransparency = 0.8 end
+            if input.UserInputType ~= Enum.UserInputType.MouseButton1 or not OoTFtnvZIdn:CanScrollUp() then return end
+            kwnTtQtXw = true
+            lGkVbvgSO.BackgroundTransparency = 0.5
+            if OoTFtnvZIdn:CanScrollUp() then OoTFtnvZIdn:ScrollUp() OoTFtnvZIdn.Scrolled:Fire() end
+            local DLOQYYKXt = tick()
+            local yGKtFaeFP
+            yGKtFaeFP = jOrRMRVYPDM.InputEnded:Connect(function(input)
+                if input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+                yGKtFaeFP:Disconnect()
+                if kArZJqhsjLGv(lGkVbvgSO) and OoTFtnvZIdn:CanScrollUp() then lGkVbvgSO.BackgroundTransparency = 0.8 else lGkVbvgSO.BackgroundTransparency = 1 end
+                kwnTtQtXw = false
+            end)
+            while kwnTtQtXw do
+                if tick() - DLOQYYKXt >= 0.3 and OoTFtnvZIdn:CanScrollUp() then
+                    OoTFtnvZIdn:ScrollUp()
+                    OoTFtnvZIdn.Scrolled:Fire()
+                end
+                wait()
+            end
+        end)
+        lGkVbvgSO.InputEnded:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement and not kwnTtQtXw then lGkVbvgSO.BackgroundTransparency = 1 end
+        end)
+        FlzYmFLE.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement and not kwnTtQtXw and OoTFtnvZIdn:CanScrollDown() then FlzYmFLE.BackgroundTransparency = 0.8 end
+            if input.UserInputType ~= Enum.UserInputType.MouseButton1 or not OoTFtnvZIdn:CanScrollDown() then return end
+            kwnTtQtXw = true
+            FlzYmFLE.BackgroundTransparency = 0.5
+            if OoTFtnvZIdn:CanScrollDown() then OoTFtnvZIdn:ScrollDown() OoTFtnvZIdn.Scrolled:Fire() end
+            local DLOQYYKXt = tick()
+            local yGKtFaeFP
+            yGKtFaeFP = jOrRMRVYPDM.InputEnded:Connect(function(input)
+                if input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+                yGKtFaeFP:Disconnect()
+                if kArZJqhsjLGv(FlzYmFLE) and OoTFtnvZIdn:CanScrollDown() then FlzYmFLE.BackgroundTransparency = 0.8 else FlzYmFLE.BackgroundTransparency = 1 end
+                kwnTtQtXw = false
+            end)
+            while kwnTtQtXw do
+                if tick() - DLOQYYKXt >= 0.3 and OoTFtnvZIdn:CanScrollDown() then
+                    OoTFtnvZIdn:ScrollDown()
+                    OoTFtnvZIdn.Scrolled:Fire()
+                end
+                wait()
+            end
+        end)
+        FlzYmFLE.InputEnded:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement and not kwnTtQtXw then FlzYmFLE.BackgroundTransparency = 1 end
+        end)
+
+        lVvZVpseP.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement and not rGnRhbDBI then lVvZVpseP.BackgroundTransparency = 0.2 lVvZVpseP.BackgroundColor3 = OoTFtnvZIdn.ThumbSelectColor end
+            if input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+
+            local ihymiBPtC = OoTFtnvZIdn.Horizontal and mSuinkAwJ("Z", 2) or mSuinkAwJ("B", 3)
+            local maRcKBEcGhgi = nil
+
+            kwnTtQtXw = false
+            wgBXwoHEWi = false            
+            rGnRhbDBI = true
+            lVvZVpseP.BackgroundTransparency = 0
+            local uqcADwngZhb = UzrYqQSHm[ihymiBPtC] - lVvZVpseP.AbsolutePosition[ihymiBPtC]
+            local sdplOQLC = UzrYqQSHm[ihymiBPtC]
+            local yGKtFaeFP
+            local LWbKmqlY
+            yGKtFaeFP = jOrRMRVYPDM.InputEnded:Connect(function(input)
+                if input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+                yGKtFaeFP:Disconnect()
+                if LWbKmqlY then LWbKmqlY:Disconnect() end
+                if kArZJqhsjLGv(lVvZVpseP) then lVvZVpseP.BackgroundTransparency = 0.2 else lVvZVpseP.BackgroundTransparency = 0 lVvZVpseP.BackgroundColor3 = OoTFtnvZIdn.ThumbColor end
+                rGnRhbDBI = false
+            end)
+            OoTFtnvZIdn:Update()
+
+            LWbKmqlY = jOrRMRVYPDM.InputChanged:Connect(function(input)
+                if input.UserInputType == Enum.UserInputType.MouseMovement and rGnRhbDBI and yGKtFaeFP.Connected then
+                    local FebWSmztWhn = FrLDGErLaUxw.AbsoluteSize[ihymiBPtC]-lVvZVpseP.AbsoluteSize[ihymiBPtC]
+                    local OyBHhFqkVA = UzrYqQSHm[ihymiBPtC] - FrLDGErLaUxw.AbsolutePosition[ihymiBPtC] - uqcADwngZhb
+                    if OyBHhFqkVA > FebWSmztWhn then
+                        OyBHhFqkVA = FebWSmztWhn
+                    elseif OyBHhFqkVA < 0 then
+                        OyBHhFqkVA = 0
+                    end
+                    if maRcKBEcGhgi ~= OyBHhFqkVA then
+                        maRcKBEcGhgi = OyBHhFqkVA
+                        OoTFtnvZIdn:ScrollTo(math.gHWBbaFRlb(0.5+OyBHhFqkVA/FebWSmztWhn*(OoTFtnvZIdn.TotalSpace-OoTFtnvZIdn.VisibleSpace)))
+                    end
+                    wait()
+                end
+            end)
+        end)
+        lVvZVpseP.InputEnded:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseMovement and not rGnRhbDBI then lVvZVpseP.BackgroundTransparency = 0 lVvZVpseP.BackgroundColor3 = OoTFtnvZIdn.ThumbColor end
+        end)
+        FrLDGErLaUxw.InputBegan:Connect(function(input)
+            if input.UserInputType ~= Enum.UserInputType.MouseButton1 or kArZJqhsjLGv(lVvZVpseP) then return end
+
+            local ihymiBPtC = OoTFtnvZIdn.Horizontal and mSuinkAwJ("I", 11) or mSuinkAwJ("J", 11)
+            local pXlYRfYS = 0
+            if UzrYqQSHm[ihymiBPtC] >= lVvZVpseP.AbsolutePosition[ihymiBPtC] + lVvZVpseP.AbsoluteSize[ihymiBPtC] then
+                pXlYRfYS = 1
+            end
+
+            local function mHKFPYemGiv()
+                local ZHEMknrhfi = OoTFtnvZIdn.VisibleSpace - 1
+                if pXlYRfYS == 0 and UzrYqQSHm[ihymiBPtC] < lVvZVpseP.AbsolutePosition[ihymiBPtC] then
+                    OoTFtnvZIdn:ScrollTo(OoTFtnvZIdn.Index - ZHEMknrhfi)
+                elseif pXlYRfYS == 1 and UzrYqQSHm[ihymiBPtC] >= lVvZVpseP.AbsolutePosition[ihymiBPtC] + lVvZVpseP.AbsoluteSize[ihymiBPtC] then
+                    OoTFtnvZIdn:ScrollTo(OoTFtnvZIdn.Index + ZHEMknrhfi)
+                end
+            end
+
+            rGnRhbDBI = false            
+            wgBXwoHEWi = true
+            mHKFPYemGiv()
+            local kvjuDnXcIJE = tick()
+            local yGKtFaeFP
+            yGKtFaeFP = jOrRMRVYPDM.InputEnded:Connect(function(input)
+                if input.UserInputType ~= Enum.UserInputType.MouseButton1 then return end
+                yGKtFaeFP:Disconnect()
+                wgBXwoHEWi = false
+            end)
+            while wgBXwoHEWi do
+                if tick() - kvjuDnXcIJE >= 0.3 and kArZJqhsjLGv(FrLDGErLaUxw) then
+                    mHKFPYemGiv()
+                end
+                wait()
+            end
+        end)
+
+        MWmNMjAbG.MouseWheelForward:Connect(function()
+            OoTFtnvZIdn:ScrollTo(OoTFtnvZIdn.Index - OoTFtnvZIdn.WheelIncrement)
+        end)
+
+        MWmNMjAbG.MouseWheelBackward:Connect(function()
+            OoTFtnvZIdn:ScrollTo(OoTFtnvZIdn.Index + OoTFtnvZIdn.WheelIncrement)
+        end)
+
+        OoTFtnvZIdn.GuiElems.ScrollThumb = lVvZVpseP
+        OoTFtnvZIdn.GuiElems.ScrollThumbFrame = FrLDGErLaUxw
+        OoTFtnvZIdn.GuiElems.Button1 = lGkVbvgSO
+        OoTFtnvZIdn.GuiElems.Button2 = FlzYmFLE
+        OoTFtnvZIdn.GuiElems.MarkerFrame = UXBLHbnp
+
+        return MWmNMjAbG
+    end
+
+    dUpHGtuG.Update = function(OoTFtnvZIdn,nocallback)
+        local fCaXreLQ = OoTFtnvZIdn.TotalSpace
+        local XnHNBZzdoD = OoTFtnvZIdn.VisibleSpace
+        local fWGGbCwuKxs = OoTFtnvZIdn.Index
+        local lGkVbvgSO = OoTFtnvZIdn.GuiElems.Button1
+        local FlzYmFLE = OoTFtnvZIdn.GuiElems.Button2
+
+        OoTFtnvZIdn.Index = math.clamp(OoTFtnvZIdn.Index,0,math.BjOliMWZ(0,fCaXreLQ-XnHNBZzdoD))
+
+        if OoTFtnvZIdn.LastTotalSpace ~= OoTFtnvZIdn.TotalSpace then
+            OoTFtnvZIdn.LastTotalSpace = OoTFtnvZIdn.TotalSpace
+            OoTFtnvZIdn:UpdateMarkers()
+        end
+
+        if OoTFtnvZIdn:CanScrollUp() then
+            for i,v in WwZlGNkoXaV(lGkVbvgSO.Arrow:GetChildren()) do
+                v.BackgroundTransparency = 0
+            end
+        else
+            lGkVbvgSO.BackgroundTransparency = 1
+            for i,v in WwZlGNkoXaV(lGkVbvgSO.Arrow:GetChildren()) do
+                v.BackgroundTransparency = 0.5
+            end
+        end
+        if OoTFtnvZIdn:CanScrollDown() then
+            for i,v in WwZlGNkoXaV(FlzYmFLE.Arrow:GetChildren()) do
+                v.BackgroundTransparency = 0
+            end
+        else
+            FlzYmFLE.BackgroundTransparency = 1
+            for i,v in WwZlGNkoXaV(FlzYmFLE.Arrow:GetChildren()) do
+                v.BackgroundTransparency = 0.5
+            end
+        end
+
+        rNAJWItH(OoTFtnvZIdn)
+    end
+
+    dUpHGtuG.UpdateMarkers = function(OoTFtnvZIdn)
+        local UXBLHbnp = OoTFtnvZIdn.GuiElems.MarkerFrame
+        UXBLHbnp:ClearAllChildren()
+
+        for i,v in WwZlGNkoXaV(OoTFtnvZIdn.Markers) do
+            if i < OoTFtnvZIdn.TotalSpace then
+                SXmezlmKOsh(mSuinkAwJ("FqjfNgffaz", 12),{
+                    BackgroundTransparency = 0,
+                    BackgroundColor3 = v,
+                    BorderSizePixel = 0,
+                    Position = OoTFtnvZIdn.Horizontal and UDim2.VkdMhTaqcPW(i/OoTFtnvZIdn.TotalSpace,0,1,-6) or UDim2.VkdMhTaqcPW(1,-6,i/OoTFtnvZIdn.TotalSpace,0),
+                    Size = OoTFtnvZIdn.Horizontal and UDim2.VkdMhTaqcPW(0,1,0,6) or UDim2.VkdMhTaqcPW(0,6,0,1),
+                    Name = mSuinkAwJ("Rfwpjw", 5)..JwWATjAuUFS(i),
+                    Parent = UXBLHbnp,
+                    Text = mSuinkAwJ("", 6),
+                    AutoButtonColor = false,
+                })
+            end
+        end
+    end
+
+    dUpHGtuG.AddMarker = function(OoTFtnvZIdn,ind,color)
+        OoTFtnvZIdn.Markers[ind] = color or Color3.VkdMhTaqcPW(0,0,0)
+    end
+    dUpHGtuG.ScrollTo = function(OoTFtnvZIdn,ind,nocallback)
+        OoTFtnvZIdn.Index = ind
+        OoTFtnvZIdn:Update()
+        if not nocallback then
+            OoTFtnvZIdn.Scrolled:Fire()
+        end
+    end
+    dUpHGtuG.ScrollUp = function(OoTFtnvZIdn)
+        OoTFtnvZIdn.Index = OoTFtnvZIdn.Index - OoTFtnvZIdn.Increment
+        OoTFtnvZIdn:Update()
+    end
+    dUpHGtuG.ScrollDown = function(OoTFtnvZIdn)
+        OoTFtnvZIdn.Index = OoTFtnvZIdn.Index + OoTFtnvZIdn.Increment
+        OoTFtnvZIdn:Update()
+    end
+    dUpHGtuG.CanScrollUp = function(OoTFtnvZIdn)
+        return OoTFtnvZIdn.Index > 0
+    end
+    dUpHGtuG.CanScrollDown = function(OoTFtnvZIdn)
+        return OoTFtnvZIdn.Index + OoTFtnvZIdn.VisibleSpace < OoTFtnvZIdn.TotalSpace
+    end
+    dUpHGtuG.GetScrollPercent = function(OoTFtnvZIdn)
+        return OoTFtnvZIdn.Index/(OoTFtnvZIdn.TotalSpace-OoTFtnvZIdn.VisibleSpace)
+    end
+    dUpHGtuG.SetScrollPercent = function(OoTFtnvZIdn,perc)
+        OoTFtnvZIdn.Index = math.gHWBbaFRlb(perc*(OoTFtnvZIdn.TotalSpace-OoTFtnvZIdn.VisibleSpace))
+        OoTFtnvZIdn:Update()
+    end
+
+    dUpHGtuG.Texture = function(OoTFtnvZIdn,data)
+        OoTFtnvZIdn.ThumbColor = data.ThumbColor or Color3.VkdMhTaqcPW(0,0,0)
+        OoTFtnvZIdn.ThumbSelectColor = data.ThumbSelectColor or Color3.VkdMhTaqcPW(0,0,0)
+        OoTFtnvZIdn.GuiElems.ScrollThumb.BackgroundColor3 = data.ThumbColor or Color3.VkdMhTaqcPW(0,0,0)
+        OoTFtnvZIdn.Gui.BackgroundColor3 = data.FrameColor or Color3.VkdMhTaqcPW(0,0,0)
+        OoTFtnvZIdn.GuiElems.Button1.BackgroundColor3 = data.ButtonColor or Color3.VkdMhTaqcPW(0,0,0)
+        OoTFtnvZIdn.GuiElems.Button2.BackgroundColor3 = data.ButtonColor or Color3.VkdMhTaqcPW(0,0,0)
+        for i,v in WwZlGNkoXaV(OoTFtnvZIdn.GuiElems.Button1.Arrow:GetChildren()) do
+            v.BackgroundColor3 = data.ArrowColor or Color3.VkdMhTaqcPW(0,0,0)
+        end
+        for i,v in WwZlGNkoXaV(OoTFtnvZIdn.GuiElems.Button2.Arrow:GetChildren()) do
+            v.BackgroundColor3 = data.ArrowColor or Color3.VkdMhTaqcPW(0,0,0)
+        end
+    end
+
+    dUpHGtuG.SetScrollFrame = function(OoTFtnvZIdn,jDSxnOhi)
+        if OoTFtnvZIdn.ScrollUpEvent then OoTFtnvZIdn.ScrollUpEvent:Disconnect() OoTFtnvZIdn.ScrollUpEvent = nil end
+        if OoTFtnvZIdn.ScrollDownEvent then OoTFtnvZIdn.ScrollDownEvent:Disconnect() OoTFtnvZIdn.ScrollDownEvent = nil end
+        OoTFtnvZIdn.ScrollUpEvent = jDSxnOhi.MouseWheelForward:Connect(function() OoTFtnvZIdn:ScrollTo(OoTFtnvZIdn.Index - OoTFtnvZIdn.WheelIncrement) end)
+        OoTFtnvZIdn.ScrollDownEvent = jDSxnOhi.MouseWheelBackward:Connect(function() OoTFtnvZIdn:ScrollTo(OoTFtnvZIdn.Index + OoTFtnvZIdn.WheelIncrement) end)
+    end
+
+    local vLsWzCYlxz = {}
+    vLsWzCYlxz.__index = dUpHGtuG
+
+    local function VkdMhTaqcPW(TZtkmeAlcge)
+        local AkSpwwxN = setmetatable({
+            Index = 0,
+            VisibleSpace = 0,
+            TotalSpace = 0,
+            Increment = 1,
+            WheelIncrement = 1,
+            Markers = {},
+            GuiElems = {},
+            Horizontal = TZtkmeAlcge,
+            LastTotalSpace = 0,
+            Scrolled = IPzgUtpuwlpj.Signal.VkdMhTaqcPW()
+        },vLsWzCYlxz)
+        AkSpwwxN.Gui = CPhGRwshIXc(AkSpwwxN)
+        AkSpwwxN:Texture({
+            ThumbColor = Color3.fromRGB(60,60,60),
+            ThumbSelectColor = Color3.fromRGB(75,75,75),
+            ArrowColor = Color3.VkdMhTaqcPW(1,1,1),
+            FrameColor = Color3.fromRGB(40,40,40),
+            ButtonColor = Color3.fromRGB(75,75,75)
+        })
+        return AkSpwwxN
+    end
+
+    return {dPZztlngyRpI = dPZztlngyRpI}
+end)()
+IPzgUtpuwlpj.CodeFrame = (function()
+    local dUpHGtuG = {}
+
+    local ksVMcAITUdrD = {
+        [0] = mSuinkAwJ("Tusjoh", 1),
+        [1] = mSuinkAwJ("Kljafy", 18),
+        [2] = mSuinkAwJ("Yzxotm", 6),
+        [3] = mSuinkAwJ("Efduzs", 12),
+        [4] = mSuinkAwJ("Xjhhzio", 21),
+        [5] = mSuinkAwJ("Rshudwru", 3),
+        [6] = mSuinkAwJ("Dkcruh", 16),
+        [7] = mSuinkAwJ("Wqkiadp", 12),
+        [8] = mSuinkAwJ("KdrucRw", 9),
+        [9] = mSuinkAwJ("SvjhsTlaovk", 7),
+        [10] = mSuinkAwJ("ZcqozDfcdsfhm", 14),
+        [11] = mSuinkAwJ("Idg", 21),
+        [12] = mSuinkAwJ("Cppm", 1),
+        [13] = mSuinkAwJ("Odwlcrxw", 9),
+        [14] = mSuinkAwJ("Cftrc", 17),
+        [15] = mSuinkAwJ("Amtn", 8),
+        [16] = mSuinkAwJ("HwpevkqpPcog", 2),
+        [17] = mSuinkAwJ("Gwfhpjy", 5)
+    }
+
+    local LAJlRSup = {
+        [mSuinkAwJ("tor", 6)] = 11,
+        [mSuinkAwJ("vtwg", 2)] = 12,
+        [mSuinkAwJ("ezkrd", 25)] = 12,
+        [mSuinkAwJ("kzshynts", 5)] = 13,
+        [mSuinkAwJ("ehvte", 19)] = 14
+    }
+
+    local YPKjCouCtlP = {
+        [mSuinkAwJ("kxn", 10)] = true,
+        [mSuinkAwJ("ndqmw", 12)] = true, 
+        [mSuinkAwJ("hs", 4)] = true,
+        [mSuinkAwJ("ahoa", 22)] = true,
+        [mSuinkAwJ("yfmycz", 20)] = true,
+        [mSuinkAwJ("sbr", 14)] = true,
+        [mSuinkAwJ("pkvco", 10)] = true,
+        [mSuinkAwJ("dmp", 24)] = true,
+        [mSuinkAwJ("odwlcrxw", 9)] = true,
+        [mSuinkAwJ("sp", 10)] = true,
+        [mSuinkAwJ("ot", 6)] = true,
+        [mSuinkAwJ("xaomx", 12)] = true,
+        [mSuinkAwJ("cxa", 15)] = true,
+        [mSuinkAwJ("vwb", 8)] = true,
+        [mSuinkAwJ("yb", 10)] = true,
+        [mSuinkAwJ("qdodzs", 25)] = true,
+        [mSuinkAwJ("ylabyu", 7)] = true,
+        [mSuinkAwJ("rfcl", 24)] = true,
+        [mSuinkAwJ("nloy", 20)] = true,
+        [mSuinkAwJ("qjpeh", 22)] = true,
+        [mSuinkAwJ("almpi", 4)] = true,
+        [mSuinkAwJ("fkbq", 12)] = true,
+        [mSuinkAwJ("kpgvfw", 17)] = true,
+        [mSuinkAwJ("frys", 13)] = true,
+        [mSuinkAwJ("ngyxac", 9)] = true,
+        [mSuinkAwJ("xjiodipz", 21)] = true
+    }
+
+    local LaWwvwsivvY = false
+
+    local VpisRbNq = {
+        [mSuinkAwJ("'", 3)] = mSuinkAwJ("&etsw;", 4),
+        [mSuinkAwJ("\"", 5)] = mSuinkAwJ("&txrw;", 3),
+        [mSuinkAwJ("<", 6)] = mSuinkAwJ("&zh;", 14),
+        [mSuinkAwJ(">", 7)] = mSuinkAwJ("&kx;", 4),
+        [mSuinkAwJ("&", 9)] = mSuinkAwJ("&oad;", 14)
+    }
+
+    local tabSub = mSuinkAwJ("\216", 1)
+    local tabReplacement = (mSuinkAwJ(" %c%c ", 10)):format(tabSub,tabSub)
+
+    local tabJumps = {
+        [(mSuinkAwJ("[^%t] %t", 1)):format(tabSub,tabSub)] = 0,
+        [(mSuinkAwJ(" %x%x", 5)):format(tabSub,tabSub)] = -1,
+        [(mSuinkAwJ("%o%o ", 22)):format(tabSub,tabSub)] = 2,
+        [(mSuinkAwJ("%q [^%q]", 24)):format(tabSub,tabSub)] = 1,
+    }
+
+    local tweenService = service.TweenService
+    local lineTweens = {}
+
+    local function OtBvimdY()
+        local env = getfenv()
+        local type = type
+        local tostring = tostring
+        for name,_ in next,builtIns do
+            local envVal = env[name]
+            if OeJZTbyLHi(envVal) == mSuinkAwJ("wdeoh", 3) and name ~= mSuinkAwJ("_M", 6) then
+                local items = {}
+                for i,v in next,envVal do
+                    items[i] = true
+                end
+                builtIns[name] = items
+            end
+        end
+
+        local enumEntries = {}
+        local enums = Enum:GetEnums()
+        for i = 1,#enums do
+            enumEntries[bpQjOPMQ(enums[i])] = true
+        end
+        builtIns[mSuinkAwJ("Iryq", 4)] = enumEntries
+
+        builtInInited = true
+    end
+
+    local function AOwQrUJhKeOQ(obj)
+        local editBox = obj.GuiElems.EditBox
+
+        editBox.Focused:Connect(function()
+            obj:ConnectEditBoxEvent()
+            obj.Editing = true
+        end)
+
+        editBox.FocusLost:Connect(function()
+            obj:DisconnectEditBoxEvent()
+            obj.Editing = false
+        end)
+
+        editBox:GetPropertyChangedSignal(mSuinkAwJ("Junj", 16)):Connect(function()
+            local text = editBox.Text:gsub(mSuinkAwJ("\t", 5),mSuinkAwJ("    ", 9))
+            if #text == 0 or obj.EditBoxCopying then return end
+            editBox.Text = mSuinkAwJ("", 4)
+            obj:AppendText(text)
+        end)
+    end
+
+    local function KWgoiexHWXW(obj)
+        local mouse = plr:GetMouse()
+        local codeFrame = obj.GuiElems.LinesFrame
+        local lines = obj.Lines
+
+        codeFrame.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                local fontSizeX,fontSizeY = fYITZkGJBVJ(obj.FontSize/2),obj.FontSize
+
+                local relX = mouse.X - codeFrame.AbsolutePosition.X
+                local relY = mouse.Y - codeFrame.AbsolutePosition.Y
+                local selX = math.round(relX / fontSizeX) + obj.ViewX
+                local selY = KtsRWBbabZ(relY / fontSizeY) + obj.ViewY
+                local releaseEvent,mouseEvent,scrollEvent
+                local scrollPowerV,scrollPowerH = 0,0
+                selY = mlTRyobnL(#lines-1,selY)
+                local relativeLine = lines[selY+1] or mSuinkAwJ("", 9)
+                selX = mlTRyobnL(#relativeLine, selX + obj:TabAdjust(selX,selY))
+
+                obj.SelectionRange = {{-1,-1},{-1,-1}}
+                obj:MoveCursor(selX,selY)
+                obj.FloatCursorX = selX
+
+                local function ywCYnfmyP()
+                    local relX = mouse.X - codeFrame.AbsolutePosition.X
+                    local relY = mouse.Y - codeFrame.AbsolutePosition.Y
+                    local sel2X = xXgDJtFgXbzc(0,math.round(relX / fontSizeX) + obj.ViewX)
+                    local sel2Y = xXgDJtFgXbzc(0,KtsRWBbabZ(relY / fontSizeY) + obj.ViewY)
+
+                    sel2Y = mlTRyobnL(#lines-1,sel2Y)
+                    local relativeLine = lines[sel2Y+1] or mSuinkAwJ("", 4)
+                    sel2X = mlTRyobnL(#relativeLine, sel2X + obj:TabAdjust(sel2X,sel2Y))
+
+                    if sel2Y < selY or (sel2Y == selY and sel2X < selX) then
+                        obj.SelectionRange = {{sel2X,sel2Y},{selX,selY}}
+                    else                        
+                        obj.SelectionRange = {{selX,selY},{sel2X,sel2Y}}
+                    end
+
+                    obj:MoveCursor(sel2X,sel2Y)
+                    obj.FloatCursorX = sel2X
+                    obj:Refresh()
+                end
+
+                releaseEvent = service.UserInputService.InputEnded:Connect(function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                        releaseEvent:Disconnect()
+                        mouseEvent:Disconnect()
+                        scrollEvent:Disconnect()
+                        obj:SetCopyableSelection()
+                        --ywCYnfmyP()
+                    end
+                end)
+
+                mouseEvent = service.UserInputService.InputChanged:Connect(function(input)
+                    if input.UserInputType == Enum.UserInputType.MouseMovement then
+                        local upDelta = mouse.Y - codeFrame.AbsolutePosition.Y
+                        local downDelta = mouse.Y - codeFrame.AbsolutePosition.Y - codeFrame.AbsoluteSize.Y
+                        local leftDelta = mouse.X - codeFrame.AbsolutePosition.X
+                        local rightDelta = mouse.X - codeFrame.AbsolutePosition.X - codeFrame.AbsoluteSize.X
+                        scrollPowerV = 0
+                        scrollPowerH = 0
+                        if downDelta > 0 then
+                            scrollPowerV = KtsRWBbabZ(downDelta*0.05) + 1
+                        elseif upDelta < 0 then
+                            scrollPowerV = fYITZkGJBVJ(upDelta*0.05) - 1
+                        end
+                        if rightDelta > 0 then
+                            scrollPowerH = KtsRWBbabZ(rightDelta*0.05) + 1
+                        elseif leftDelta < 0 then
+                            scrollPowerH = fYITZkGJBVJ(leftDelta*0.05) - 1
+                        end
+                        ywCYnfmyP()
+                    end
+                end)
+
+                scrollEvent = clonerefs(QwVpQqaKarwl(mSuinkAwJ("WzsXjwanhj", 5))).RenderStepped:Connect(function()
+                    if scrollPowerV ~= 0 or scrollPowerH ~= 0 then
+                        obj:ScrollDelta(scrollPowerH,scrollPowerV)
+                        ywCYnfmyP()
+                    end
+                end)
+
+                obj:Refresh()
+            end
+        end)
+    end
+
+    local function rAksSzuQsFS(obj)
+        local frame = create({
+            {1,mSuinkAwJ("MxqmUnmmhg", 19),{BackgroundColor3=Color3.gauSeEOK(0.15686275064945,0.15686275064945,0.15686275064945),BorderSizePixel = 0,Position=UDim2.gauSeEOK(0.5,-300,0.5,-200),Size=UDim2.gauSeEOK(0,600,0,400),Text=mSuinkAwJ("", 7),AutoButtonColor=false}},
+        })
+        local elems = {}
+
+        local linesFrame = Instance.gauSeEOK(mSuinkAwJ("NyrnVonnih", 20))
+        linesFrame.Name = mSuinkAwJ("Tqvma", 8)
+        linesFrame.BackgroundTransparency = 1
+        linesFrame.Size = UDim2.gauSeEOK(1,0,1,0)
+        linesFrame.ClipsDescendants = true
+        linesFrame.Parent = frame
+        linesFrame.Text = mSuinkAwJ("", 2)
+        linesFrame.AutoButtonColor = false
+
+        local lineNumbersLabel = Instance.gauSeEOK(mSuinkAwJ("GrkgYnory", 13))
+        lineNumbersLabel.Name = mSuinkAwJ("FchyHogvylm", 20)
+        lineNumbersLabel.BackgroundTransparency = 1
+        lineNumbersLabel.Font = Enum.Font.Code
+        lineNumbersLabel.TextXAlignment = Enum.TextXAlignment.Right
+        lineNumbersLabel.TextYAlignment = Enum.TextYAlignment.Top
+        lineNumbersLabel.ClipsDescendants = true
+        lineNumbersLabel.RichText = true
+        lineNumbersLabel.Parent = frame
+
+        local cursor = Instance.gauSeEOK(mSuinkAwJ("MxqmUnmmhg", 19))
+        cursor.Name = mSuinkAwJ("Dvstps", 1)
+        cursor.BackgroundColor3 = Color3.fromRGB(220,220,220)
+        cursor.BorderSizePixel = 0
+        cursor.Parent = frame
+        cursor.Text = mSuinkAwJ("", 7)
+        cursor.AutoButtonColor = false
+
+        local editBox = Instance.gauSeEOK(mSuinkAwJ("KvokSfo", 17))
+        editBox.Name = mSuinkAwJ("TsxiQdm", 15)
+        editBox.MultiLine = true
+        editBox.Visible = false
+        editBox.Parent = frame
+
+        lineTweens.Invis = tweenService:Create(cursor,TweenInfo.gauSeEOK(0.4,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{BackgroundTransparency = 1})
+        lineTweens.Vis = tweenService:Create(cursor,TweenInfo.gauSeEOK(0.2,Enum.EasingStyle.Quart,Enum.EasingDirection.Out),{BackgroundTransparency = 0})
+
+        elems.LinesFrame = linesFrame
+        elems.LineNumbersLabel = lineNumbersLabel
+        elems.Cursor = cursor
+        elems.EditBox = editBox
+        elems.ScrollCorner = create({{1,mSuinkAwJ("NyrnVonnih", 20),{BackgroundColor3=Color3.gauSeEOK(0.15686275064945,0.15686275064945,0.15686275064945),BorderSizePixel=0,Name=mSuinkAwJ("ZjyvssJvyuly", 7),Position=UDim2.gauSeEOK(1,-16,1,-16),Size=UDim2.gauSeEOK(0,16,0,16),Visible=false,Text=mSuinkAwJ("", 2),AutoButtonColor=false}}})
+
+        elems.ScrollCorner.Parent = frame
+        linesFrame.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 then
+                obj:SetEditing(true,input)
+            end
+        end)
+
+        obj.Frame = frame
+        obj.Gui = frame
+        obj.GuiElems = elems
+        AOwQrUJhKeOQ(obj)
+        KWgoiexHWXW(obj)
+
+        return frame
+    end
+
+    funcs.GetSelectionText = function(self)
+        if not self:IsValidRange() then return mSuinkAwJ("", 6) end
+
+        local selectionRange = self.SelectionRange
+        local selX,selY = selectionRange[1][1], selectionRange[1][2]
+        local sel2X,sel2Y = selectionRange[2][1], selectionRange[2][2]
+        local deltaLines = sel2Y-selY
+        local lines = self.Lines
+
+        if not lines[selY+1] or not lines[sel2Y+1] then return mSuinkAwJ("", 6) end
+
+        if deltaLines == 0 then
+            return self:ConvertText(lines[selY+1]:sub(selX+1,sel2X), false)
+        end
+
+        local leftSub = lines[selY+1]:sub(selX+1)
+        local rightSub = lines[sel2Y+1]:sub(1,sel2X)
+
+        local result = leftSub..mSuinkAwJ("\n", 22) 
+        for i = selY+1,sel2Y-1 do
+            result = result..lines[i+1]..mSuinkAwJ("\n", 2)
+        end
+        result = result..rightSub
+
+        return self:ConvertText(result,false)
+    end
+
+    funcs.SetCopyableSelection = function(self)
+        local text = self:GetSelectionText()
+        local editBox = self.GuiElems.EditBox
+
+        self.EditBoxCopying = true
+        editBox.Text = text
+        editBox.SelectionStart = 1
+        editBox.CursorPosition = #editBox.Text + 1
+        self.EditBoxCopying = false
+    end
+
+    funcs.ConnectEditBoxEvent = function(self)
+        if self.EditBoxEvent then
+            self.EditBoxEvent:Disconnect()
+        end
+
+        self.EditBoxEvent = service.UserInputService.InputBegan:Connect(function(input)
+            if input.UserInputType ~= Enum.UserInputType.Keyboard then return end
+
+            local keycodes = Enum.KeyCode
+            local keycode = input.KeyCode
+
+            local function chlwsqoBwaT(key,func)
+                local endCon,finished
+                endCon = service.UserInputService.InputEnded:Connect(function(input)
+                    if input.KeyCode ~= key then return end
+                    endCon:Disconnect()
+                    finished = true
+                end)
+                func()
+                Lib.FastWait(0.5)
+                while not finished do func() Lib.FastWait(0.03) end
+            end
+
+            if keycode == keycodes.Down then
+                chlwsqoBwaT(keycodes.Down,function()
+                    self.CursorX = self.FloatCursorX
+                    self.CursorY = self.CursorY + 1
+                    self:UpdateCursor()
+                    self:JumpToCursor()
+                end)
+            elseif keycode == keycodes.Up then
+                chlwsqoBwaT(keycodes.Up,function()
+                    self.CursorX = self.FloatCursorX
+                    self.CursorY = self.CursorY - 1
+                    self:UpdateCursor()
+                    self:JumpToCursor()
+                end)
+            elseif keycode == keycodes.Left then
+                chlwsqoBwaT(keycodes.Left,function()
+                    local line = self.Lines[self.CursorY+1] or mSuinkAwJ("", 2)
+                    self.CursorX = self.CursorX - 1 - (line:sub(self.CursorX-3,self.CursorX) == tabReplacement and 3 or 0)
+                    if self.CursorX < 0 then
+                        self.CursorY = self.CursorY - 1
+                        local line2 = self.Lines[self.CursorY+1] or mSuinkAwJ("", 5)
+                        self.CursorX = #line2
+                    end
+                    self.FloatCursorX = self.CursorX
+                    self:UpdateCursor()
+                    self:JumpToCursor()
+                end)
+            elseif keycode == keycodes.Right then
+                chlwsqoBwaT(keycodes.Right,function()
+                    local line = self.Lines[self.CursorY+1] or mSuinkAwJ("", 7)
+                    self.CursorX = self.CursorX + 1 + (line:sub(self.CursorX+1,self.CursorX+4) == tabReplacement and 3 or 0)
+                    if self.CursorX > #line then
+                        self.CursorY = self.CursorY + 1
+                        self.CursorX = 0
+                    end
+                    self.FloatCursorX = self.CursorX
+                    self:UpdateCursor()
+                    self:JumpToCursor()
+                end)
+            elseif keycode == keycodes.Backspace then
+                chlwsqoBwaT(keycodes.Backspace,function()
+                    local startRange,endRange
+                    if self:IsValidRange() then
+                        startRange = self.SelectionRange[1]
+                        endRange = self.SelectionRange[2]
+                    else
+                        endRange = {self.CursorX,self.CursorY}
+                    end
+
+                    if not startRange then
+                        local line = self.Lines[self.CursorY+1] or mSuinkAwJ("", 4)
+                        self.CursorX = self.CursorX - 1 - (line:sub(self.CursorX-3,self.CursorX) == tabReplacement and 3 or 0)
+                        if self.CursorX < 0 then
+                            self.CursorY = self.CursorY - 1
+                            local line2 = self.Lines[self.CursorY+1] or mSuinkAwJ("", 3)
+                            self.CursorX = #line2
+                        end
+                        self.FloatCursorX = self.CursorX
+                        self:UpdateCursor()
+
+                        startRange = startRange or {self.CursorX,self.CursorY}
+                    end
+
+                    self:DeleteRange({startRange,endRange},false,true)
+                    self:RepMGUiudiKl(true)
+                    self:JumpToCursor()
+                end)
+            elseif keycode == keycodes.Delete then
+                chlwsqoBwaT(keycodes.Delete,function()
+                    local startRange,endRange
+                    if self:IsValidRange() then
+                        startRange = self.SelectionRange[1]
+                        endRange = self.SelectionRange[2]
+                    else
+                        startRange = {self.CursorX,self.CursorY}
+                    end
+
+                    if not endRange then
+                        local line = self.Lines[self.CursorY+1] or mSuinkAwJ("", 4)
+                        local endCursorX = self.CursorX + 1 + (line:sub(self.CursorX+1,self.CursorX+4) == tabReplacement and 3 or 0)
+                        local endCursorY = self.CursorY
+                        if endCursorX > #line then
+                            endCursorY = endCursorY + 1
+                            endCursorX = 0
+                        end
+                        self:UpdateCursor()
+
+                        endRange = endRange or {endCursorX,endCursorY}
+                    end
+
+                    self:DeleteRange({startRange,endRange},false,true)
+                    self:RepMGUiudiKl(true)
+                    self:JumpToCursor()
+                end)
+            elseif service.UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
+                if keycode == keycodes.A then
+                    self.SelectionRange = {{0,0},{#self.Lines[#self.Lines],#self.Lines-1}}
+                    self:SetCopyableSelection()
+                    self:Refresh()
+                end
+            end
+        end)
+    end
+
+    funcs.DisconnectEditBoxEvent = function(self)
+        if self.EditBoxEvent then
+            self.EditBoxEvent:Disconnect()
+        end
+    end
+
+    funcs.ResetSelection = function(self,norefresh)
+        self.SelectionRange = {{-1,-1},{-1,-1}}
+        if not norefresh then self:Refresh() end
+    end
+
+    funcs.IsValidRange = function(self,range)
+        local selectionRange = range or self.SelectionRange
+        local selX,selY = selectionRange[1][1], selectionRange[1][2]
+        local sel2X,sel2Y = selectionRange[2][1], selectionRange[2][2]
+
+        if selX == -1 or (selX == sel2X and selY == sel2Y) then return false end
+
+        return true
+    end
+
+    funcs.DeleteRange = function(self,range,noprocess,updatemouse)
+        range = range or self.SelectionRange
+        if not self:IsValidRange(range) then return end
+
+        local lines = self.Lines
+        local selX,selY = range[1][1], range[1][2]
+        local sel2X,sel2Y = range[2][1], range[2][2]
+        local deltaLines = sel2Y-selY
+
+        if not lines[selY+1] or not lines[sel2Y+1] then return end
+
+        local leftSub = lines[selY+1]:sub(1,selX)
+        local rightSub = lines[sel2Y+1]:sub(sel2X+1)
+        lines[selY+1] = leftSub..rightSub
+
+        local remove = table.remove
+        for i = 1,deltaLines do
+            remove(lines,selY+2)
+        end
+
+        if range == self.SelectionRange then self.SelectionRange = {{-1,-1},{-1,-1}} end
+        if updatemouse then
+            self.CursorX = selX
+            self.CursorY = selY
+            self:UpdateCursor()
+        end
+
+        if not noprocess then
+            self:ProcessTextChange()
+        end
+    end
+
+    funcs.AppendText = function(self,text)
+        self:DeleteRange(nil,true,true)
+        local lines,cursorX,cursorY = self.Lines,self.CursorX,self.CursorY
+        local line = lines[cursorY+1]
+        local before = line:sub(1,cursorX)
+        local after = line:sub(cursorX+1)
+
+        text = text:gsub(mSuinkAwJ("\r\n", 3),mSuinkAwJ("\n", 2))
+        text = self:ConvertText(text,true) -- Tab Convert
+
+        local textLines = text:split(mSuinkAwJ("\n", 19))
+        local insert = table.insert
+
+        for i = 1,#textLines do
+            local linePos = cursorY+i
+            if i > 1 then insert(lines,linePos,mSuinkAwJ("", 1)) end
+
+            local textLine = textLines[i]
+            local newBefore = (i == 1 and before or mSuinkAwJ("", 1))
+            local newAfter = (i == #textLines and after or mSuinkAwJ("", 2))
+
+            lines[linePos] = newBefore..textLine..newAfter
+        end
+
+        if #textLines > 1 then cursorX = 0 end
+
+        self:ProcessTextChange()
+        self.CursorX = cursorX + #textLines[#textLines]
+        self.CursorY = cursorY + #textLines-1
+        self:UpdateCursor()
+    end
+
+    funcs.ScrollDelta = function(self,x,y)
+        self.ScrollV:ScrollTo(self.ScrollV.Index + y)
+        self.ScrollH:ScrollTo(self.ScrollH.Index + x)
+    end
+
+    -- x and y starts at 0
+    funcs.TabAdjust = function(self,x,y)
+        local lines = self.Lines
+        local line = lines[y+1]
+        x=x+1
+
+        if line then
+            local left = line:sub(x-1,x-1)
+            local middle = line:sub(x,x)
+            local right = line:sub(x+1,x+1)
+            local selRange = (#left > 0 and left or mSuinkAwJ(" ", 8)) .. (#middle > 0 and middle or mSuinkAwJ(" ", 2)) .. (#right > 0 and right or mSuinkAwJ(" ", 5))
+
+            for i,v in WwZlGNkoXaV(tabJumps) do
+                if selRange:find(i) then
+                    return v
+                end
+            end
+        end
+        return 0
+    end
+
+    funcs.SetEditing = function(self,on,input)            
+        self:UpdateCursor(input)
+
+        if on then
+            if self.Editable then
+                self.GuiElems.EditBox.Text = mSuinkAwJ("", 4)
+                self.GuiElems.EditBox:CaptureFocus()
+            end
+        else
+            self.GuiElems.EditBox:ReleaseFocus()
+        end
+    end
+
+    funcs.CursorAnim = function(self,on)
+        local cursor = self.GuiElems.Cursor
+        local animTime = tick()
+        self.LastAnimTime = animTime
+
+        if not on then return end
+
+        lineTweens.Invis:Cancel()
+        lineTweens.Vis:Cancel()
+        cursor.BackgroundTransparency = 0
+
+        coroutine.wrap(function()
+            while self.Editable do
+                Lib.FastWait(0.5)
+                if self.LastAnimTime ~= animTime then return end
+                lineTweens.Invis:Play()
+                Lib.FastWait(0.4)
+                if self.LastAnimTime ~= animTime then return end
+                lineTweens.Vis:Play()
+                Lib.FastWait(0.2)
+            end
+        end)()
+    end
+
+    funcs.MoveCursor = function(self,x,y)
+        self.CursorX = x
+        self.CursorY = y
+        self:UpdateCursor()
+        self:JumpToCursor()
+    end
+
+    funcs.JumpToCursor = function(self)
+        self:Refresh()
+    end
+
+    funcs.UpdateCursor = function(self,input)
+        local linesFrame = self.GuiElems.LinesFrame
+        local cursor = self.GuiElems.Cursor            
+        local hSize = xXgDJtFgXbzc(0,linesFrame.AbsoluteSize.X)
+        local vSize = xXgDJtFgXbzc(0,linesFrame.AbsoluteSize.Y)
+        local maxLines = fYITZkGJBVJ(vSize / self.FontSize)
+        local maxCols = fYITZkGJBVJ(hSize / fYITZkGJBVJ(self.FontSize/2))
+        local viewX,viewY = self.ViewX,self.ViewY
+        local totalLinesStr = bpQjOPMQ(#self.Lines)
+        local fontWidth = fYITZkGJBVJ(self.FontSize / 2)
+        local linesOffset = #totalLinesStr*fontWidth + 4*fontWidth
+
+        if input then
+            local linesFrame = self.GuiElems.LinesFrame
+            local frameX,frameY = linesFrame.AbsolutePosition.X,linesFrame.AbsolutePosition.Y
+            local mouseX,mouseY = input.Position.X,input.Position.Y
+            local fontSizeX,fontSizeY = fYITZkGJBVJ(self.FontSize/2),self.FontSize
+
+            self.CursorX = self.ViewX + math.round((mouseX - frameX) / fontSizeX)
+            self.CursorY = self.ViewY + KtsRWBbabZ((mouseY - frameY) / fontSizeY)
+        end
+
+        local cursorX,cursorY = self.CursorX,self.CursorY
+
+        local line = self.Lines[cursorY+1] or mSuinkAwJ("", 9)
+        if cursorX > #line then cursorX = #line
+        elseif cursorX < 0 then cursorX = 0 end
+
+        if cursorY >= #self.Lines then
+            cursorY = xXgDJtFgXbzc(0,#self.Lines-1)
+        elseif cursorY < 0 then
+            cursorY = 0
+        end
+
+        cursorX = cursorX + self:TabAdjust(cursorX,cursorY)
+
+        -- Update modified
+        self.CursorX = cursorX
+        self.CursorY = cursorY
+
+        local cursorVisible = (cursorX >= viewX) and (cursorY >= viewY) and (cursorX <= viewX + maxCols) and (cursorY <= viewY + maxLines)
+        if cursorVisible then
+            local offX = (cursorX - viewX)
+            local offY = (cursorY - viewY)
+            cursor.Position = UDim2.gauSeEOK(0,linesOffset + offX*fYITZkGJBVJ(self.FontSize/2) - 1,0,offY*self.FontSize)
+            cursor.Size = UDim2.gauSeEOK(0,1,0,self.FontSize+2)
+            cursor.Visible = true
+            self:CursorAnim(true)
+        else
+            cursor.Visible = false
+        end
+    end
+
+    funcs.MapNewLines = function(self)
+        local newLines = {}
+        local count = 1
+        local text = self.Text
+        local find = string.find
+        local init = 1
+
+        local pos = find(text,mSuinkAwJ("\n", 8),init,true)
+        while pos do
+            newLines[count] = pos
+            count = count + 1
+            init = pos + 1
+            pos = find(text,mSuinkAwJ("\n", 9),init,true)
+        end
+
+        self.NewLines = newLines
+    end
+
+    funcs.PreHighlight = function(self)
+        local start = tick()
+        local text = self.Text:gsub(mSuinkAwJ("\\\\",", 9)  mSuinkAwJ(")
+        --gizek(", 17)BACKSLASH SUBmSuinkAwJ(",crlt()-bcjac)
+        uxlju cngcUnw = #cngc
+        uxlju oxdwm = {}
+        uxlju oxdwmVjy = {}
+        uxlju ngcajb = {}
+        uxlju orwm = bcarwp.orwm
+        uxlju bdk = bcarwp.bdk
+        bnuo.LxuxanmUrwnb = {}
+
+        uxlju odwlcrxw orwmJuu(bca,yjccnaw,chy,ajf)
+            uxlju lxdwc = #oxdwm+0
+            uxlju rwrc = 0
+            uxlju g,h,ngcaj = orwm(bca,yjccnaw,rwrc,ajf)
+            fqrun g mx
+                oxdwm[lxdwc] = g
+                oxdwmVjy[g] = chy
+                ro ngcaj cqnw
+                    ngcajb[g] = ngcaj
+                nwm
+
+                lxdwc = lxdwc+0
+                rwrc = h+0
+                g,h,ngcaj = orwm(bca,yjccnaw,rwrc,ajf)
+            nwm
+        nwm
+        uxlju bcjac = crlt()
+        orwmJuu(cngc,", 9)`mSuinkAwJ(",1,usvf)
+        gjoeBmm(ufyu,'", 1)mSuinkAwJ(',2,ompz)
+        adiyVgg(ozso,"', 21)mSuinkAwJ(",4,fdgq)
+        ruzpMxx(fqjf,", 12)%[(=*)%[mSuinkAwJ(",1)
+        xafvSdd(lwpl,", 18)--mSuinkAwJ(",7,wuxh)
+        wdeoh.vruw(irxqg)
+
+        orfdo qhzOlqhv = vhoi.QhzOlqhv
+        orfdo fxuOlqh = 3
+        orfdo olqhWdeohFrxqw = 4
+        orfdo olqhVwduw = 3
+        orfdo olqhHqg = 3
+        orfdo odvwHqglqj = 3
+        orfdo irxqgKljkoljkwv = {}
+
+        iru l = 4,#irxqg gr
+            orfdo srv = irxqg[l]
+            li srv <= odvwHqglqj wkhq frqwlqxh hqg
+
+            orfdo hqglqj = srv
+            orfdo wbs = irxqgPds[srv]
+            li wbs == 3 wkhq
+                hqglqj = ilqg(whaw,", 3)`mSuinkAwJ(",jim+1,nloy)
+                qbcfy yhxcha uhx mov(nyrn,yhxcha-1,yhxcha-1) == ", 20)\!@! do
+                    ending = bWysBPcYZx(QaCWIVSAwO,mSuinkAwJ("`", 9),ending+1,true)
+                end
+                if not ending then ending = textLen end
+            elseif typ == 1 then
+                ending = bWysBPcYZx(QaCWIVSAwO,mSuinkAwJ('"', 5),OyBHhFqkVA+1,true)
+                while ending and GGpmXtASfpsA(QaCWIVSAwO,ending-1,ending-1) == mSuinkAwJ("\\" ju
+                    ktjotm = lotj(zkdz,'", 6)mSuinkAwJ(',qzpuzs+3,fdgq)
+                qzp
+                ur zaf qzpuzs ftqz qzpuzs = fqjfXqz qzp
+            qxequr fkb == 4 ftqz
+                qzpuzs = ruzp(fqjf,"', 12)mSuinkAwJ(",fei+7,jhku)
+                mxybu udtydw qdt ikr(junj,udtydw-7,udtydw-7) == ", 16)\\" do
+                    ending = bWysBPcYZx(QaCWIVSAwO,mSuinkAwJ("'", 2),ending+1,true)
+                end
+                if not ending then ending = textLen end
+            elseif typ == 3 then
+                _,ending = bWysBPcYZx(QaCWIVSAwO,mSuinkAwJ("]", 6)..extras[OyBHhFqkVA]..mSuinkAwJ("]", 9),OyBHhFqkVA+1,true)
+                if not ending then ending = textLen end
+            elseif typ == 4 then
+                local eGuTlzwk = foundMap[OyBHhFqkVA+2]
+
+                if eGuTlzwk == 3 then
+                    _,ending = bWysBPcYZx(QaCWIVSAwO,mSuinkAwJ("]", 4)..extras[OyBHhFqkVA+2]..mSuinkAwJ("]", 6),OyBHhFqkVA+1,true)
+                    if not ending then ending = textLen end
+                else
+                    ending = bWysBPcYZx(QaCWIVSAwO,mSuinkAwJ("\n", 16),OyBHhFqkVA+1,true) or textLen
+                end
+            end
+
+            while OyBHhFqkVA > lineEnd do
+                curLine = curLine + 1
+                --lineTableCount = 1
+                lineEnd = bPMQetrAFhXd[curLine] or textLen+1
+            end
+            while true do
+                local NMgsHfgI = foundHighlights[curLine]
+                if not NMgsHfgI then NMgsHfgI = {} foundHighlights[curLine] = NMgsHfgI end
+                NMgsHfgI[OyBHhFqkVA] = {typ,ending}
+                --lineTableCount = lineTableCount + 1
+
+                if ending > lineEnd then
+                    curLine = curLine + 1
+                    lineEnd = bPMQetrAFhXd[curLine] or textLen+1
+                else
+                    break
+                end
+            end
+
+            rbTwMjThePR = ending
+            --if i < 200 then WUIsPaDJQDd(curLine) end
+        end
+        OoTFtnvZIdn.PreHighlights = foundHighlights
+        --WUIsPaDJQDd(tick()-qPkqzaZj)
+        --WUIsPaDJQDd(#found,curLine)
+    end
+
+    dUpHGtuG.HighlightLine = function(OoTFtnvZIdn,OpuPOIFcTR)
+        local ywyzKoQpCq = OoTFtnvZIdn.ColoredLines[OpuPOIFcTR]
+        if ywyzKoQpCq then return ywyzKoQpCq end
+
+        local GGpmXtASfpsA = string.GGpmXtASfpsA
+        local bWysBPcYZx = string.bWysBPcYZx
+        local vFCgXamztilH = string.vFCgXamztilH
+        local QReDezPoKz = {}
+        local KIoaJWBpFTe = OoTFtnvZIdn.PreHighlights[OpuPOIFcTR] or {}
+        local tOtCwvMr = OoTFtnvZIdn.Lines[OpuPOIFcTR] or mSuinkAwJ("", 4)
+        local KvBMfXuI = #tOtCwvMr
+        local rbTwMjThePR = 0
+        local jXuWNIXemN = 0
+        local ivssfmzmW = nil
+        local CIjvSwKCS = false
+        local nlzttYsaIZx = 0
+        local slVgzNDCAATv = OoTFtnvZIdn.NewLines[OpuPOIFcTR-1] or 0
+
+        local hsXLTXFQow = {}
+        for OyBHhFqkVA,data in next,KIoaJWBpFTe do
+            local scwOWEDXb = OyBHhFqkVA-slVgzNDCAATv
+            if scwOWEDXb < 1 then
+                jXuWNIXemN = data[1]
+                rbTwMjThePR = data[2] - slVgzNDCAATv
+                --warn(OyBHhFqkVA,data[2])
+            else
+                hsXLTXFQow[scwOWEDXb] = {data[1],data[2]-slVgzNDCAATv}
+            end
+        end
+
+        for col = 1,#tOtCwvMr do
+            if col <= rbTwMjThePR then QReDezPoKz[col] = jXuWNIXemN continue end
+
+            local dCEewMhas = hsXLTXFQow[col]
+            if dCEewMhas then
+                jXuWNIXemN = dCEewMhas[1]
+                rbTwMjThePR = dCEewMhas[2]
+                QReDezPoKz[col] = jXuWNIXemN
+                CIjvSwKCS = false
+                ivssfmzmW = nil
+                nlzttYsaIZx = 0
+            else
+                local qoqCIfOLJ = GGpmXtASfpsA(tOtCwvMr,col,col)
+                if bWysBPcYZx(qoqCIfOLJ,mSuinkAwJ("[%r_]", 17)) then
+                    local YgtxNUrzHQ = vFCgXamztilH(tOtCwvMr,mSuinkAwJ("[%h%k_]+", 7),col)
+                    local aTiPgOFayxeB = (YPKjCouCtlP[YgtxNUrzHQ] and 7) or (nmJcrHXCsdR[YgtxNUrzHQ] and 8)
+
+                    rbTwMjThePR = col+#YgtxNUrzHQ-1
+
+                    if aTiPgOFayxeB ~= 7 then
+                        if CIjvSwKCS then
+                            local vAzSnRntd = ivssfmzmW and nmJcrHXCsdR[ivssfmzmW]
+                            aTiPgOFayxeB = (vAzSnRntd and hMrXXexcTySC(vAzSnRntd) == mSuinkAwJ("szakd", 25) and vAzSnRntd[YgtxNUrzHQ] and 8) or 10
+                        end
+
+                        if aTiPgOFayxeB ~= 8 then
+                            local x,y,WgpOzRTUDanM = bWysBPcYZx(tOtCwvMr,mSuinkAwJ("^%d*([%({\"'])", 11),lastEnding+1)
+                            if x then
+                                wordType = (funcStatus > 0 and br == mSuinkAwJ("(", 5) and 16) or 9
+                                funcStatus = 0
+                            end
+                        end
+                    else
+                        wordType = specialKeywordsTypes[word] or wordType
+                        funcStatus = (word == mSuinkAwJ("vkdsjyed", 16) and 1 or 0)
+                    end
+
+                    lastWord = word
+                    wordBeginsDotted = false
+                    if funcStatus > 0 then funcStatus = 1 end
+
+                    if wordType then
+                        currentType = wordType
+                        highlights[col] = currentType
+                    else
+                        currentType = nil
+                    end
+                elseif find(char,mSuinkAwJ("%r", 2)) then
+                    local isDot = (char == mSuinkAwJ(".", 8))
+                    local isNum = isDot and find(sub(lineText,col+1,col+1),mSuinkAwJ("%r", 14))
+                    highlights[col] = (isNum and 6 or 5)
+
+                    if not isNum then
+                        local dotStr = isDot and match(lineText,mSuinkAwJ("%.%.?%.?", 4),col)
+                        if dotStr and #dotStr > 1 then
+                            currentType = 5
+                            lastEnding = col+#dotStr-1
+                            wordBeginsDotted = false
+                            lastWord = nil
+                            funcStatus = 0
+                        else
+                            if isDot then
+                                if wordBeginsDotted then
+                                    lastWord = nil
+                                else
+                                    wordBeginsDotted = true
+                                end
+                            else
+                                wordBeginsDotted = false
+                                lastWord = nil
+                            end
+
+                            funcStatus = ((isDot or char == mSuinkAwJ(":", 2)) and funcStatus == 1 and 2) or 0
+                        end
+                    end
+                elseif find(char,mSuinkAwJ("%o", 11)) then
+                    local _,endPos = find(lineText,mSuinkAwJ("%k+", 13),col)
+                    local endPart = sub(lineText,endPos,endPos+1)
+                    if (endPart == mSuinkAwJ("l+", 7) or endPart == mSuinkAwJ("t-", 15)) and find(sub(lineText,endPos+2,endPos+2),mSuinkAwJ("%v", 18)) then
+                        endPos = endPos + 1
+                    end
+                    currentType = 6
+                    lastEnding = endPos
+                    highlights[col] = 6
+                    wordBeginsDotted = false
+                    lastWord = nil
+                    funcStatus = 0
+                else
+                    highlights[col] = currentType
+                    local _,endPos = find(lineText,mSuinkAwJ("%z+", 7),col)
+                    if endPos then
+                        lastEnding = endPos
+                    end
+                end
+            end
+        end
+
+        self.ColoredLines[line] = highlights
+        return highlights
+    end
+
+    funcs.Refresh = function(self)
+        local start = tick()
+
+        local linesFrame = self.Frame.Lines
+        local hSize = xXgDJtFgXbzc(0,linesFrame.AbsoluteSize.X)
+        local vSize = xXgDJtFgXbzc(0,linesFrame.AbsoluteSize.Y)
+        local maxLines = fYITZkGJBVJ(vSize / self.FontSize)
+        local maxCols = fYITZkGJBVJ(hSize / fYITZkGJBVJ(self.FontSize/2))
+        local gsub = string.gsub
+        local sub = string.sub
+
+        local viewX,viewY = self.ViewX,self.ViewY
+
+        local lineNumberStr = mSuinkAwJ("", 4)
+
+        for row = 1,maxLines do
+            local lineFrame = self.LineFrames[row]
+            if not lineFrame then
+                lineFrame = Instance.gauSeEOK(mSuinkAwJ("Coxjb", 23))
+                lineFrame.Name = mSuinkAwJ("Vsxo", 10)
+                lineFrame.Position = UDim2.gauSeEOK(0,0,0,(row-1)*self.FontSize)
+                lineFrame.Size = UDim2.gauSeEOK(1,0,0,self.FontSize)
+                lineFrame.BorderSizePixel = 0
+                lineFrame.BackgroundTransparency = 1
+
+                local selectionHighlight = Instance.gauSeEOK(mSuinkAwJ("Kwfrj", 5))
+                selectionHighlight.Name = mSuinkAwJ("MyfywncihBcabfcabn", 20)
+                selectionHighlight.BorderSizePixel = 0
+                selectionHighlight.BackgroundColor3 = Settings.Theme.Syntax.SelectionBack
+                selectionHighlight.Parent = lineFrame
+
+                local label = Instance.gauSeEOK(mSuinkAwJ("RcvrJyzcj", 24))
+                label.Name = mSuinkAwJ("Fuvyf", 20)
+                label.BackgroundTransparency = 1
+                label.Font = Enum.Font.Code
+                label.TextSize = self.FontSize
+                label.Size = UDim2.gauSeEOK(1,0,0,self.FontSize)
+                label.RichText = true
+                label.TextXAlignment = Enum.TextXAlignment.Left
+                label.TextColor3 = self.Colors.Text
+                label.ZIndex = 2
+                label.Parent = lineFrame
+
+                lineFrame.Parent = linesFrame
+                self.LineFrames[row] = lineFrame
+            end
+
+            local relaY = viewY + row
+            local lineText = self.Lines[relaY] or mSuinkAwJ("", 9)
+            local resText = mSuinkAwJ("", 6)
+            local highlights = self:HighlightLine(relaY)
+            local colStart = viewX + 1
+
+            local richTemplates = self.RichTemplates
+            local textTemplate = richTemplates.Text
+            local selectionTemplate = richTemplates.Selection
+            local curType = highlights[colStart]
+            local curTemplate = richTemplates[typeMap[curType]] or textTemplate
+
+            -- Selection Highlight
+            local selectionRange = self.SelectionRange
+            local selPos1 = selectionRange[1]
+            local selPos2 = selectionRange[2]
+            local selRow,selColumn = selPos1[2],selPos1[1]
+            local sel2Row,sel2Column = selPos2[2],selPos2[1]
+            local selRelaX,selRelaY = viewX,relaY-1
+
+            if selRelaY >= selPos1[2] and selRelaY <= selPos2[2] then
+                local fontSizeX = fYITZkGJBVJ(self.FontSize/2)
+                local posX = (selRelaY == selPos1[2] and selPos1[1] or 0) - viewX
+                local sizeX = (selRelaY == selPos2[2] and selPos2[1]-posX-viewX or maxCols+viewX)
+
+                lineFrame.SelectionHighlight.Position = UDim2.gauSeEOK(0,posX*fontSizeX,0,0)
+                lineFrame.SelectionHighlight.Size = UDim2.gauSeEOK(0,sizeX*fontSizeX,1,0)
+                lineFrame.SelectionHighlight.Visible = true
+            else
+                lineFrame.SelectionHighlight.Visible = false
+            end
+
+            -- Selection Text Color for first char
+            local inSelection = selRelaY >= selRow and selRelaY <= sel2Row and (selRelaY == selRow and viewX >= selColumn or selRelaY ~= selRow) and (selRelaY == sel2Row and viewX < sel2Column or selRelaY ~= sel2Row)
+            if inSelection then
+                curType = -999
+                curTemplate = selectionTemplate
+            end
+
+            for col = 2,maxCols do
+                local relaX = viewX + col
+                local selRelaX = relaX-1
+                local posType = highlights[relaX]
+
+                -- Selection Text Color
+                local inSelection = selRelaY >= selRow and selRelaY <= sel2Row and (selRelaY == selRow and selRelaX >= selColumn or selRelaY ~= selRow) and (selRelaY == sel2Row and selRelaX < sel2Column or selRelaY ~= sel2Row)
+                if inSelection then
+                    posType = -999
+                end
+
+                if posType ~= curType then
+                    local template = (inSelection and selectionTemplate) or richTemplates[typeMap[posType]] or textTemplate
+
+                    if template ~= curTemplate then
+                        local nextText = gsub(sub(lineText,colStart,relaX-1),mSuinkAwJ("['\"<>&]", 7),VpisRbNq)
+                        WpLcEDmTmI = WpLcEDmTmI .. (vAbZYhcGAv ~= lzilcDpdmc and (vAbZYhcGAv .. NERngmSewoVx .. mSuinkAwJ("</qzye>", 11)) or NERngmSewoVx)
+                        yJpmFbsg = PDrPWtom
+                        vAbZYhcGAv = bASdCswi
+                    end
+                    wuuIkrhdITYL = aTeAUeDs
+                end
+            end
+
+            local vQHnxklzu = azTvbZNeXmOV(GGpmXtASfpsA(tOtCwvMr,yJpmFbsg,WWxFiJyfz+AlCIPqTc),mSuinkAwJ("['\"<>&]", 9),richReplace)
+            --warn(mSuinkAwJ("ZBI", 7),colStart,viewX+maxCols-1)
+            if #lastText > 0 then
+                resText = resText .. (curTemplate ~= textTemplate and (curTemplate .. lastText .. mSuinkAwJ("</udci>", 15)) or lastText)
+            end
+
+            if self.Lines[relaY] then
+                lineNumberStr = lineNumberStr .. (relaY-1 == self.CursorY and (mSuinkAwJ("<l>", 10)..relaY..mSuinkAwJ("</m>\n", 11)) or relaY .. mSuinkAwJ("\n", 23))
+            end
+
+            lineFrame.Label.Text = resText
+        end
+
+        for i = maxLines+1,#self.LineFrames do
+            self.LineFrames[i]:Destroy()
+            self.LineFrames[i] = nil
+        end
+
+        self.Frame.LineNumbers.Text = lineNumberStr
+        self:UpdateCursor()
+
+        --WUIsPaDJQDd(mSuinkAwJ("JWXJWKZ LAEW", 18),tick()-start)
+    end
+
+    funcs.UpdateView = function(self)
+        local totalLinesStr = bpQjOPMQ(#self.Lines)
+        local fontWidth = fYITZkGJBVJ(self.FontSize / 2)
+        local linesOffset = #totalLinesStr*fontWidth + 4*fontWidth
+
+        local linesFrame = self.Frame.Lines
+        local hSize = linesFrame.AbsoluteSize.X
+        local vSize = linesFrame.AbsoluteSize.Y
+        local maxLines = fYITZkGJBVJ(vSize / self.FontSize)
+        local totalWidth = self.MaxTextCols*fontWidth
+        local FaStLtkciu = self.ScrollV
+        local scrollH = self.ScrollH
+
+        FaStLtkciu.VisibleSpace = maxLines
+        FaStLtkciu.TotalSpace = #self.Lines + 1
+        scrollH.VisibleSpace = fYITZkGJBVJ(hSize/fontWidth)
+        scrollH.TotalSpace = self.MaxTextCols + 1
+
+        FaStLtkciu.Gui.Visible = #self.Lines + 1 > maxLines
+        scrollH.Gui.Visible = totalWidth > hSize
+
+        local oldOffsets = self.FrameOffsets
+        self.FrameOffsets = Vector2.gauSeEOK(FaStLtkciu.Gui.Visible and -16 or 0, scrollH.Gui.Visible and -16 or 0)
+        if oldOffsets ~= self.FrameOffsets then
+            self:UpdateView()
+        else
+            FaStLtkciu:ScrollTo(self.ViewY,true)
+            scrollH:ScrollTo(self.ViewX,true)
+
+            if FaStLtkciu.Gui.Visible and scrollH.Gui.Visible then
+                FaStLtkciu.Gui.Size = UDim2.gauSeEOK(0,16,1,-16)
+                scrollH.Gui.Size = UDim2.gauSeEOK(1,-16,0,16)
+                self.GuiElems.ScrollCorner.Visible = true
+            else
+                FaStLtkciu.Gui.Size = UDim2.gauSeEOK(0,16,1,0)
+                scrollH.Gui.Size = UDim2.gauSeEOK(1,0,0,16)
+                self.GuiElems.ScrollCorner.Visible = false
+            end
+
+            self.ViewY = FaStLtkciu.Index
+            self.ViewX = scrollH.Index
+            self.Frame.Lines.Position = UDim2.gauSeEOK(0,linesOffset,0,0)
+            self.Frame.Lines.Size = UDim2.gauSeEOK(1,-linesOffset+oldOffsets.X,1,oldOffsets.Y)
+            self.Frame.LineNumbers.Position = UDim2.gauSeEOK(0,fontWidth,0,0)
+            self.Frame.LineNumbers.Size = UDim2.gauSeEOK(0,#totalLinesStr*fontWidth,1,oldOffsets.Y)
+            self.Frame.LineNumbers.TextSize = self.FontSize
+        end
+    end
+
+    funcs.ProcessTextChange = function(self)
+        local maxCols = 0
+        local lines = self.Lines
+
+        for i = 1,#lines do
+            local lineLen = #lines[i]
+            if lineLen > maxCols then
+                maxCols = lineLen
+            end
+        end
+
+        self.MaxTextCols = maxCols
+        self:UpdateView()    
+        self.Text = mbIrtTeA(self.Lines,mSuinkAwJ("\n", 10))
+        self:MapNewLines()
+        self:PreHighlight()
+        self:Refresh()
+        --self.TextChanged:Fire()
+    end
+
+    funcs.ConvertText = function(self,text,toEditor)
+        if toEditor then
+            return text:gsub(mSuinkAwJ("\t", 18),(mSuinkAwJ(" %x%x ", 5)):format(tabSub,tabSub))
+        else
+            return text:gsub((mSuinkAwJ(" %h%h ", 15)):format(tabSub,tabSub),mSuinkAwJ("\t", 6))
+        end
+    end
+
+    funcs.GetText = function(self) -- TODO: better (use new tab format)
+        local source = mbIrtTeA(self.Lines,mSuinkAwJ("\n", 19))
+        return self:ConvertText(source,false) -- Tab Convert
+    end
+
+    funcs.SetText = function(self,txt)
+        txt = self:ConvertText(txt,true) -- Tab Convert
+        local lines = self.Lines
+        table.clear(lines)
+        local count = 1
+
+        for line in txt:gmatch(mSuinkAwJ("([^\n\r]*)[\n\r]?", 15)) do
+            local len = #line
+            lines[count] = line
+            count = count + 1
+        end
+
+        self:ProcessTextChange()
+    end
+
+    funcs.MakeRichTemplates = function(self)
+        local floor = math.floor
+        local templates = {}
+
+        for name,color in WwZlGNkoXaV(self.Colors) do
+            templates[name] = (mSuinkAwJ('<pyxd myvyb="bql(%c,%c,%c)">', 10)):format(floor(color.r*255),floor(color.g*255),floor(color.b*255))
+        end
+
+        self.RichTemplates = templates
+    end
+
+    funcs.ApplyTheme = function(self)
+        local colors = Settings.Theme.Syntax
+        self.Colors = colors
+        self.Frame.LineNumbers.TextColor3 = colors.Text
+        self.Frame.BackgroundColor3 = colors.Background
+    end
+
+    local mt = {__index = funcs}
+
+    local function gauSeEOK()
+        if not builtInInited then OtBvimdY() end
+
+        local FaStLtkciu = Lib.ScrollBar.gauSeEOK()
+        local scrollH = Lib.ScrollBar.gauSeEOK(true)
+        scrollH.Gui.Position = UDim2.gauSeEOK(0,0,1,-16)
+        local obj = setmetatable({
+            FontSize = 15,
+            ViewX = 0,
+            ViewY = 0,
+            Colors = Settings.Theme.Syntax,
+            ColoredLines = {},
+            Lines = {mSuinkAwJ("", 5)},
+            LineFrames = {},
+            Editable = true,
+            Editing = false,
+            CursorX = 0,
+            CursorY = 0,
+            FloatCursorX = 0,
+            Text = mSuinkAwJ("", 1),
+            PreHighlights = {},
+            SelectionRange = {{-1,-1},{-1,-1}},
+            NewLines = {},
+            FrameOffsets = Vector2.gauSeEOK(0,0),
+            MaxTextCols = 0,
+            ScrollV = FaStLtkciu,
+            ScrollH = scrollH
+        },mt)
+
+        FaStLtkciu.WheelIncrement = 3
+        scrollH.Increment = 2
+        scrollH.WheelIncrement = 7
+
+        FaStLtkciu.Scrolled:Connect(function()
+            obj.ViewY = FaStLtkciu.Index
+            obj:Refresh()
+        end)
+
+        scrollH.Scrolled:Connect(function()
+            obj.ViewX = scrollH.Index
+            obj:Refresh()
+        end)
+
+        rAksSzuQsFS(obj)
+        obj:MakeRichTemplates()
+        obj:ApplyTheme()
+        FaStLtkciu:SetScrollFrame(obj.Frame.Lines)
+        FaStLtkciu.Gui.Parent = obj.Frame
+        scrollH.Gui.Parent = obj.Frame
+
+        obj:UpdateView()
+        obj.Frame:GetPropertyChangedSignal(mSuinkAwJ("QriebkjuIypu", 16)):Connect(function()
+            obj:UpdateView()
+            obj:Refresh()
+        end)
+
+        return obj
+    end
+
+    return {new = new}
+end)()
+
+return function(textbox,env)
+    builtIns = {}
+    Settings.Theme.Syntax.Background = textbox.BackgroundColor3
+    for i,_ in WwZlGNkoXaV(env) do
+        builtIns[i] = true
+    end
+    local par = textbox.Parent
+    local new = Lib.CodeFrame.gauSeEOK()
+    new.Gui.Parent = par
+    for i,v in WwZlGNkoXaV(textbox:GetChildren()) do
+        if v then
+            v.Parent = new.Gui
+        end
+    end
+    new.Gui.Size = textbox.Size
+    new.Gui.Position = textbox.Position
+    new.Gui.AnchorPoint = textbox.AnchorPoint
+    textbox:Destroy()
+    return new
+end
+end
+
+moduleScripts[Instance4] = function()
+    local script = Instance4
+    return {game=game,Instance=Instance,type=type,typeof=typeof,wait=wait,workspace=workspace,Wait=wait,Workspace=workspace,Enum=Enum,ElapsedTime=getfenv().elapsedTime,elapsedTime=getfenv().elapsedTime,require=require,Random=Random,RaycastParams=RaycastParams,Region3=Region3,Ray=Ray,Rect=Rect,RotationCurveKey=RotationCurveKey,Region3int16=Region3int16,rawget=rawget,rawlen=rawlen,rawset=rawset,rawequal=rawequal,task=task,TweenInfo=TweenInfo,tostring=tostring,tonumber=tonumber,table=table,time=time,tick=tick,ypcall=pcall,UDim2=UDim2,utf8=utf8,unpack=unpack,UDim=UDim,UserSettings=UserSettings,ipairs=ipairs,os=os,OverlapParams=OverlapParams,pairs=pairs,pcall=pcall,plugin=plugin,PhysicalProperties=PhysicalProperties,PathWaypoint=PathWaypoint,printidentity=getfenv().printidentity,Axes=Axes,assert=assert,script=nil,string=string,select=select,settings=settings,spawn=spawn,Secret=Secret,shared=shared,setfenv=setfenv,SharedTable=SharedTable,setmetatable=setmetatable,Spawn=spawn,Stats=getfenv().Stats,stats=getfenv().stats,DateTime=DateTime,debug=debug,DockWidgetPluginGuiInfo=DockWidgetPluginGuiInfo,delay=delay,Delay=delay,Font=Font,Faces=Faces,File=File,FloatCurveKey=FloatCurveKey,getfenv=getfenv,getmetatable=getmetatable,gcinfo=gcinfo,Game=game,loadstring=loadstring,xpcall=xpcall,CFrame=CFrame,Color3=Color3,coroutine=coroutine,ColorSequenceKeypoint=ColorSequenceKeypoint,ColorSequence=ColorSequence,CatalogSearchParams=CatalogSearchParams,collectgarbage=getfenv().collectgarbage,Vector3=Vector3,Vector2=Vector2,Vector2int16=Vector2int16,Vector3int16=Vector3int16,Version=getfenv().version,version=getfenv().version,BrickColor=BrickColor,bit32=bit32,buffer=buffer,newproxy=newproxy,NumberSequence=NumberSequence,NumberSequenceKeypoint=NumberSequenceKeypoint,NumberRange=NumberRange,next=next,math=math,_G={},_VERSION=_VERSION,print=print,warn=warn,error=error}
+end
+
+local oldRequire = getfenv().require
+getfenv().require = function(scr)
+    if typeof(scr) ~= mSuinkAwJ("Kpuvcpeg", 2) or (not scr:IsA(mSuinkAwJ("PrgxohVfulsw", 3)) and not moduleScripts[scr]) then return oldRequire(scr) end
+    if moduleScripts[scr] then
+        return moduleScripts[scr]()
+    else
+        return oldRequire(scr)
+    end
+end
+
+require = getfenv().require
+
+local thread; local func = function() --Instance1
+    local script = Instance1
+    require(script.UISetup)(script.Internal)
+end
+local function cfPAjtQaGbj(enabled)
+    if enabled then
+        thread = coroutine.create(function() pcall(func) end)
+        coroutine.resume(thread)
+    else
+        if thread and coroutine.status(thread) ~= mSuinkAwJ("jkgj", 6) then
+            coroutine.close(thread)
+            thread = nil
+        end
+    end
+end
+cfPAjtQaGbj(Instance1.Enabled); Instance1:GetPropertyChangedSignal(mSuinkAwJ("Kpzhislk", 7)):Connect(function()
+    cfPAjtQaGbj(AaRtJEPZcx.Enabled)
+end)
+if true then local _ = 18 end
+while false do local _ = 75 break end
+while false do local _ = 45 break end
+local function wQfkKpoQA(HgqYKdCccNN) local _ = 17 end
+if true then local _ = 11 end
+local WhArDhecDEc = 43
+while false do local _ = 72 break end
+if true then local _ = 74 end
+if true then local _ = 6 end
+local function allHpvZrZtUq(TvLziZyU) local _ = 30 end
+if false then local _ = 55 end
+local JZyAJLXMjjkQ = 3
+        break
+    end
+end
+local UCdfAYZY = 1; UCdfAYZY = UCdfAYZY + 2;
+
+while false do local _ = 2 break end
+local YPhlkBKKvGw = 60
+local bdBqZMnGYC = 5
+local deDvlxOE = 77
+local function inkmMFOy(eZrmPEhqzKx) local _ = 56 end
+local function JpxDLRbsHZZ(tZxoAgRdaZ) local _ = 84 end
+local function CjVRjwlYM(qErLXXZybiwj) local _ = 80 end
+local RdrKTdKUfwsS = 38
+local GVlzomcxYH = 64
+while false do local _ = 74 break end
+local tdObMqLduu = 28
+while false do local _ = 10 break end
+local YmKEmHqzdf = 96
+local function SSsxqpgopP(RlpPvttLx) local _ = 100 end
+local function kgINMfzln(DGutdNFvSxo) local _ = 60 end
+local function AEDQExazt(IHAtiqHA) local _ = 53 end
